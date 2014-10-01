@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp stat="ok">
+  <user id="{{ user_id }}">
+    <username>{{ user_name }}</username>
+  </user>
+</rsp>

@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><title>Signing API Calls</title><meta http-equiv="Content-Type" content="text/html;charset=utf-8"/><link rel="canonical" href="http://archive.is/xte1C"/></head><body style="margin:0;background-color:white;width:1024px"><div class="html1" style="width: 1024px;text-align: left;overflow-x: auto;overflow-y: auto; background-color: rgb(231, 231, 222);position: relative;min-height: 1111px;; z-index: 0"><div class="html" style="text-align:left;overflow-x:visible;overflow-y:visible;margin: 0px; padding: 0px; ">
+
+
+
+
+
+
+<meta name="description" content="Use Vimeo to share your videos with only the people you want to. We have a bunch of privacy options so you can choose exactly who can see your videos, like just your friends or everybody."/>
+<meta name="keywords" content="video,video sharing,digital cameras,videoblog,vidblog,video blogging,home video,home movie,lip dub"/>
+
+
+
+
+
+
+
+
+
+
+<div class="body" style="vertical-align:bottom;min-height:1041px;color:rgb(0, 0, 0);text-align:left;font-family:verdana, sans-serif;min-width:800px;overflow-x:visible;overflow-y:visible;margin: 0px; padding: 0px; "><div style="text-align:left;position:relative;min-height:70px;min-width:800px;display:none;width:inherit;border-top-left-radius:0px 0px;border-top-right-radius:0px 0px;border-bottom-right-radius:0px 0px;border-bottom-left-radius:0px 0px;z-index:2147483640;margin: 0px; padding: 0px; ">
+<div style="position:absolute;min-width:780px;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABBJREFUeNpi+v///zOAAAMACewD5vzlV+IAAAAASUVORK5CYII=);text-align:center;-webkit-box-shadow:rgb(51, 51, 51) 1px 1px 3px;box-shadow:rgb(51, 51, 51) 1px 1px 3px;width:inherit;border-top-left-radius:0px 0px;border-top-right-radius:0px 0px;border-bottom-right-radius:0px 0px;border-bottom-left-radius:0px 0px;z-index:2147483640;font-size:11px;font-family:'Lucida Grande', Arial, sans-serif;border-width: medium 5px 5px; border-style: none solid solid; margin: 0px; padding: 0px; border-color: white rgb(0, 0, 0) rgb(0, 0, 0); ">
+<table style="-webkit-border-horizontal-spacing:0px;-webkit-border-vertical-spacing:0px;border-collapse:collapse;width:100%;margin: 0px; padding: 0px; "><tbody style="margin: 0px; padding: 0px; "><tr style="margin: 0px; padding: 0px; ">
+<td style="color:rgb(0, 0, 0);vertical-align:top;min-width:110px;margin: 0px; padding: 10px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/" target="_blank" title="Wayback Machine home page" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;background-color: transparent; outline: invert none medium; border-width: medium; border-style: none; margin: 0px; padding: 0px; border-color: white; "><img alt="Wayback Machine" src="3a9f28ab386fe482d4f126969618a9d717b44b86.png" style="height:39px;width:110px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/></a>
+</td>
+<td style="color:rgb(0, 0, 0);text-align:center;vertical-align:top;width:100%;margin: 0px; padding: 0px; ">
+<table style="-webkit-border-horizontal-spacing:0px;-webkit-border-vertical-spacing:0px;border-collapse:collapse;width:570px;margin: 0px auto; padding: 0px; "><tbody style="margin: 0px; padding: 0px; "><tr style="margin: 0px; padding: 0px; ">
+<td colspan="2" style="color:rgb(0, 0, 0);margin: 0px; padding: 3px 0px; ">
+<form action="javascript:void(0)" method="get" target="_top" style="margin: 0px; padding: 0px; "><input name="url" value="http://vimeo.com/api/docs/signing" style="text-align:left;width:400px;font-size:11px;font-family:'Lucida Grande', Arial, sans-serif;outline: invert none 0px; margin: 0px; padding: 0px; "/><input type="hidden" name="type" value="replay" style="text-align:left;outline: invert none 0px; margin: 0px; padding: 0px; "/><input type="hidden" name="date" value="20090305043551" style="text-align:left;outline: invert none 0px; margin: 0px; padding: 0px; "/><input type="submit" value="Go" style="font-size:11px;font-family:'Lucida Grande', Arial, sans-serif;width:inherit;outline: invert none 0px; margin: 0px 0px 0px 5px; padding: 0px; "/><span style="display:block;margin: 0px; padding: 0px; "></span></form>
+</td>
+<td rowspan="2" style="color:rgb(0, 0, 0);vertical-align:bottom;margin: 0px; padding: 5px 0px 0px; ">
+<table style="-webkit-border-horizontal-spacing:0px;-webkit-border-vertical-spacing:0px;border-collapse:collapse;width:110px;color:rgb(153, 153, 170);font-family:Helvetica, 'Lucida Grande', Arial, sans-serif;margin: 0px; padding: 0px; "><tbody style="margin: 0px; padding: 0px; ">
+
+<tr style="width:110px;height:16px;font-size:10px;margin: 0px; padding: 0px; ">
+<td style="color:rgb(153, 153, 170);font-weight:bold;text-transform:uppercase;text-align:right;white-space:nowrap;overflow-x:visible;overflow-y:visible;font-size:11px;margin: 0px; padding: 0px 9px 0px 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090204125252/http://vimeo.com/api/docs/signing" target="_blank" title="4 Feb 2009" style="cursor:pointer;text-decoration:none;color:rgb(51, 51, 255);font-weight:bold;background-color: transparent; outline: invert none medium; border-width: medium; border-style: none; margin: 0px; padding: 0px; border-color: white; "><strong style="margin: 0px; padding: 0px; ">FEB</strong></a>
+</td>
+<td title="You are here: 4:35:51 Mar 5, 2009" style="background-color: rgb(0, 0, 0); color:rgb(255, 255, 0);font-weight:bold;text-transform:uppercase;width:34px;height:15px;text-align:center;font-size:11px;margin: 0px; padding: 1px 0px 0px; ">MAR</td>
+<td style="color:rgb(153, 153, 170);font-weight:bold;text-transform:uppercase;white-space:nowrap;overflow-x:visible;overflow-y:visible;font-size:11px;margin: 0px; padding: 0px 0px 0px 9px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20111207215746/http://vimeo.com/api/docs/signing" target="_blank" title="7 Dec 2011" style="cursor:pointer;text-decoration:none;color:rgb(51, 51, 255);font-weight:bold;background-color: transparent; outline: invert none medium; border-width: medium; border-style: none; margin: 0px; padding: 0px; border-color: white; "><strong style="margin: 0px; padding: 0px; ">DEC</strong></a>
+</td>
+</tr>
+
+<tr style="margin: 0px; padding: 0px; ">
+<td style="color:rgb(153, 153, 170);white-space:nowrap;overflow-x:visible;overflow-y:visible;text-align:right;vertical-align:middle;margin: 0px; padding: 0px 9px 0px 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090204125252/http://vimeo.com/api/docs/signing" target="_blank" title="12:52:52 Feb 4, 2009" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;background-color: transparent; outline: invert none medium; border-width: medium; border-style: none; margin: 0px; padding: 0px; border-color: white; "><img alt="Previous capture" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMZJREFUeNqU07EKQWEUwHEuSSaLkicgg3TZzCySvIKk2GVgJZmsBg9g8QK8gcHoASwGNoMS/l+db6Au3zn1W279b+fe796w779Cyimi7ymCFBbYox51CGLoYIS0XHv+C2uYynofExRmJWgG3fE7TGKMHuK/VrFhRJ7DRBmXN2XCBibIa87Ek5US2sM04Ro5DHDRhGbumMu6SzxcQztndFHGVhPaOaCKFo6a0Iz5+jcoYYira2jnhhkKWNlO83ec0EYFu7cAAwCVABzGI3/GxAAAAABJRU5ErkJggg==" style="height:16px;width:14px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/></a>
+</td>
+<td title="You are here: 4:35:51 Mar 5, 2009" style="background-color: rgb(0, 0, 0); color:rgb(255, 255, 0);width:34px;height:24px;text-align:center;font-size:24px;font-weight:bold;margin: 0px; padding: 2px 0px 0px; ">5</td>
+<td style="color:rgb(153, 153, 170);white-space:nowrap;overflow-x:visible;overflow-y:visible;text-align:left;vertical-align:middle;margin: 0px; padding: 0px 0px 0px 9px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20111207215746/http://vimeo.com/api/docs/signing" target="_blank" title="21:57:46 Dec 7, 2011" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;background-color: transparent; outline: invert none medium; border-width: medium; border-style: none; margin: 0px; padding: 0px; border-color: white; "><img alt="Next capture" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMhJREFUeNqU0s8KAUEcwPHBJjm5KHkCV+07cJHkKZRyUK6cKYeVPxd5BVcHjspB+VPKA7g4cHNQwndqp/awMb9ffdra+jazMxtx3c9UKTXCTgkmihK28JCWhG//2cARdcRtwuBkMMQGRUloJo8F5shJQjMV/9D6SElCPQk0cUINMdvQTBYTHFCWhGaSeheOILihiwGeNuELM7RxNS//hUu0sLe9jjOqKIRFYSve0fP/nsevrTiBVfV3dHCxOSkdrjDGWnInXwEGAM40IjLd/vWIAAAAAElFTkSuQmCC" style="height:16px;width:14px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/></a>
+</td>
+</tr>
+
+<tr style="width:110px;height:13px;font-size:9px;margin: 0px; padding: 0px; ">
+<td style="color:rgb(153, 153, 170);font-weight:bold;text-align:right;white-space:nowrap;overflow-x:visible;overflow-y:visible;font-size:11px;margin: 0px; padding: 0px 9px 0px 0px; ">
+2008 </td>
+<td title="You are here: 4:35:51 Mar 5, 2009" style="background-color: rgb(0, 0, 0); color:rgb(255, 255, 0);font-weight:bold;width:34px;height:13px;text-align:center;font-size:11px;margin: 0px; padding: 1px 0px 0px; ">2009</td>
+<td style="color:rgb(153, 153, 170);font-weight:bold;white-space:nowrap;overflow-x:visible;overflow-y:visible;font-size:11px;margin: 0px; padding: 0px 0px 0px 9px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20111207215746/http://vimeo.com/api/docs/signing" target="_blank" title="7 Dec 2011" style="cursor:pointer;text-decoration:none;color:rgb(51, 51, 255);font-weight:bold;background-color: transparent; outline: invert none medium; border-width: medium; border-style: none; margin: 0px; padding: 0px; border-color: white; "><strong style="margin: 0px; padding: 0px; ">2011</strong></a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style="margin: 0px; padding: 0px; ">
+<td style="color:rgb(0, 0, 0);vertical-align:middle;margin: 0px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551*/http://vimeo.com/api/docs/signing" target="_blank" title="See a list of every capture for this URL" style="text-decoration:none;cursor:pointer;color:rgb(51, 51, 255);font-size:11px;font-weight:bold;background-color: transparent; outline: invert none medium; border-width: medium; border-style: none; margin: 0px; padding: 0px; border-color: white; "><strong style="margin: 0px; padding: 0px; ">36 captures</strong></a>
+<div title="Timespan for captures of this URL" style="color:rgb(102, 102, 102);font-size:9px;white-space:nowrap;width:inherit;border-top-left-radius:0px 0px;border-top-right-radius:0px 0px;border-bottom-right-radius:0px 0px;border-bottom-left-radius:0px 0px;z-index:2147483640;margin: 0px; padding: 2px 0px 0px; ">27 Jul 08 - 7 Dec 11</div>
+</td>
+<td style="color:rgb(0, 0, 0);margin: 0px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/docs/signing" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;position:relative;white-space:nowrap;width:475px;height:27px;outline: invert none medium; margin: 0px; padding: 0px; ">
+<div title="Explore captures for this URL" style="position:relative;white-space:nowrap;height:27px;background-color: rgb(255, 255, 255); cursor:pointer;border-right-color:rgb(204, 204, 204);width:inherit;border-top-left-radius:0px 0px;border-top-right-radius:0px 0px;border-bottom-right-radius:0px 0px;border-bottom-left-radius:0px 0px;z-index:2147483640;border-width: medium 1px medium medium; border-style: none solid none none; margin: 0px; padding: 0px; ">
+<img alt="sparklines" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdsAAAAbCAYAAAA05SU0AAABUElEQVR42u3VwQmEMABFwdTp2XI8WlZKsYcYBQ8GUcEEQSfgZVkYyBdfiDGm0PgwGAwGg/FnY0Xy6Vo+DAaD8baRP3fLBzXdM/qx5WOPfxliy2AwxFZsGWLLYDAYYmtzsTUIg8EQW7FliC2DwWCILUNsGQwGQ2xtLrYui8FgfCW2V9EVW4bYMhgMhtjaXGwNwmAwxFZsGWLLYDDEVmwZYstgMBhia3OxNQiDwRBbsWWILYPBYIgtQ2wZDAZDbG0uti6LwWCIrdgyxJbBYDDE1uZiaxAGgyG2Yiu2YstgMMRWbBliy2AwGE+MMrJiyxBbBoPBEFubi61BGAzGN2O7/S62DLFlMBiMSrEto3sU2+23KQzrI7ZHd+XdFVsGgyG2Yiu2YstgMBhiK7Zi67IYDIbYiq3Y1ohtaHwYDAbjRSNdPLv/FcYutvY4vSvv7smZAb6UKOzjufhcAAAAAElFTkSuQmCC" style="height:27px;width:475px;position:absolute;z-index:9012;top:0px;left:0px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP4/5/hPwAH/QL+ecrXpAAAAABJRU5ErkJggg==" style="height:27px;width:25px;display:none;position:absolute;z-index:9010;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAA1JREFUCNdjeMPQ8x8ABcwCeP+6qaAAAAAASUVORK5CYII=" style="height:27px;width:2px;display:none;position:absolute;z-index:9011;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</div>
+</a>
+</td>
+</tr></tbody></table>
+</td>
+<td style="color:rgb(0, 0, 0);text-align:right;width:65px;font-size:11px;margin: 0px; padding: 5px; ">
+<a href="#" title="Close the toolbar" style="text-decoration:none;cursor:pointer;display:block;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALZJREFUeNpskjEKAkEMRYOthYrrggq2FoqohQfWRm30CCqiIngAm232GAqzP5CsMWTgFUn+Z8ifoUREYAw2IJfa0gFrMOOaGxPwBgncQebEZ5kVYM7NnTSSMbVA04iVIxuGIrKDKzi53guM9OosMHlxX3dQ2uASiB92rwb9zlfwh3ufugrSiKjTI8nei5/gFpgGbNgGC3YlWh/EgQ0LeZS/NIL0SrDSwRTs+crga/TkcZdcVwIMAJcy0EgSRh1cAAAAAElFTkSuQmCC);color:rgb(51, 51, 255);font-family:'Lucida Grande', Arial, sans-serif;background-color: transparent; background-position: 100% 0px; background-repeat: no-repeat; outline: invert none medium; border-width: medium; border-style: none; margin: 0px 0px 23px; padding: 0px 18px 0px 0px; border-color: white; ">Close</a>
+<a href="https://archive.today/o/xte1C/http://faq.web.archive.org/" target="_blank" title="Get some help using the Wayback Machine" style="text-decoration:none;cursor:pointer;display:block;background-image:url(6ae3619c0c6aa84fbcbcba969fa291f5e6bd224a.png);color:rgb(51, 51, 255);font-family:'Lucida Grande', Arial, sans-serif;background-color: transparent; background-position: 100% 0px; background-repeat: no-repeat; outline: invert none medium; border-width: medium; border-style: none; margin: 0px; padding: 0px 18px 0px 0px; border-color: white; ">Help</a>
+</td>
+</tr></tbody></table>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiZmBgOAMQYAAA4ADQ8vodGwAAAABJRU5ErkJggg==" style="text-align:left;position:absolute;top:0px;left:0px;z-index:100000;display:none;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<div style="text-align:left;position:absolute;top:0px;left:0px;z-index:100001;margin: 0px; padding: 0px; "></div>
+<div style="background-color: rgb(231, 231, 222); width:980px;text-align:left;margin: 0px auto; padding: 0px; ">
+<div style="position:relative;width:980px;height:85px;z-index:1111;margin: 0px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; "><img alt="Vimeo" src="07f1b2b386333435a97f14d828f69d4b03e60f3d.gif" style="position:absolute;left:20px;top:10px;z-index:999999;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/></a>
+<div style="font-size:11px;color:rgb(255, 255, 255);margin: 0px 18px 0px 0px; padding: 0px; ">
+<ul style="z-index:999999;list-style: none outside none; margin: 0px; padding: 0px; ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAyCAYAAABRYothAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALhJREFUeNpiFFdW+s9ABcDEQCUwatCoQaMGjRo0atCoQaMGjRpEDvhFLYO+UMugF9Qy6Bq1DDpLLYMOUsOgR0B8ihoGLQPiv5Qa9AuIp1AjQc4C4qeUGvQOiOupkUWyoIZRZBAoXFZSmmk3AXEBpbl/KxBHgKKbEoNAMeQPxN/JLY9eAHEoEKdjcwkMsOArY4C4G4j7oGy8AJtBN4F4DRBPBOLXxPobZNAFIL4DKgqgUXqfnPQAEGAA/DkjDXA3eLYAAAAASUVORK5CYII=" style="width:18px;height:50px;position:absolute;right:0px;top:0px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<li style="list-style-type:none;cursor:pointer;background-color: rgb(23, 35, 34); float:right;position:relative;font:normal normal normal 10px/normal Verdana;height:13px;font-size:11px;width:13.9em;margin: 0px; padding: 16px 21px 21px 18px; ">
+<div style="float:left;position:absolute;top:12px;margin: 0px; padding: 0px; ">
+<div style="float:left;width:173px;height:24px;background-image:url(data:image/gif;base64,R0lGODlhrQAWAOYAABcjI2lxcc3NwcXFt2FpaTI9Pfr6+khSUvn5+Jqfn+3t6N3d1Pn598PDtcvLv9ra0ff39zA6OuTk3sjLy/Ly7+Dg2uvr5/39/fHx7cvOztzd3cfHu+Hj4/T19V5mZv7+/vz8++Xl3/b288nJvN/f2PT08ejo4enp483NwsnJu9ra0ujo4srKvsbGuODg2fHx78PDs8LCs9fXzcDAsMHBssXFuNjYzcfHufDw7uXl3unp5cjIu52iosrKvLy8rN7e1snJvdXVy+7u68zMwP7+/dPTydbWzcbGudXVysTEts3NwNDQxc7OweXl4OTk3fj49v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAACtABYAAAf/gACCEQkaUIeIiYqLjI2Oj5CRkpOUlZaNGgkRgpweHZegoaKjpKWXHR6cBwamra6vsJACoQYHghOxubq7vI4TAAW9wsPEh7OMHwxPF48FBMXQ0cIUMg49RRaOBAHS3d6gx4lCQEkOKAMDTo0B3N/u75QISwMkCCArGzcUjOzw/v9Qwh1SMMAIEUQVaFTg1w6gQ39NGkhIhAGGCoYPM0YTCEVHgwWJTMz4gVGjSWkiWKQ4wQwDkwEKSp6cmYsjlBwDdth4oGTAgw8yaQrlFUJAjSNDNgQBEXSoU1E2DzGwoKAEkhgTF/V7ynUXjhYjXmh91rVspaiLFvhwsYhAMLNwMFuJCIFgUQEAGeLqbYRWUgZBq/YKLlWLEwEIgwX3fQSBACdBBXhwSEw5EocEdwUFAgA7);background-color: transparent; background-position: 0% 0%; background-repeat: no-repeat; margin: 0px; padding: 0px; ">
+<form style="margin: 0px; padding: 0px; ">
+<input value="Search Videos" style="text-align:left;float:left;height:18px;font:normal normal normal 12px/normal arial, sans-serif;color:rgb(150, 150, 150);width:135px;background-color: transparent; outline: invert none 0px; border-width: 0px; border-style: none; margin: 1px 0px 0px 4px; padding: 2px 0px 0px 3px; border-color: white; "/>
+<input type="submit" value="" style="float:left;width:25px;height:24px;cursor:pointer;background-color: transparent; outline: invert none 0px; border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</form>
+</div>
+</div>.
+<ul style="display:none;z-index:999999;position:absolute;top:50px;left:15px;color:rgb(187, 187, 187);width:9em;list-style: none outside none; margin: 0px 0px 0px -15px; padding: 0px; ">
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:9em;margin: 0px; padding: 0px 18px; "><a href="#" style="cursor:pointer;text-decoration:none;font-size:11px;display:block;background-color: transparent; color:rgb(229, 61, 44);outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Search Videos</a><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPVJREFUeNpiufHwwf8PHz8yPH36lOHwkSMMu/fsYXj8+DEDCwsLAysrKwM6YLz56CETMzMzCxMQgASeP3/OtXLVqrebtmxh+PDhAwM7Ozuqhv///6MI3Hn6hAVoMtup06e/9vT2Mty8dYuBg4MDtwYQANnKBQQPHj7kqq2re3nx0iWETSANuPCDF8+5Dp06KWZsb/dfQEb6v7iy0n+8GkD44csXXKs3b/ovra72X1RR4T8TAwHw/cePHyamppzhoaEMv379YiCoQV1O/h/IJj9fX0l5OTkGFgYigKKE5A9WFpYvtra2hG2AgV+/f/+ytrJiAAgwAJMsjRfgwkvRAAAAAElFTkSuQmCC" style="position:absolute;top:0px;left:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPBJREFUeNpiFFdW+s+ABn7//s3w588fBllZWQZXFxcGWxsbBmlpaQYBfn4GFnTFP3/+ZBAQEGDw8/FhCA8LE5aUlPwGEv8HBH///v2DouHHjx8M6mpqDCXFxQxmpqbcQJt+KUpI/kFWw4JssoG+PkNzU5O4grz8NyD4oS4n/w/dBQwgPwjISP83trf7f+jUSbEHL55z/f//nwEXZhBVVPgvra72f/XmTf8fvnyBVzEIM/369YshPDSUwcTUlPM7yBMEAJO8nByDn6+vJEg3VjejARZbW1sGZSWlLzIiogRNB9tgbWXF8AsYfAxEAoAAAwCW14MZ5CHflgAAAABJRU5ErkJggg==" style="position:absolute;top:0px;right:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:9em;margin: 0px; padding: 0px 18px; "><a href="#" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Search People</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:9em;margin: 0px; padding: 0px 18px; "><a href="#" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Search Groups</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:9em;margin: 0px; padding: 0px 18px; "><a href="#" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Search Channels</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:9em;margin: 0px; padding: 0px 18px; "><a href="#" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 0px; ">Search Forums</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:9em;background-color: transparent; margin: 0px; padding: 0px 18px; ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMpJREFUeNpiFFdW+snAwMDGQCFgAuIvDFQAIINeUMuga9Qy6Cy1DDpIDYMYgbHGDKTvAbEcJQYx8wgJ/gfSIkBsR6mLQLQ01FVslLgIRH8GYnEgNqPURSAgBMS3oTRZsQYD74A4i1KvwcBVaMCbUWoQCOwCYgMgVifXazDwF4gjgHgrpS4CgT9AvBKIJYDYmBKDQACUULdAww2UWHnINQgGQKXDTCAGFYCmuBItMQaBwC9o5p4DxN+BWBSKsSZIUoEiEIdDw1AFIMAAEK8fe1gltpYAAAAASUVORK5CYII=" style="position:absolute;left:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAABcjIgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" style="height:20px;width:100%;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKhJREFUeNpiFFdW+s9AOfjFxEAd8IVaBr2glkHXqGXQWWoZdJAaBj0C4lPUMGgxEP+l1KBfQDwdxKDUoFlA/JRSg94BcT2MQ4lBWVDDKDJoChCvRBYgx6BNQFyALkiqQVuBOAIU3ZQYBIohfyD+jk2SGINeAHEoEKdjcwkMsOArY4C4G4j7oGy8AJtB14B4DTRmXhPrb5BBF4D4DqgogEbpfXLSA0CAAQACpyLRjs+JagAAAABJRU5ErkJggg==" style="position:absolute;right:0px;top:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+</ul>
+</li>
+<li style="list-style-type:none;cursor:pointer;background-color: rgb(23, 35, 34); float:right;position:relative;font:normal normal normal 10px/normal Verdana;height:13px;font-size:11px;width:1em;margin: 0px; padding: 16px 18px 21px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/help" target="_blank" style="cursor:pointer;text-decoration:none;display:block;color:rgb(255, 255, 255);outline: invert none medium; margin: 0px; padding: 0px; ">Help</a>
+<ul style="display:none;z-index:999999;position:absolute;top:50px;left:15px;color:rgb(187, 187, 187);list-style: none outside none; margin: 0px 0px 0px -15px; padding: 0px; ">
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:7.2em;margin: 0px; padding: 0px 18px; ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPVJREFUeNpiufHwwf8PHz8yPH36lOHwkSMMu/fsYXj8+DEDCwsLAysrKwM6YLz56CETMzMzCxMQgASeP3/OtXLVqrebtmxh+PDhAwM7Ozuqhv///6MI3Hn6hAVoMtup06e/9vT2Mty8dYuBg4MDtwYQANnKBQQPHj7kqq2re3nx0iWETSANuPCDF8+5Dp06KWZsb/dfQEb6v7iy0n+8GkD44csXXKs3b/ovra72X1RR4T8TAwHw/cePHyamppzhoaEMv379YiCoQV1O/h/IJj9fX0l5OTkGFgYigKKE5A9WFpYvtra2hG2AgV+/f/+ytrJiAAgwAJMsjRfgwkvRAAAAAElFTkSuQmCC" style="position:absolute;top:0px;left:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPBJREFUeNpiFFdW+s+ABn7//s3w588fBllZWQZXFxcGWxsbBmlpaQYBfn4GFnTFP3/+ZBAQEGDw8/FhCA8LE5aUlPwGEv8HBH///v2DouHHjx8M6mpqDCXFxQxmpqbcQJt+KUpI/kFWw4JssoG+PkNzU5O4grz8NyD4oS4n/w/dBQwgPwjISP83trf7f+jUSbEHL55z/f//nwEXZhBVVPgvra72f/XmTf8fvnyBVzEIM/369YshPDSUwcTUlPM7yBMEAJO8nByDn6+vJEg3VjejARZbW1sGZSWlLzIiogRNB9tgbWXF8AsYfAxEAoAAAwCW14MZ5CHflgAAAABJRU5ErkJggg==" style="position:absolute;top:0px;right:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/help/basics" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;display:block;background-color: transparent; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Vimeo Basics</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:7.2em;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/help" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Help</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:7.2em;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/forums" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 0px; ">Forums</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:7.2em;background-color: transparent; margin: 0px; padding: 0px 18px; ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMpJREFUeNpiFFdW+snAwMDGQCFgAuIvDFQAIINeUMuga9Qy6Cy1DDpIDYMYgbHGDKTvAbEcJQYx8wgJ/gfSIkBsR6mLQLQ01FVslLgIRH8GYnEgNqPURSAgBMS3oTRZsQYD74A4i1KvwcBVaMCbUWoQCOwCYgMgVifXazDwF4gjgHgrpS4CgT9AvBKIJYDYmBKDQACUULdAww2UWHnINQgGQKXDTCAGFYCmuBItMQaBwC9o5p4DxN+BWBSKsSZIUoEiEIdDw1AFIMAAEK8fe1gltpYAAAAASUVORK5CYII=" style="position:absolute;left:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAABcjIgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" style="height:20px;width:100%;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKhJREFUeNpiFFdW+s9AOfjFxEAd8IVaBr2glkHXqGXQWWoZdJAaBj0C4lPUMGgxEP+l1KBfQDwdxKDUoFlA/JRSg94BcT2MQ4lBWVDDKDJoChCvRBYgx6BNQFyALkiqQVuBOAIU3ZQYBIohfyD+jk2SGINeAHEoEKdjcwkMsOArY4C4G4j7oGy8AJtB14B4DTRmXhPrb5BBF4D4DqgogEbpfXLSA0CAAQACpyLRjs+JagAAAABJRU5ErkJggg==" style="position:absolute;right:0px;top:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+</ul>
+</li>
+<li style="list-style-type:none;cursor:pointer;background-color: rgb(23, 35, 34); float:right;position:relative;font:normal normal normal 10px/normal Verdana;height:13px;font-size:11px;width:1.5em;margin: 0px; padding: 16px 18px 21px; ">
+<a href="#" style="cursor:pointer;text-decoration:none;display:block;color:rgb(255, 255, 255);outline: invert none medium; margin: 0px; padding: 0px; ">Tools</a>
+<ul style="display:none;z-index:999999;position:absolute;top:50px;left:15px;color:rgb(187, 187, 187);list-style: none outside none; margin: 0px 0px 0px -15px; padding: 0px; ">
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:16.2em;margin: 0px; padding: 0px 18px; ">
+For me: <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPVJREFUeNpiufHwwf8PHz8yPH36lOHwkSMMu/fsYXj8+DEDCwsLAysrKwM6YLz56CETMzMzCxMQgASeP3/OtXLVqrebtmxh+PDhAwM7Ozuqhv///6MI3Hn6hAVoMtup06e/9vT2Mty8dYuBg4MDtwYQANnKBQQPHj7kqq2re3nx0iWETSANuPCDF8+5Dp06KWZsb/dfQEb6v7iy0n+8GkD44csXXKs3b/ovra72X1RR4T8TAwHw/cePHyamppzhoaEMv379YiCoQV1O/h/IJj9fX0l5OTkGFgYigKKE5A9WFpYvtra2hG2AgV+/f/+ytrJiAAgwAJMsjRfgwkvRAAAAAElFTkSuQmCC" style="position:absolute;top:0px;left:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPBJREFUeNpiFFdW+s+ABn7//s3w588fBllZWQZXFxcGWxsbBmlpaQYBfn4GFnTFP3/+ZBAQEGDw8/FhCA8LE5aUlPwGEv8HBH///v2DouHHjx8M6mpqDCXFxQxmpqbcQJt+KUpI/kFWw4JssoG+PkNzU5O4grz8NyD4oS4n/w/dBQwgPwjISP83trf7f+jUSbEHL55z/f//nwEXZhBVVPgvra72f/XmTf8fvnyBVzEIM/369YshPDSUwcTUlPM7yBMEAJO8nByDn6+vJEg3VjejARZbW1sGZSWlLzIiogRNB9tgbWXF8AsYfAxEAoAAAwCW14MZ5CHflgAAAABJRU5ErkJggg==" style="position:absolute;top:0px;right:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:16.2em;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/subscriptions/contacts" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;display:block;background-color: transparent; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Subscription Manager</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:16.2em;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/contacts/invite_new_user" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Invite Your Friends</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:16.2em;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/contacts/import" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Import Contacts</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:16.2em;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/widget" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 0px; ">Make Widgets</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:16.2em;background-color: transparent; margin: 0px; padding: 0px 18px; ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMpJREFUeNpiFFdW+snAwMDGQCFgAuIvDFQAIINeUMuga9Qy6Cy1DDpIDYMYgbHGDKTvAbEcJQYx8wgJ/gfSIkBsR6mLQLQ01FVslLgIRH8GYnEgNqPURSAgBMS3oTRZsQYD74A4i1KvwcBVaMCbUWoQCOwCYgMgVifXazDwF4gjgHgrpS4CgT9AvBKIJYDYmBKDQACUULdAww2UWHnINQgGQKXDTCAGFYCmuBItMQaBwC9o5p4DxN+BWBSKsSZIUoEiEIdDw1AFIMAAEK8fe1gltpYAAAAASUVORK5CYII=" style="position:absolute;left:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAABcjIgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" style="height:20px;width:100%;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKhJREFUeNpiFFdW+s9AOfjFxEAd8IVaBr2glkHXqGXQWWoZdJAaBj0C4lPUMGgxEP+l1KBfQDwdxKDUoFlA/JRSg94BcT2MQ4lBWVDDKDJoChCvRBYgx6BNQFyALkiqQVuBOAIU3ZQYBIohfyD+jk2SGINeAHEoEKdjcwkMsOArY4C4G4j7oGy8AJtB14B4DTRmXhPrb5BBF4D4DqgogEbpfXLSA0CAAQACpyLRjs+JagAAAABJRU5ErkJggg==" style="position:absolute;right:0px;top:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+</ul>
+</li>
+<li style="list-style-type:none;cursor:pointer;background-color: rgb(23, 35, 34); float:right;position:relative;font:normal normal normal 10px/normal Verdana;height:13px;font-size:11px;width:2.7em;margin: 0px; padding: 16px 18px 21px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/explore" target="_blank" style="cursor:pointer;text-decoration:none;display:block;color:rgb(255, 255, 255);outline: invert none medium; margin: 0px; padding: 0px; ">Explore</a>
+<ul style="display:none;z-index:999999;position:absolute;top:50px;left:15px;color:rgb(187, 187, 187);list-style: none outside none; margin: 0px 0px 0px -15px; padding: 0px; ">
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:6em;margin: 0px; padding: 0px 18px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/groups" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;display:block;background-color: transparent; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Groups</a>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPVJREFUeNpiufHwwf8PHz8yPH36lOHwkSMMu/fsYXj8+DEDCwsLAysrKwM6YLz56CETMzMzCxMQgASeP3/OtXLVqrebtmxh+PDhAwM7Ozuqhv///6MI3Hn6hAVoMtup06e/9vT2Mty8dYuBg4MDtwYQANnKBQQPHj7kqq2re3nx0iWETSANuPCDF8+5Dp06KWZsb/dfQEb6v7iy0n+8GkD44csXXKs3b/ovra72X1RR4T8TAwHw/cePHyamppzhoaEMv379YiCoQV1O/h/IJj9fX0l5OTkGFgYigKKE5A9WFpYvtra2hG2AgV+/f/+ytrJiAAgwAJMsjRfgwkvRAAAAAElFTkSuQmCC" style="position:absolute;top:0px;left:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPBJREFUeNpiFFdW+s+ABn7//s3w588fBllZWQZXFxcGWxsbBmlpaQYBfn4GFnTFP3/+ZBAQEGDw8/FhCA8LE5aUlPwGEv8HBH///v2DouHHjx8M6mpqDCXFxQxmpqbcQJt+KUpI/kFWw4JssoG+PkNzU5O4grz8NyD4oS4n/w/dBQwgPwjISP83trf7f+jUSbEHL55z/f//nwEXZhBVVPgvra72f/XmTf8fvnyBVzEIM/369YshPDSUwcTUlPM7yBMEAJO8nByDn6+vJEg3VjejARZbW1sGZSWlLzIiogRNB9tgbWXF8AsYfAxEAoAAAwCW14MZ5CHflgAAAABJRU5ErkJggg==" style="position:absolute;top:0px;right:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:6em;margin: 0px; padding: 0px 18px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/channels" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Channels</a>
+</li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:6em;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/hd" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">HD Videos</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:6em;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/staffpicks" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Staff Picks</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:6em;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/forum:Projects" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Projects</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:6em;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/Toys" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 0px; ">Toys</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:6em;background-color: transparent; margin: 0px; padding: 0px 18px; ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMpJREFUeNpiFFdW+snAwMDGQCFgAuIvDFQAIINeUMuga9Qy6Cy1DDpIDYMYgbHGDKTvAbEcJQYx8wgJ/gfSIkBsR6mLQLQ01FVslLgIRH8GYnEgNqPURSAgBMS3oTRZsQYD74A4i1KvwcBVaMCbUWoQCOwCYgMgVifXazDwF4gjgHgrpS4CgT9AvBKIJYDYmBKDQACUULdAww2UWHnINQgGQKXDTCAGFYCmuBItMQaBwC9o5p4DxN+BWBSKsSZIUoEiEIdDw1AFIMAAEK8fe1gltpYAAAAASUVORK5CYII=" style="position:absolute;left:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAABcjIgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" style="height:20px;width:100%;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKhJREFUeNpiFFdW+s9AOfjFxEAd8IVaBr2glkHXqGXQWWoZdJAaBj0C4lPUMGgxEP+l1KBfQDwdxKDUoFlA/JRSg94BcT2MQ4lBWVDDKDJoChCvRBYgx6BNQFyALkiqQVuBOAIU3ZQYBIohfyD+jk2SGINeAHEoEKdjcwkMsOArY4C4G4j7oGy8AJtB14B4DTRmXhPrb5BBF4D4DqgogEbpfXLSA0CAAQACpyLRjs+JagAAAABJRU5ErkJggg==" style="position:absolute;right:0px;top:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+</ul>
+</li>
+<li style="list-style-type:none;cursor:pointer;background-color: rgb(23, 35, 34); width:2.3em;float:right;position:relative;font:normal normal normal 10px/normal Verdana;height:13px;font-size:11px;margin: 0px; padding: 16px 18px 21px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/upload/video" target="_blank" style="cursor:pointer;text-decoration:none;display:block;color:rgb(255, 255, 255);outline: invert none medium; margin: 0px; padding: 0px; ">Upload</a>
+<ul style="display:none;z-index:999999;position:absolute;top:50px;left:15px;color:rgb(187, 187, 187);list-style: none outside none; margin: 0px 0px 0px -15px; padding: 0px; ">
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:13.4em;margin: 0px; padding: 0px 18px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/upload" target="_blank" style="cursor:pointer;text-decoration:none;font-size:11px;display:block;background-color: transparent; color:rgb(255, 255, 255);outline: invert none medium; margin: 0px; padding: 4px 0px 0px; ">
+You have <span style="color:rgb(247, 83, 66);margin: 0px; padding: 0px; "><strong style="margin: 0px; padding: 0px; ">500MB</strong></span>
+free for uploading this week. <img alt="Upload Your Video" src="data:image/gif;base64,R0lGODlhlgAeAMQAABUjJoO521GdzDaIu/P4/MHc7Slgf5zH4mqr1B4+Tdrq9KjO5jSBsUSWyM3j8BkxOv///12k0LXV6Xay1+bx+I/A3itnijiPxSBEVytmiRs3Qy1tkylggAAAAAAAAAAAACH5BAAHAP8ALAAAAACWAB4AAAX/IAA81nCdaKqubOu+cCzPdJ1uiSgmpu3/wKBwiOKIHj2icslszjCAjHNKrSoZgKR1y+2yNN6wmJsYm8/LMnrNrqnb8K2AAqnXD7F3fO882P95NAgQDiiDhS5+eEF1SoorjVRzf5EvejCHhoQvj4wQSgEOAZCfXXaBM5knmQ0IEQ0VFQ0nnQ0BBwGzJ7YHFQIoAr0NlSkTBwcRKwgIKBEIDQIIvxfBspURvdMn2Mg2ERKjF6cwly+qF5mDCgR1CrOPEex1BMkNCn+/8e3EJxJ/4SjuTaMTDAIefRDulapghwCzC/7sSKihMNk4S4I2rdo0CMKEBg4gVLjw6N5Ihgou/0wggKeAwQsuF1xYwG9OIYaIUASAIHMChAIkX8ac2UgABAoNIhxVmVCAgHsTaLiEkIwOBVQyzqVLeMJnIUVKU564l+xChAr38NSZNayUCgEBXObcReCqv6iP1l5oe4GhhGVkXUZlCvQFrF8NDgwOps1FORdaOWrMpOhcSFd0jr6sxA9kHTpz+1GtS2uz20Z+KCG4vDH0ipAQGruhYZSArp1AB129gDvogdooCLrE84jdL6NuTzAs0EpjCqUhFxWPTa3RTpnoRI/kDWHii8xlfTx2cY/CgQXsRnWUMIHOqEchCyBwCdQlezp4/DlYzQ8lf9cXKDTNI/rx94kABBBgjKVkBAQQADvhqVDWaov8MF4LEShUB3bqKOTdI57VwRw68viRkj13dJaZBHTokkJvpeGBokGRPPhZWTZCoGAL/rhDxIUuRPOMJoVIE6SRKLTioiGyqYAkEE+msIwyD7VgR5VBAJkRgHx04Yd3Q2g5QwQOYNflmbOhqaYZYq7pZhpavCmnExpIMeedTGCBBJ58DgEFADz0KagNBugwQgZxDqroDTmIEAIAOw==" style="border-width: 0px; border-style: none; margin: 0px; padding: 16px 0px 0px; border-color: white; "/>
+</a>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPVJREFUeNpiufHwwf8PHz8yPH36lOHwkSMMu/fsYXj8+DEDCwsLAysrKwM6YLz56CETMzMzCxMQgASeP3/OtXLVqrebtmxh+PDhAwM7Ozuqhv///6MI3Hn6hAVoMtup06e/9vT2Mty8dYuBg4MDtwYQANnKBQQPHj7kqq2re3nx0iWETSANuPCDF8+5Dp06KWZsb/dfQEb6v7iy0n+8GkD44csXXKs3b/ovra72X1RR4T8TAwHw/cePHyamppzhoaEMv379YiCoQV1O/h/IJj9fX0l5OTkGFgYigKKE5A9WFpYvtra2hG2AgV+/f/+ytrJiAAgwAJMsjRfgwkvRAAAAAElFTkSuQmCC" style="position:absolute;top:0px;left:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPBJREFUeNpiFFdW+s+ABn7//s3w588fBllZWQZXFxcGWxsbBmlpaQYBfn4GFnTFP3/+ZBAQEGDw8/FhCA8LE5aUlPwGEv8HBH///v2DouHHjx8M6mpqDCXFxQxmpqbcQJt+KUpI/kFWw4JssoG+PkNzU5O4grz8NyD4oS4n/w/dBQwgPwjISP83trf7f+jUSbEHL55z/f//nwEXZhBVVPgvra72f/XmTf8fvnyBVzEIM/369YshPDSUwcTUlPM7yBMEAJO8nByDn6+vJEg3VjejARZbW1sGZSWlLzIiogRNB9tgbWXF8AsYfAxEAoAAAwCW14MZ5CHflgAAAABJRU5ErkJggg==" style="position:absolute;top:0px;right:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:13.4em;background-color: transparent; margin: 0px; padding: 0px 18px; ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMpJREFUeNpiFFdW+snAwMDGQCFgAuIvDFQAIINeUMuga9Qy6Cy1DDpIDYMYgbHGDKTvAbEcJQYx8wgJ/gfSIkBsR6mLQLQ01FVslLgIRH8GYnEgNqPURSAgBMS3oTRZsQYD74A4i1KvwcBVaMCbUWoQCOwCYgMgVifXazDwF4gjgHgrpS4CgT9AvBKIJYDYmBKDQACUULdAww2UWHnINQgGQKXDTCAGFYCmuBItMQaBwC9o5p4DxN+BWBSKsSZIUoEiEIdDw1AFIMAAEK8fe1gltpYAAAAASUVORK5CYII=" style="position:absolute;left:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAABcjIgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" style="height:20px;width:100%;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKhJREFUeNpiFFdW+s9AOfjFxEAd8IVaBr2glkHXqGXQWWoZdJAaBj0C4lPUMGgxEP+l1KBfQDwdxKDUoFlA/JRSg94BcT2MQ4lBWVDDKDJoChCvRBYgx6BNQFyALkiqQVuBOAIU3ZQYBIohfyD+jk2SGINeAHEoEKdjcwkMsOArY4C4G4j7oGy8AJtB14B4DTRmXhPrb5BBF4D4DqgogEbpfXLSA0CAAQACpyLRjs+JagAAAABJRU5ErkJggg==" style="position:absolute;right:0px;top:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+</ul>
+</li>
+<li style="list-style-type:none;cursor:pointer;background-color: rgb(23, 35, 34); width:2.3em;float:right;position:relative;font:normal normal normal 10px/normal Verdana;height:13px;font-size:11px;margin: 0px; padding: 16px 18px 21px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/user1389599/videos" target="_blank" style="cursor:pointer;text-decoration:none;display:block;color:rgb(255, 255, 255);outline: invert none medium; margin: 0px; padding: 0px; ">Videos</a>
+<ul style="display:none;z-index:999999;position:absolute;top:50px;left:15px;color:rgb(187, 187, 187);list-style: none outside none; margin: 0px 0px 0px -15px; padding: 0px; ">
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:10em;background-color: rgb(23, 35, 34); margin: 0px; padding: 0px 18px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/user1389599/videos" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;display:block;background-color: transparent; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">My Videos
+<span style="color:rgb(187, 187, 187);font-size:10px;margin: 0px; padding: 0px; ">(0)</span></a>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPVJREFUeNpiufHwwf8PHz8yPH36lOHwkSMMu/fsYXj8+DEDCwsLAysrKwM6YLz56CETMzMzCxMQgASeP3/OtXLVqrebtmxh+PDhAwM7Ozuqhv///6MI3Hn6hAVoMtup06e/9vT2Mty8dYuBg4MDtwYQANnKBQQPHj7kqq2re3nx0iWETSANuPCDF8+5Dp06KWZsb/dfQEb6v7iy0n+8GkD44csXXKs3b/ovra72X1RR4T8TAwHw/cePHyamppzhoaEMv379YiCoQV1O/h/IJj9fX0l5OTkGFgYigKKE5A9WFpYvtra2hG2AgV+/f/+ytrJiAAgwAJMsjRfgwkvRAAAAAElFTkSuQmCC" style="position:absolute;top:0px;left:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPBJREFUeNpiFFdW+s+ABn7//s3w588fBllZWQZXFxcGWxsbBmlpaQYBfn4GFnTFP3/+ZBAQEGDw8/FhCA8LE5aUlPwGEv8HBH///v2DouHHjx8M6mpqDCXFxQxmpqbcQJt+KUpI/kFWw4JssoG+PkNzU5O4grz8NyD4oS4n/w/dBQwgPwjISP83trf7f+jUSbEHL55z/f//nwEXZhBVVPgvra72f/XmTf8fvnyBVzEIM/369YshPDSUwcTUlPM7yBMEAJO8nByDn6+vJEg3VjejARZbW1sGZSWlLzIiogRNB9tgbWXF8AsYfAxEAoAAAwCW14MZ5CHflgAAAABJRU5ErkJggg==" style="position:absolute;top:0px;right:-12px;width:12px;height:10px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:10em;background-color: rgb(23, 35, 34); margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/user1389599/albums" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">My Albums
+<span style="color:rgb(187, 187, 187);font-size:10px;margin: 0px; padding: 0px; ">(0)</span></a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:10em;background-color: rgb(23, 35, 34); margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/user1389599/groups" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">My Groups
+<span style="color:rgb(187, 187, 187);font-size:10px;margin: 0px; padding: 0px; ">(0)</span></a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:10em;background-color: rgb(23, 35, 34); margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/user1389599/channels" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">My Channels
+<span style="color:rgb(187, 187, 187);font-size:10px;margin: 0px; padding: 0px; ">(0)</span></a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:10em;background-color: rgb(23, 35, 34); margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/user1389599/likes" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">My Likes
+<span style="color:rgb(187, 187, 187);font-size:10px;margin: 0px; padding: 0px; ">(0)</span></a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:10em;background-color: rgb(23, 35, 34); margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/inbox/subscriptions" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 0px; ">My Subscriptions</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;width:10em;background-color: transparent; margin: 0px; padding: 0px 18px; ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMpJREFUeNpiFFdW+snAwMDGQCFgAuIvDFQAIINeUMuga9Qy6Cy1DDpIDYMYgbHGDKTvAbEcJQYx8wgJ/gfSIkBsR6mLQLQ01FVslLgIRH8GYnEgNqPURSAgBMS3oTRZsQYD74A4i1KvwcBVaMCbUWoQCOwCYgMgVifXazDwF4gjgHgrpS4CgT9AvBKIJYDYmBKDQACUULdAww2UWHnINQgGQKXDTCAGFYCmuBItMQaBwC9o5p4DxN+BWBSKsSZIUoEiEIdDw1AFIMAAEK8fe1gltpYAAAAASUVORK5CYII=" style="position:absolute;left:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAABcjIgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" style="height:20px;width:100%;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKhJREFUeNpiFFdW+s9AOfjFxEAd8IVaBr2glkHXqGXQWWoZdJAaBj0C4lPUMGgxEP+l1KBfQDwdxKDUoFlA/JRSg94BcT2MQ4lBWVDDKDJoChCvRBYgx6BNQFyALkiqQVuBOAIU3ZQYBIohfyD+jk2SGINeAHEoEKdjcwkMsOArY4C4G4j7oGy8AJtB14B4DTRmXhPrb5BBF4D4DqgogEbpfXLSA0CAAQACpyLRjs+JagAAAABJRU5ErkJggg==" style="position:absolute;right:0px;top:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+</ul>
+</li>
+<li style="list-style-type:none;cursor:pointer;background-color: rgb(23, 35, 34); float:right;position:relative;font:normal normal normal 10px/normal Verdana;height:13px;font-size:11px;width:5.3em;margin: 0px; padding: 16px 0px 21px; ">
+<ul style="display:none;z-index:999999;position:absolute;top:50px;left:15px;color:rgb(187, 187, 187);list-style: none outside none; margin: 0px 0px 0px -33px; padding: 0px; ">
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:110px;margin: -20px 0px 0px; padding: 20px 18px 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;display:block;background-color: transparent; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">My Home Page</a>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPBJREFUeNpiFFdW+s+ABn7//s3w588fBllZWQZXFxcGWxsbBmlpaQYBfn4GFnTFP3/+ZBAQEGDw8/FhCA8LE5aUlPwGEv8HBH///v2DouHHjx8M6mpqDCXFxQxmpqbcQJt+KUpI/kFWw4JssoG+PkNzU5O4grz8NyD4oS4n/w/dBQwgPwjISP83trf7f+jUSbEHL55z/f//nwEXZhBVVPgvra72f/XmTf8fvnyBVzEIM/369YshPDSUwcTUlPM7yBMEAJO8nByDn6+vJEg3VjejARZbW1sGZSWlLzIiogRNB9tgbWXF8AsYfAxEAoAAAwCW14MZ5CHflgAAAABJRU5ErkJggg==" style="right:-12px;width:12px;height:10px;position:absolute;top:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:110px;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/user1389599" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">My Profile</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:110px;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/user1389599/contacts" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">My Contacts
+<span style="color:rgb(187, 187, 187);font-size:10px;margin: 0px; padding: 0px; ">(0)</span></a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:110px;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/conversations" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">My Conversations</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;background-color: rgb(23, 35, 34); width:110px;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/settings" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(3, 149, 204);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 5px; ">Settings</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;position:relative;color:rgb(247, 83, 66);background-color: rgb(23, 35, 34); width:110px;margin: 0px; padding: 0px 18px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/log_out" target="_blank" style="cursor:pointer;text-decoration:none;color:rgb(247, 83, 66);font-size:11px;background-image:url(data:image/gif;base64,R0lGODlhAgABAIABADw8PP///yH5BAEAAAEALAAAAAACAAEAAAICRAoAOw==);background-color: transparent; display:block;background-position: 0% 0%; background-repeat: repeat-x; outline: invert none medium; margin: 0px; padding: 4px 0px 0px; ">Logout</a></li>
+<li style="list-style-type:none;cursor:pointer;float:left;width:110px;background-color: transparent; position:relative;margin: 0px; padding: 0px 18px; ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMpJREFUeNpiFFdW+snAwMDGQCFgAuIvDFQAIINeUMuga9Qy6Cy1DDpIDYMYgbHGDKTvAbEcJQYx8wgJ/gfSIkBsR6mLQLQ01FVslLgIRH8GYnEgNqPURSAgBMS3oTRZsQYD74A4i1KvwcBVaMCbUWoQCOwCYgMgVifXazDwF4gjgHgrpS4CgT9AvBKIJYDYmBKDQACUULdAww2UWHnINQgGQKXDTCAGFYCmuBItMQaBwC9o5p4DxN+BWBSKsSZIUoEiEIdDw1AFIMAAEK8fe1gltpYAAAAASUVORK5CYII=" style="position:absolute;left:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAABcjIgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" style="height:20px;width:100%;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKhJREFUeNpiFFdW+s9AOfjFxEAd8IVaBr2glkHXqGXQWWoZdJAaBj0C4lPUMGgxEP+l1KBfQDwdxKDUoFlA/JRSg94BcT2MQ4lBWVDDKDJoChCvRBYgx6BNQFyALkiqQVuBOAIU3ZQYBIohfyD+jk2SGINeAHEoEKdjcwkMsOArY4C4G4j7oGy8AJtB14B4DTRmXhPrb5BBF4D4DqgogEbpfXLSA0CAAQACpyLRjs+JagAAAABJRU5ErkJggg==" style="position:absolute;right:0px;top:0px;width:18px;height:20px;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</li>
+</ul>
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/user1389599" target="_blank" style="cursor:pointer;text-decoration:none;display:block;color:rgb(3, 149, 204);outline: invert none medium; margin: 0px; padding: 0px; "><img src="611a2426c1622266efe3d377354514c2b0ac6c9b.jpg" style="z-index:1999999;position:absolute;top:8px;height:24px;width:24px;vertical-align:middle;border-width: 3px; border-style: solid; margin: 0px; padding: 0px; border-color: rgb(119, 212, 253); "/></a>
+<div style="position:absolute;margin: 0px; padding: 0px 0px 0px 37px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/user1389599" target="_blank" style="cursor:pointer;text-decoration:none;display:block;color:rgb(255, 255, 255);outline: invert none medium; margin: 0px; padding: 0px; ">Me</a>
+</div>.
+</li>
+</ul>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAyCAYAAABRYothAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALdJREFUeNpiFFdW+s9ABcDEQCUwatCoQaMGjRo0atCoQaMGjTyDflHLoC/UMugFtQy6Ri2DzlLLoIPUMugUED+ihkF/gXgZtRLkFErTE8ygp0A8i1pZpB6I31HDIJAhWdTKtCuh4UWV3F8AxJuoYRAoOUQA8VZqlEffgdiflJjEV7CBXJYOxKHElBDElJBrgFgVmjy+UFrUggxoAmIlIG4F4pvoChiBHT9yk44iEIcDsTEQqwAEGAB4Dx9oMGHI6wAAAABJRU5ErkJggg==" style="width:18px;height:50px;float:right;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</div>
+<div style="position:absolute;top:100px;right:20px;text-align:right;width:400px;margin: 0px; padding: 0px; ">
+</div>
+</div>
+<div style="background-image:url(data:image/gif;base64,R0lGODlh1AMZAMQAAOfn3vX18f39/enp4P7+/u/v6fj49fPz7/f39Ojo3+rq4vLy7ezs5fv7+ujo4Pr6+P39/P7+/fz8+/Ly7vPz7urq4fv7+f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAADUAxkAAAX/ICCOJKksyHOtbOu+cCzPdG3feK7vfO//wKBwSCwaj8ikcslsOp/QqHQqfSAWipJ2ux0cLNSweEwum8/otHrNbrvf8LjQchhw7yMHJSLv+/+AgYKDhIWGh4iJNBEUDnhbBRCKk5SVlpeYmZqbnJcQBY8kAZ2kpaanqKmqq6xwAaEJBq2ztLW2t7i5uoEGCXiyu8HCw8TFxse1BnejyM3Oz9DR0tNOr1oF1Nna29zd3rqgJAMC3+Xm5+jp6mwCdiPM6/Hy8/T19i/WABUE9/3+/wADCiNQQcQBgQgTKlzIENEBERIaSpxIsaJFJxIAMLjIsaPHjyBZMJgQsqTJkyjnQ01AkLKly5cwkSFoELOmzZs4SzUgl7Onz59A+wjgF7So0aNInRBNyrSp06dQo0qdSrWq1atYs2rdyrWr169gw4p9EgIAOw==);background-color: rgb(255, 255, 255); width:980px;font-size:11px;background-position: 0% 0%; background-repeat: no-repeat; margin: 0px; padding: 0px; ">
+<div style="position:relative;margin: 0px 0px 2em; padding: 0px 20px; ">
+<h1 style="font-family:arial, sans-serif;color:rgb(62, 62, 62);font:normal normal normal 36px/normal arial, sans-serif;font-weight:bold;line-height:36px;margin: 0px; padding: 20px 20px 0px 0px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Developers</a>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/docs/advanced-api" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Advanced API</a>
+/ Signing API Calls</h1>
+</div>
+<div style="width:940px;margin: 0px; padding: 0px 20px; ">
+<div style="float:left;color:rgb(62, 62, 62);font-size:11px;width:620px;margin: 0px 10px 0px 0px; padding: 0px; ">
+<div style="font:normal normal normal 11px/16px verdana, sans-serif;margin: 0px 0px 15px; padding: 0px; ">Signing method calls is the same for desktop and web based programs. This means on top of the parameters you request, you need to pass your
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">api_key</code>
+<span style="color:rgb(150, 150, 150);margin: 0px; padding: 0px; ">(not your secret)</span>
+and the <code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">api_sig</code>
+based on those parameters.</div>
+<div style="font:normal normal normal 11px/16px verdana, sans-serif;margin: 0px 0px 15px; padding: 0px; ">Let's assume that our API key is
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">df3f791718032a70119d35d65d8b6d0d</code>, our shared secret is
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">sec12345</code>.</div>
+<div style="font:normal normal normal 11px/16px verdana, sans-serif;margin: 0px 0px 15px; padding: 0px; ">Generating a signature is easy and can be done in any programming language. To make our signature, we take a string of the arguments being passed, and prepend our shared secret.</div>
+<div style="font:normal normal normal 11px/16px verdana, sans-serif;margin: 0px 0px 15px; padding: 0px; ">For this example, we'll make a call to
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">vimeo.videos.comments.getList()</code>. Our parameters are the following:</div>
+<blockquote style="color:rgb(94, 94, 94);background-color: rgb(253, 253, 253); border-width: 1px; border-style: dotted; margin: 10px 0px; padding: 10px 20px; border-color: rgb(214, 214, 214); ">
+<div style="color:rgb(62, 62, 62);font-weight:bold;float:left;text-align:right;margin: 0px 10px 0px 0px; padding: 0px; ">
+method<br style="margin: 0px; padding: 0px; "/>
+video_id<br style="margin: 0px; padding: 0px; "/>
+api_key </div>
+<div style="float:left;margin: 0px; padding: 0px; ">
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">vimeo.videos.comments.getList</code><br style="margin: 0px; padding: 0px; "/>
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">375747</code><br style="margin: 0px; padding: 0px; "/>
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">df3f791718032a70119d35d65d8b6d0d</code>
+<span style="color:rgb(150, 150, 150);margin: 0px; padding: 0px; ">(this is required in every method call)</span>
+</div>
+<div style="display:block;clear:both;visibility:hidden;margin: 0px; padding: 0px; "></div>
+</blockquote>
+<div style="font:normal normal normal 11px/16px verdana, sans-serif;margin: 0px 0px 15px; padding: 0px; ">Now we'll generate the base of our signature by creating a string of our parameter name/value pairs in alphabetical order. Do not escape any characters when generating this string, all characters should be unescaped.</div>
+<blockquote style="color:rgb(94, 94, 94);background-color: rgb(253, 253, 253); border-width: 1px; border-style: dotted; margin: 10px 0px; padding: 10px 20px; border-color: rgb(214, 214, 214); "><code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">
+<strong style="margin: 0px; padding: 0px; ">api_key</strong>df3f791718032a70119d35d65d8b6d0d<strong style="margin: 0px; padding: 0px; ">method</strong>vimeo.videos.comments.getList<strong style="margin: 0px; padding: 0px; ">video_id</strong>375747
+</code></blockquote>
+<div style="font:normal normal normal 11px/16px verdana, sans-serif;margin: 0px 0px 15px; padding: 0px; ">Next, we prepend that string with our shared secret
+<span style="color:rgb(150, 150, 150);margin: 0px; padding: 0px; ">(green)</span>.</div>
+<blockquote style="color:rgb(94, 94, 94);background-color: rgb(253, 253, 253); border-width: 1px; border-style: dotted; margin: 10px 0px; padding: 10px 20px; border-color: rgb(214, 214, 214); "><code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">
+<span style="color:green;margin: 0px; padding: 0px; ">sec12345</span><strong style="margin: 0px; padding: 0px; ">api_key</strong>df3f791718032a70119d35d65d8b6d0d<strong style="margin: 0px; padding: 0px; ">method</strong>vimeo.videos.comments.getList<strong style="margin: 0px; padding: 0px; ">video_id</strong>375747
+</code></blockquote>
+<div style="font:normal normal normal 11px/16px verdana, sans-serif;margin: 0px 0px 15px; padding: 0px; ">Now we'll take the MD5 hash of the signature and add it to our parameters.</div>
+<blockquote style="color:rgb(94, 94, 94);background-color: rgb(253, 253, 253); border-width: 1px; border-style: dotted; margin: 10px 0px; padding: 10px 20px; border-color: rgb(214, 214, 214); "><code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">
+c5370e4b0c550494ba49d86893a0384f </code></blockquote>
+<div style="font:normal normal normal 11px/16px verdana, sans-serif;margin: 0px 0px 15px; padding: 0px; ">So the final set of parameters passed to the API will be:</div>
+<blockquote style="color:rgb(94, 94, 94);background-color: rgb(253, 253, 253); border-width: 1px; border-style: dotted; margin: 10px 0px; padding: 10px 20px; border-color: rgb(214, 214, 214); ">
+<div style="color:rgb(62, 62, 62);font-weight:bold;float:left;text-align:right;margin: 0px 10px 0px 0px; padding: 0px; ">
+method<br style="margin: 0px; padding: 0px; "/>
+video_id<br style="margin: 0px; padding: 0px; "/>
+api_key<br style="margin: 0px; padding: 0px; "/>
+api_sig </div>
+<div style="float:left;margin: 0px; padding: 0px; ">
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">vimeo.videos.comments.getList</code><br style="margin: 0px; padding: 0px; "/>
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">375747</code><br style="margin: 0px; padding: 0px; "/>
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">df3f791718032a70119d35d65d8b6d0d</code><br style="margin: 0px; padding: 0px; "/>
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">c5370e4b0c550494ba49d86893a0384f</code>
+</div>
+<div style="display:block;clear:both;visibility:hidden;margin: 0px; padding: 0px; "></div>
+</blockquote>
+<div style="font:normal normal normal 11px/16px verdana, sans-serif;margin: 0px 0px 15px; padding: 0px; ">That's all there is to it! Pretty easy, huh?</div>
+</div>
+<div style="float:left;color:rgb(62, 62, 62);font-size:11px;width:300px;margin: 0px 0px 0px 10px; padding: 0px; ">
+<div style="position:relative;margin: 0px; padding: 0px; ">
+<div style="height:25px;background-color: rgb(78, 186, 255); margin: 0px; padding: 0px; ">
+<h4 style="position:absolute;top:7px;left:8px;line-height:11px;font-size:11px;color:rgb(255, 255, 255);margin: 0px; padding: 0px; ">Vimeo API</h4>
+</div>
+<img src="data:image/gif;base64,R0lGODlhCQAFAIAAABorPE66/yH5BAEAAAAALAAAAAAJAAUAAAIKjH+ACYoNGWxhFgA7" style="height:5px;width:9px;position:absolute;left:18px;z-index:2;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+<ul style="list-style-type:none;margin: 10px 0px 20px; padding: 0px; ">
+<li style="list-style-type:none;font:normal normal bold 12px/14px arial, sans-serif;margin: 10px 0px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">API Home</a>
+</li>
+<li style="list-style-type:none;font:normal normal bold 12px/14px arial, sans-serif;margin: 10px 0px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/docs/simple-api" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Simple API Documentation</a>
+</li>
+<li style="list-style-type:none;font:normal normal bold 12px/14px arial, sans-serif;margin: 10px 0px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/docs/oembed" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">oEmbed Documentation</a>
+</li>
+<li style="list-style-type:none;font:normal normal bold 12px/14px arial, sans-serif;margin: 10px 0px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/docs/moogaloop" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Moogaloop Documentation</a>
+</li>
+<li style="list-style-type:none;font:normal normal bold 12px/14px arial, sans-serif;margin: 0px 0px 5px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/docs/advanced-api" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Advanced API Documentation</a>
+<ul style="list-style-type:none;margin: 10px 0px 20px; padding: 0px; ">
+<li style="list-style-type:none;font:normal normal normal 11px/14px verdana, sans-serif;margin: 0px 0px 5px 15px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/docs/web-auth" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Web-based authentication</a>
+</li>
+<li style="list-style-type:none;font:normal normal normal 11px/14px verdana, sans-serif;margin: 0px 0px 5px 15px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/docs/desktop-auth" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Desktop-based authentication</a>
+</li>
+<li style="list-style-type:none;font:normal normal normal 11px/14px verdana, sans-serif;margin: 0px 0px 5px 15px; padding: 0px; ">
+<strong style="margin: 0px; padding: 0px; ">Signing API calls</strong>
+← </li>
+<li style="list-style-type:none;font:normal normal normal 11px/14px verdana, sans-serif;margin: 0px 0px 5px 15px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/docs/response-formats" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Response formats</a>
+</li>
+<li style="list-style-type:none;font:normal normal normal 11px/14px verdana, sans-serif;margin: 0px 0px 5px 15px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/docs/upload" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Upload API</a>
+</li>
+<li style="list-style-type:none;font:normal normal normal 11px/14px verdana, sans-serif;margin: 0px 0px 5px 15px; padding: 0px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api-docs/advanced-api-docs.html" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Full method list</a></li>
+<li style="list-style-type:none;font:normal normal normal 11px/14px verdana, sans-serif;margin: 0px 0px 5px 15px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/sandbox" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Sandbox</a>
+</li>
+</ul>
+</li>
+<li style="list-style-type:none;font:normal normal bold 12px/14px arial, sans-serif;margin: 10px 0px; padding: 0px; ">
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api/developer/user1389599" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Manage your Developer API Keys</a>
+</li>
+<li style="list-style-type:none;font:normal normal bold 12px/14px arial, sans-serif;margin: 10px 0px; padding: 0px; "><a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/forum:API" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">API Forum</a></li>
+</ul>
+</div>
+<div style="position:relative;margin: 0px; padding: 0px; ">
+<div style="height:25px;background-color: rgb(109, 206, 238); margin: 0px; padding: 0px; ">
+<h4 style="position:absolute;top:7px;left:8px;line-height:11px;font-size:11px;color:rgb(255, 255, 255);margin: 0px; padding: 0px; ">
+Vimeo developer highlights </h4>
+</div>
+<img src="data:image/gif;base64,R0lGODlhCQAFAIAAABorPG3O7iH5BAEAAAAALAAAAAAJAAUAAAIKjH+ACYoNGWxhFgA7" style="height:5px;width:9px;position:absolute;left:18px;z-index:2;border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; "/>
+</div>
+<div style="margin: 0px 0px 20px; padding: 0px; ">
+<div class="object" style="background-color: rgba(224, 224, 224, 0.5); display:inline-block;width:300px;height:225px;border-width: 0; margin: 0px; padding: 0px; ">
+
+
+
+</div>
+<div style="color:rgb(150, 150, 150);font-size:10px;text-align:right;margin: 2px 0px 0px; padding: 0px; ">
+Powered by Vimeo <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/widget" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Hubnut</a>
+</div>
+</div>
+</div>
+</div>
+
+<div style="display:block;clear:both;visibility:hidden;margin: 0px; padding: 0px; "></div>
+<div style="margin: 0px; padding: 0px; ">
+<ul style="list-style-type:none;margin: 0px; padding: 20px 20px 0px; ">
+<li style="list-style-type:none;background-color: rgb(246, 246, 234); font-size:11px;color:rgb(164, 164, 164);line-height:23px;height:23px;margin: 0px 0px 1px; padding: 0px 10px; ">
+<span style="color:rgb(62, 62, 62);font-weight:bold;margin: 0px; padding: 0px; ">Vimeo:</span>  <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/about" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">About</a>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/blog" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Blog</a>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/roadmap" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Roadmap</a>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/api" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Developers</a>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/guidelines" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Community Guidelines</a>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/forums" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Forums</a>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/toys" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Toys</a>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/help" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Help!</a>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/site_map" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Site Map</a>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/plus" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Get Vimeo Plus</a>
+</li>
+<li style="list-style-type:none;background-color: rgb(246, 246, 234); font-size:11px;color:rgb(164, 164, 164);line-height:23px;height:23px;margin: 0px 0px 1px; padding: 0px 10px; ">
+<span style="color:rgb(62, 62, 62);font-weight:bold;margin: 0px; padding: 0px; ">Legal:</span>  <span style="color:rgb(150, 150, 150);margin: 0px; padding: 0px; ">©2009 Vimeo, LLC</span>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/terms" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Terms &#38; Conditions</a>
+/ <a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/privacy" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Privacy Statement</a>
+</li>
+</ul>
+<div style="margin: 0px; padding: 1px 20px 20px; ">
+<div style="background-color: rgb(246, 246, 234); margin: 0px; padding: 0px; ">
+<div style="position:relative;float:left;width:728px;margin: 10px; padding: 0px; ">
+<div style="margin: 0px; padding: 0px; ">
+<div style="position:relative;float:left;width:728px;height:90px;margin: 10px; padding: 0px; "></div>
+
+</div>
+</div>
+<div style="float:right;width:155px;color:rgb(150, 150, 150);margin: 10px; padding: 40px 0px 0px; ">
+Don't want to see ads?<br style="margin: 0px; padding: 0px; "/>
+<a href="https://archive.today/o/xte1C/https://web.archive.org/web/20090305043551/http://vimeo.com/plus" target="_blank" style="text-decoration:none;color:rgb(39, 134, 194);cursor:pointer;outline: invert none medium; margin: 0px; padding: 0px; ">Get
+<strong style="margin: 0px; padding: 0px; ">Vimeo
+<img alt="plus" src="data:image/gif;base64,R0lGODlhGAAMAJEAAE66/////wAAAAAAACH5BAEHAAIALAAAAAAYAAwAAAIqFI6pC8YPo1ShnoAw0FUnvmVX+IAeSC7dyJ6Ml6Ls91kbZ0/6Ljm8IigAADs=" style="border-width: 0px; border-style: none; margin: 0px 0px -2px; padding: 0px; border-color: white; "/></strong></a>
+</div>
+<div style="display:block;clear:both;visibility:hidden;margin: 0px; padding: 0px; "></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div style="text-align:left;display:none;margin: 0px; padding: 0px; ">
+
+
+
+
+</div>
+
+
+
+<div style="text-align:left;position:absolute;top:-10000px;left:-10000px;width:0px;height:0px;margin: 0px; padding: 0px; "></div>
+
+
+</div></div></div></body></html>

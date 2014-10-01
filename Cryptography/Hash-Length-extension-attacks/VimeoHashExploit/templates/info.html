@@ -1,0 +1,48 @@
+Welcome!<br>
+
+<h1>Docs</h1>
+
+Make your requests as POST to <code>/api</code> in JSON format.<br>
+
+<a href="{{ url_for('static', filename='xte1C/index.html') }}">Here</a> is the documentation on how to sign requests.<br>
+
+<h1>Intercepted request</h1>
+
+Here is an example API call by user {{ user_id }}:<br>
+
+<blockquote style="color:rgb(94, 94, 94);background-color: rgb(253, 253, 253); border-width: 1px; border-style: dotted; margin: 10px 0px; padding: 10px 20px; border-color: rgb(214, 214, 214); font: normal normal normal 11px verdana, sans-serif;">
+<div style="color:rgb(62, 62, 62);font-weight:bold;float:left;text-align:right;margin: 0px 10px 0px 0px; padding: 0px; ">
+method<br style="margin: 0px; padding: 0px; ">
+api_key<br style="margin: 0px; padding: 0px; ">
+api_sig </div>
+<div style="float:left;margin: 0px; padding: 0px; ">
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">vimeo.test.login</code><br style="margin: 0px; padding: 0px; ">
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">{{ api_key }}</code><br style="margin: 0px; padding: 0px; ">
+<code style="color:rgb(204, 0, 0);font:normal normal normal 11px/14px monaco, courier, mono-space;margin: 0px; padding: 0px; ">{{ api_sig }}</code>
+</div>
+<div style="display:block;clear:both;visibility:hidden;margin: 0px; padding: 0px; "></div>
+</blockquote>
+
+<pre style="font-family:courier, monospace;display:block;font:normal normal normal 11px/14px monaco, courier, mono-space;background-color: rgb(253, 253, 253); border-width: 1px; border-style: dotted; margin: 10px 0px; padding: 10px 20px; border-color: rgb(214, 214, 214); "><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">&lt;?</span><span style="margin: 0px; padding: 0px; "><span style="color:rgb(0, 0, 0);margin: 0px; padding: 0px; ">xml version</span><span style="color:rgb(102, 102, 0);margin: 0px; padding: 0px; ">=</span><span style="color:rgb(0, 136, 0);margin: 0px; padding: 0px; ">"1.0"</span><span style="color:rgb(0, 0, 0);margin: 0px; padding: 0px; "> encoding</span><span style="color:rgb(102, 102, 0);margin: 0px; padding: 0px; ">=</span><span style="color:rgb(0, 136, 0);margin: 0px; padding: 0px; ">"UTF-8"</span></span><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">?&gt;</span><span style="color:rgb(0, 0, 0);margin: 0px; padding: 0px; "><br style="margin: 0px; padding: 0px; "></span><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">&lt;rsp </span><span style="color:rgb(102, 0, 102);margin: 0px; padding: 0px; ">stat</span><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">=</span><span style="color:rgb(0, 136, 0);margin: 0px; padding: 0px; ">"ok"</span><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">&gt;</span><span style="color:rgb(0, 0, 0);margin: 0px; padding: 0px; "><br style="margin: 0px; padding: 0px; ">&nbsp; </span><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">&lt;user </span><span style="color:rgb(102, 0, 102);margin: 0px; padding: 0px; ">id</span><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">=</span><span style="color:rgb(0, 136, 0);margin: 0px; padding: 0px; ">"{{ user_id }}"</span><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">&gt;</span><span style="color:rgb(0, 0, 0);margin: 0px; padding: 0px; "><br style="margin: 0px; padding: 0px; ">&nbsp; &nbsp; </span><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">&lt;username&gt;</span><span style="color:rgb(0, 0, 0);margin: 0px; padding: 0px; ">{{ user_name }}</span><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">&lt;/username&gt;</span><span style="color:rgb(0, 0, 0);margin: 0px; padding: 0px; "><br style="margin: 0px; padding: 0px; ">&nbsp; </span><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">&lt;/user&gt;</span><span style="color:rgb(0, 0, 0);margin: 0px; padding: 0px; "><br style="margin: 0px; padding: 0px; "></span><span style="color:rgb(0, 0, 136);margin: 0px; padding: 0px; ">&lt;/rsp&gt;</span></pre>
+
+<h1>Target</h1>
+
+Try to get him to favorite the video number 1337!<br>
+
+<h1>Available APIs</h1>
+
+<h2 style="text-align:left;">vimeo.test.login</h2>
+<div style="text-align:left;padding-left:20px;"><div style="text-align:left;padding-left:20px;">Is the user logged in?</div><h3 style="text-align:left;">Returns</h3><div style="text-align:left;"><pre style="text-align:left;border-left-color:rgb(204, 204, 204);background-color: rgb(243, 243, 243); border-width: medium medium medium 2px; border-style: none none none solid; padding: 10px 10px 10px 20px; ">&lt;user id="151542"&gt;
+   &lt;username&gt;ted&lt;/username&gt;
+&lt;/user&gt;</pre></div></div>
+
+<h2 style="text-align:left;">vimeo.videos.setFavorite</h2>
+<div style="text-align:left;padding-left:20px;"><div style="text-align:left;padding-left:20px;">Set a video as a favorite.</div><h3 style="text-align:left;">Parameters</h3><ul style="text-align:left;">
+<li style="text-align:left;"><span style="text-align:left;font-style:italic;color:rgb(139, 0, 0);">int</span>
+<span style="text-align:left;font-weight:bold;">video_id</span>
+<em style="text-align:left;">(required)</em>
+- Mark this video as a favorite.</li><li style="text-align:left;"><span style="text-align:left;font-style:italic;color:rgb(139, 0, 0);">boolean</span>
+<span style="text-align:left;font-weight:bold;">favorite</span>
+<em style="text-align:left;">(required)</em>
+- If this is "1", "true" or "yes," we'll set this as a favorite. Otherwise use "0", "false", "no."</li></ul><h3 style="text-align:left;">Returns</h3><div style="text-align:left;">This method returns an empty success response.<pre style="text-align:left;border-left-color:rgb(204, 204, 204);background-color: rgb(243, 243, 243); border-width: medium medium medium 2px; border-style: none none none solid; padding: 10px 10px 10px 20px; ">&lt;rsp stat="ok"&gt;&lt;/rsp&gt;</pre>
+</div></div>
