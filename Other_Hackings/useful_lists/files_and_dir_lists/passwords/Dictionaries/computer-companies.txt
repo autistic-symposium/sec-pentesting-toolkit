@@ -1,0 +1,28 @@
+###############################################################################
+# Some computer companies
+# ftp.cs.purdue.edu:/pub/pcert/dict/misc/various/
+###############################################################################
+apple
+at&t
+bbn
+borland
+cray
+dec
+digital
+encore
+gateway
+gould
+ibm
+microsoft
+next
+novell
+pyramid
+ridge
+sequent
+sgi
+sqnt
+sun
+tektronix
+unisys
+xerox
+zenith

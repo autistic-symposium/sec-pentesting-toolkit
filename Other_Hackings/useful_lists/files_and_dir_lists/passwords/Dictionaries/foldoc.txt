@@ -1,0 +1,7992 @@
+###############################################################################
+# from Denis Howe's Free On-line Dictionary of Computing: wombat.doc.ic.ac.uk
+###############################################################################
+'Snooze
+(TM)
+(c)
+*LISP
+*MOD
+-endian
+-oid
+-ware
+.bib
+.gz
+.oz
+.plan
+/dev/null
+1-2-3
+10BaseT
+120 reset
+1341
+16550
+1TBS
+2.PAK
+20-GATE
+2B1Q
+320xx
+386
+3Com
+3DO
+3GL
+4.2BSD
+431A
+473L Query
+486
+4GL
+51forth
+586
+6.001
+6120
+6502
+650x
+65816
+6800
+68000
+68030
+68040
+680x0
+68HC11
+802
+802.3
+80286
+8031
+80486
+8051
+822
+8805
+88open
+8N1
+903
+9PAC
+:-)
+<g>
+<gr&d>
+??
+@-party
+@Begin
+A
+A#
+A'UM
+A* search
+A-0
+A-language
+AADL
+AAP
+AAP DTD
+ABC
+ABCL/1
+ABCL/R
+ABCL/R2
+ABCL/c+
+ABEND
+ABI
+ABLE
+ABP
+ABSET
+ABSYS
+ACA
+ACCLAIM
+ACCU
+ACE
+ACIS
+ACK
+ACL
+ACM
+ACME
+ACOM
+ACOS
+ACP
+ACT ONE
+ACT++
+AD
+AD/Cycle
+ADAM
+ADAMO
+ADAPT
+ADD 1 TO COBOL GIVING COBOL
+ADDD
+ADELE
+ADES
+ADL
+ADM
+ADPCM
+ADS
+ADT
+ADVENT
+ADVSYS
+AE
+AED
+AEP
+AES
+AESOP
+AFAC
+AFAIK
+AFIPS
+AFJ
+AFK
+AFNOR
+AFS
+AGL
+AGORA
+AHDL
+AHPL
+AI
+AI koan
+AI-complete
+AIA
+AID
+AIDA
+AIDS
+AIDX
+AIFF
+AIMACO
+AIX
+AKC
+AKCL
+AKL
+AL
+ALADIN
+ALAM
+ALC
+ALCOR
+ALDES
+ALDiSP
+ALEC
+ALEF
+ALEPH
+ALF
+ALGEBRAIC
+ALGOL
+ALGOL 58
+ALGOL 60
+ALGOL 60 Revised
+ALGOL 68
+ALGOL 68-R
+ALGOL 68C
+ALGOL 68RS
+ALGOL 68S
+ALGOL C
+ALGOL D
+ALGOL N
+ALGOL W
+ALGOL X
+ALGOL Y
+ALGY
+ALIAS
+ALJABR
+ALLIANCE
+ALLOY
+ALM
+ALOHA
+ALP
+ALPAK
+ALPHA
+ALPS
+ALTAC
+ALTRAN
+AMBIT
+AMBIT/G
+AMBIT/L
+AMBIT/S
+AMBUSH
+AMD
+AMD Am2901
+AMD Am2903
+AMD Am2910
+AML
+AML/E
+AMP
+AMPL
+AMPLE
+AMPPL-II
+AMS
+AMTRAN
+ANCP
+ANDF
+ANL
+ANSA
+ANSI
+ANSI C
+ANSI Minimal BASIC
+ANSI Z39.50
+ANSI/SPARC Architecture
+ANTLR
+ANU
+ANU ML
+AOCE
+AOL
+AOS
+APA
+APAL
+APAREL
+APC
+APDL
+API
+APL
+APL2
+APLGOL
+APLWEB
+APPLE
+APPLOG
+APSE
+APT
+APX III
+AQL
+ARC
+ARCS
+ARES
+ARITH-MATIC
+ARL
+ARM
+ARM610
+ARM7
+ARM710
+ARM7500
+ARMM
+ARP
+ARPA
+ARPANET
+ARQ
+ART
+ARTSPEAK
+AS
+AS/400
+ASA
+ASCII
+ASCII art
+ASCIIbetical order
+ASDIMPL
+ASDL
+ASE
+ASF
+ASIC
+ASIS
+ASL
+ASL+
+ASM
+ASME
+ASN
+ASN.1
+ASP
+ASPECT
+ASPEN
+ASPIK
+ASPLE
+ASPOL
+ASSEMBLY
+ASSET
+AST Research
+ASTAP
+ASpecT
+AT&T
+AT-3
+ATA
+ATIS
+ATK
+ATLAS
+ATM
+ATOLL
+ATS
+AUI
+AUP
+AUTO-PROMPT
+AUTOCODER
+AUTOGRAF
+AUTOGRP
+AUTOMATH
+AVS
+AXIOM
+AXLE
+Abstract Syntax
+Accent
+Acceptable Use Policy
+Access
+Access Control List
+Access Protocol for Modems
+Acknowledgement
+Acorn Archimedes
+Acorn Computer Group
+Acorn Computers Ltd.
+Acorn RISC Machine
+Act1
+Act2
+Act3
+Actalk
+Actis
+Active Language
+Actor
+Actors
+Actra
+Actus
+AdLog
+Ada
+Ada 83
+Ada 9X
+Ada Software Repository
+Ada++
+Ada-O
+Ada/Ed
+Adaline
+Adamakegen
+Adaplex
+Adaptable User Interface
+Adaptive Communication Environment
+Adaptive Simulated Annealing
+Adaptor
+Address Resolution Protocol
+Aditi
+Administrative Domain
+Adobe
+Advanced
+Advanced RISC Machine
+Advanced Research Projects Agency
+Advanced Technology Attachment
+Aegis
+Aeolus
+Age
+Agent
+Alan Kay
+Alan Turing
+Alcool-90
+Aldat
+Aleph
+Alex
+Alexis
+Alfl
+Algorithm
+Alice
+Alpha
+Alpha AXP 21164
+Alphard
+Aluminum Book
+Alvey
+Amber
+Amdahl
+American
+American Publishers
+Amiga
+Amiga E
+Amoeba
+Amulet
+Andorra Kernel
+Andorra-I
+Andorra-Prolog
+Andrew File System
+Andrew Message System
+Andrew Project
+Andrew Toolkit
+Angel
+Animus
+Anna
+Apollo
+AppKit
+Apple
+Apple Computer Inc.
+Apple II
+Apple Macintosh
+AppleScript
+AppleTalk Package
+Applesoft BASIC
+Appletalk
+Application Binary Interface
+Application Control Architecture
+Application Integration
+Application Portability
+Application Program Interface
+Application Protocol Data Unit
+Application Service Element
+Application Visualisation System
+Application environment specification
+Applications
+Applications Environment
+April Fool's Joke
+Arcade
+ArchBSD
+Archimedes
+Architect
+Architecture
+Arctic
+Argus
+Ariel
+Artifex
+Artificial Intelligence Lab
+Ashmedai
+Aspirin
+Assembler
+Associates
+Association
+Association for Computational Linguistics
+Association for Computing
+Association for Progressive Communications
+Association of
+Astral
+Asynchronous Transfer Mode
+AtFS
+Atari
+Athena
+Atherton
+Atlas Autocode
+Attribute
+Audio IFF
+Aurora
+Austin
+Auto Idle
+AutoCAD
+Autocode
+Autodesk Inc.
+Autolisp
+Automatic Repeat Request
+Automatische
+Autonomous System
+Autonomous System Number
+Autopass
+Autostat
+Avalon/C++
+Avalon/Common LISP
+Avon
+B-0
+B-LINE
+B-tree
+BABEL
+BABYLON
+BACAIC
+BAD
+BAL
+BALGOL
+BALITAC
+BALM
+BAP
+BASIC
+BASIC AUTOCODER
+BASIC V
+BBC
+BBC Microcomputer
+BBC Networking Club
+BBL
+BBN
+BBS
+BC
+BC NELIAC
+BCD
+BCL
+BCNU
+BCPL
+BCS
+BDL
+BEA
+BEGL
+BELL
+BER
+BETA
+BFI
+BGP
+BIBOP
+BIFF
+BIG-LAN
+BIND
+BIOR
+BIOS
+BIP
+BIPS
+BISDN
+BITNET
+BJC4000
+BLAZE
+BLAZE 2
+BLISS
+BLISS-10
+BLISS-11
+BLISS-32
+BLOB
+BLOX
+BLT
+BMASF
+BMDP
+BMF
+BMWF
+BNC
+BNF
+BNR Pascal
+BNR Prolog
+BOCS
+BOEING
+BOF
+BOOTP
+BOS
+BOSS
+BPS
+BQS
+BRB
+BRI
+BRIDGE
+BRS
+BRUIN
+BSD
+BSI
+BSL
+BSP
+BSS
+BTW
+BUAF
+BUAG
+BUGSYS
+BWQ
+Babbage
+Bachman
+Back N
+Backbone
+Backus Normal Form
+Backus-Naur
+Bad Thing
+Baroque
+Basic
+Basic COBOL
+Basic Encoding Rules
+Basic Input/Output System
+Basic JOVIAL
+Basic Rate
+BeBOP
+Beaver
+Bedrock
+Bell Communications Research, Inc
+Bell Laboratories
+Bell Labs
+Bellcore
+Berkeley
+Berkeley 4.2
+Berkeley FP
+Berkeley Internet Name Domain
+Berkeley Logo
+Berkeley Network
+Berkeley Quality Software
+Berkeley System
+Berkeley Unix
+Bernstein condition
+Bertrand
+Bertrand Meyer
+Berzerkeley
+BiCapitalisation
+BibTeX
+Big
+Big Gray Wall
+Big Red Switch
+Big Room
+Bigloo
+Bill Gates
+Bill Joy
+BinHex
+BinProlog
+Binary
+Binhex 4.0
+Bird-Meertens
+Birds Of a Feather
+Bison
+Bison++
+Bletchley Park
+Block Started by
+Bloggs Family, the
+Blosim
+Blue
+Blue Book
+Blue Glue
+Bob
+Boehm B.
+Bohr bug
+Bolt, Beranek and Newman Inc.
+Booch
+Bookreader
+Bookviewer
+Boolean
+Boolean algebra
+Booster
+Border Gateway Protocol
+Borland
+Bourne shell
+Boxer
+Boycott Apple
+Brazil
+Bridgetalk
+Brilliant
+British Broadcasting Corporation
+Brooks's Law
+Bulletin Board
+Burge's Language
+Burroughs Corporation
+Busy
+Butterfly Common LISP
+Butterfly Scheme
+Byte
+C
+C (ANSI)
+C Beautifier
+C Programmer's
+C shell
+C with Classes
+C*
+C++
+C++ 2.0
+C++ 2.1
+C++Linda
+C++SIM
+C+@
+C-10
+C-BC
+C-Interp
+C-Linda
+C-Prolog
+C-Refine
+C-Scheme
+C/ATLAS
+C5
+CACI
+CACM
+CAD
+CAD/CAM
+CADD
+CADET
+CADRE
+CAE
+CAF
+CAFE
+CAGE
+CAIS
+CAIS-A
+CAJOLE
+CAL
+CALS
+CAMAL
+CAMIL
+CAML
+CAP
+CAPI
+CARDS
+CAS 8051
+CASE
+CASE SOAP III
+CASE framework
+CASE tools
+CASE*Method
+CAST
+CAT
+CATE
+CATO
+CAYLEY
+CAiSE
+CBASIC
+CBN
+CBV
+CC++
+CCD
+CCIRN
+CCITT
+CCL
+CCLU
+CCP
+CCR
+CCS
+CCSP
+CCalc
+CD
+CD ROM
+CD-ROM
+CD-i
+CDA
+CDC
+CDD/Plus
+CDDI
+CDE
+CDF
+CDIF
+CDL
+CDM
+CDMA
+CDP1802
+CDPD
+CDROM
+CDS
+CEEMAC+
+CEI-PACT
+CELIP
+CELLAS
+CELLSIM
+CELP
+CEN
+CENELEC
+CEPT
+CERN
+CERNLIB
+CERT
+CESP
+CESSL
+CFD
+CFP
+CFP92
+CGGL
+CGI
+CGM
+CGOL
+CHARITY
+CHARM
+CHARM++
+CHARYBDIS
+CHASM
+CHEOPS
+CHI
+CHILI
+CHILL
+CHIP
+CHIP-48
+CHIP-8
+CHISEL
+CHOCS
+CHOP
+CI$
+CICERO
+CICS
+CID
+CIEL
+CIF
+CIL
+CIM
+CIMS
+CINT92
+CIP-L
+CIRCAL
+CIS
+CISC
+CISI
+CITRAN
+CIX
+CL
+CLAM
+CLASP
+CLEAR
+CLEO
+CLHEP
+CLIP
+CLIPS
+CLISP
+CLIX
+CLM
+CLOS
+CLP
+CLP(R)
+CLP(sigma*)
+CLP*
+CLR
+CLU
+CLUT
+CLX
+CLiCC
+CLiP
+CLtL1
+CLtL2
+CM
+CMA
+CMAY
+CMC
+CMIP
+CMIS
+CML
+CMOS
+CMS
+CMS-2
+CMU
+CMU CL
+CMU Common Lisp
+CMVC
+CMYK
+CMZ
+CNAME
+CNC
+CNET
+CNI
+CNRI
+CO2
+COALA
+COBOL
+COBOL fingers
+COBOL-1961 Extended
+COCOMO
+CODIL
+COFF
+COGENT
+COGO
+COHESION
+COIF
+COLASL
+COLD
+COLD-K
+COLINGO
+COM
+COMAL
+COME FROM
+COMIS
+COMIT
+COMIT II
+COMMEN
+COMNET
+COMPASS
+COMPILER
+COMPL
+COMPREHENSIVE
+COMPROSL
+COMSL
+COMTRAN
+CONCUR
+CONIC
+CONNIVER
+CONSTRAINTS
+CONVERT
+COOL
+CORAL
+CORAL 66
+CORBA
+CORBIE
+CORC
+CORREGATE
+CORTL
+COS
+COSE
+COSINE
+COSS
+COWSEL
+CP
+CP/M
+CPI
+CPL
+CPS
+CPSR
+CPU
+CPU Info Center
+CPU Wars
+CParaOps5
+CRC
+CREN
+CREW PRAM
+CRISP
+CRL
+CRLF
+CROSSTABS
+CROW PRAM
+CRT
+CS-4
+CS-Prolog
+CS/PCode
+CS/QCode
+CSCW
+CSL
+CSLIP
+CSM
+CSMA/CD
+CSMP
+CSNET
+CSO
+CSP
+CSP-S
+CSP/80
+CSP/k
+CSPS
+CSS/II
+CSSA
+CSSL
+CSTools
+CSU
+CTC
+CTI
+CTL
+CTSS
+CTY
+CUA
+CUCH
+CUL
+CUPID
+CUPL
+CUSI
+CVS
+CWI
+CWIC
+CWIS
+CWeb
+CYBIL
+CYCL
+Cadence Design
+Calc
+Calculus of Communicating Systems
+Calendar API
+Calendar Application Programming Interface
+Caliban
+Calico
+California State University San Marcos
+Call-with-current-continuation
+Caller ID
+Cambridge Lisp
+Camelot
+Caml Light
+Campus Wide Information System
+Candle
+Cantor
+Captain Abstraction
+Career Limiting Move
+Carnegie Mellon University
+Cartesian product
+Case Integration Services
+Cecil
+Cedar
+Cellang
+Cello
+Cellular
+Cellular Digital Packet
+Cente
+Ceres
+Charge-Coupled Device
+Charme
+Checkout Test language
+Chen
+Chernobyl packet
+Chicago
+Chimera
+Chinese Army technique
+Chop
+Chorus
+Christmas tree
+Christmas tree packet
+Church integer
+Church of the SubGenius
+Church-Rosser
+Cigale
+Cinderella Book
+Cisco Sytems Inc.
+CityScape
+Clarion
+Class
+Class Oriented
+Class-Relation Method
+Classic C
+Classic-Ada
+Clauses
+Clean
+Cleanroom
+Clipper
+Clos network
+Cluster 86
+Co-NP
+CoCoA
+Coalition for Networked Information
+Cocktail
+Coco/R
+Cocol
+Codd's First
+Code 2.0
+CodeCenter
+Cogent Prolog
+Cognitech
+Coherent
+Coherent Interface
+Colossus
+Columbia
+Comdex
+Comma
+Commercial
+Commercial Internet eXchange
+Commodore Business Machines
+Common
+Common Communication Services
+Common Gateway Interface
+Common LISP Object System
+Common LISP in Parallel
+Common Lisp
+Common Management
+Common Management Information Protocol
+Common Object File Format
+Common Object Model
+Common Objects
+CommonLoops
+Commonwealth Hackish
+Communicating Functional
+Communicating Sequential Processes
+Communications
+Communications Corporation
+Communications of the
+Compact COBOL
+Compact Disc
+Compact Disc Read-Only Memory
+Compaq Computer Corporation
+Compas Pascal
+Compatibility Standard
+Compel
+Compiler
+Compiler Construction
+Compiler Language for
+Compiler Target Language
+Compiler-Compiler
+Compiler-Construction Tool Set
+Complex Instruction Set Computer
+Component Integration Laboratories
+Comprehensive TeX Archive Network
+Compu$erve
+CompuServe Corporation
+CompuServe Information
+Compulink
+Compusult Ltd.
+Computational Adequacy
+Computer
+Computer + Science NETwork
+Computer Aided
+Computer Aided Design
+Computer Aided Engineering
+Computer Animation Movie Language
+Computer Compiler
+Computer Design Language
+Computer Emergency
+Computer Graphics
+Computer Professionals for
+Computer Supported
+Computer System Interface
+Computing
+Computing Environment
+ConC
+Concert/C
+Concrete
+Concrete Data Structure
+Concurrent
+Concurrent C
+Concurrent C++
+Concurrent CLU
+Concurrent Clean
+Concurrent Euclid
+Concurrent LISP
+Concurrent ML
+Concurrent Object-Oriented Language
+Concurrent Pascal
+Concurrent Prolog
+Concurrent Scheme
+ConcurrentSmalltalk
+ConflictNet
+Connection Machine LISP
+Conservation Society
+Consortium
+Consortium for
+Constraint Handling In Prolog
+Constraint Logic
+ConstraintLisp
+Consul
+Contextually Communicating Sequential
+Continuation Passing
+Control Systems
+Conversational LISP
+Conway's Law
+CooL
+Cooperative Work
+Coordinating Committee for
+Copper
+Core War
+Core War Society
+Core Wars
+Cornell List
+Cornell Theory Center
+Coroutine Pascal
+Corporation
+Corporation for
+Corporation for Research and Educational Networking
+Correlatives and Conversions
+Cortex
+Coursewriter III
+CrApTeX
+Cray Research Inc.
+Cray instability
+Crisis Software
+Crypt Breakers
+Crystal
+Cshell
+Cube
+Cuckoo's Egg
+Culler-Fried System
+Customer Information Control System
+Cy486SLC
+CyberZine
+Cyclo
+Cygnus Tcl Tools
+CypherText
+Cyrix
+D-type
+D. C. Power Lab
+DAA
+DACAPO
+DACNOS
+DACTL
+DAG
+DAISY 201
+DANTE
+DAP Fortran
+DAPLEX
+DARE
+DARPA
+DAS
+DASD
+DASE
+DASL
+DATA-TEXT
+DATABUS
+DATACODE I
+DATATRIEVE
+DAU
+DAZIX
+DB
+DB2
+DBA
+DBC
+DBH
+DBMS
+DBPL
+DBRI
+DC
+DCA
+DCALGOL
+DCDL
+DCE
+DCG
+DCL
+DCT
+DD
+DDE
+DDE Manager
+DDIF
+DDL
+DDM
+DDN
+DDT
+DEA
+DEACON
+DEADBEEF
+DEC
+DEC Wars
+DECT
+DECdesign
+DECdns
+DEChead
+DECmate
+DECnet
+DECstation
+DECwindows
+DECwrite
+DED
+DEK
+DELTASE
+DES
+DESQview
+DESY
+DETAB
+DETOL
+DEX
+DFA
+DFC
+DFD
+DG/L
+DGL
+DHCP
+DIALOG
+DIAMAG
+DIANA
+DIBOL
+DIGITAL Standard MUMPS
+DIMATE
+DIN
+DINO
+DIP
+DISA
+DL/1
+DL/I
+DLG
+DLL
+DLM
+DLP
+DMAD
+DMALGOL
+DME
+DML
+DNF
+DNS
+DOCUS
+DOE
+DOF
+DOL
+DOMF
+DOOM
+DOORS
+DOS
+DOS Protected Mode Interface
+DOUGLAS
+DOW
+DP
+DPB
+DPL
+DPL-82
+DPMI
+DPS
+DPer
+DRAGON
+DRAGOON
+DRAM
+DRECNET
+DROOL
+DRUCO I
+DS level
+DS-0
+DS-1
+DS-3
+DSA
+DSE
+DSEE
+DSL
+DSM
+DSP
+DSP/C
+DSP32 Assembly Language
+DSP56000
+DSP56001
+DSPL
+DSS
+DSSSL
+DSU
+DTALGOL
+DTD
+DTE
+DTLS
+DTMF
+DTP
+DTS
+DUA
+DUAL-607
+DUEL
+DV cartridge
+DVI
+DWIM
+DX4
+DXF
+DYANA
+DYNAMO
+DYSAC
+DYSTAL
+Daisy
+Darms
+Dartmouth BASIC
+Darwin
+Data
+Data Communications Equipment
+Data Encryption
+Data Encryption Key
+Data Encryption Standard
+Data Flow Diagram
+Data Interchange Format
+Data Model
+Data Parallel Haskell
+Data Terminal Equipment
+Data Unit
+Data/BASIC
+DataViews
+DataVis
+Datacom
+Datamation
+Dataparallel-C
+David Turner
+De Bruijn notation
+DeMarco
+Death Star
+Decus cpp
+Defense Advanced Research
+Defense Advanced Research Project Agency
+Defense Communications Agency
+Defense Data Network
+Defense Data Network Network Information Center
+Defense Information
+Definition Language
+Delirium
+Dell Computer Corporation
+Delta
+Delta-4
+Delta-Prolog
+Demand driven
+Demeter
+Demon Internet
+Denis Howe
+Dennis Ritchie
+Department of Defense Network
+Description Language
+Descriptive Top-Level Specification
+Design Language
+Design System language
+Desktop
+Desktop Environment
+Devil Book
+Dhrystone
+Diamond
+Dictionary APL
+Dictionary of
+Digex
+Digicom
+Digital Equipment Corporation
+Digital Express Group, Inc.
+Digital Signal Processing
+Dijkstra's guarded command language
+Dilbert
+Dimension
+DinnerBell
+Direct Connection
+Direct Memory Access
+Direct Slot
+Directory Access Protocol
+Directory System
+Directory User Agent
+Dirt
+Discordianism
+Disease
+Disiple
+Disjunctive Normal Form
+Disk Operating
+Dislang
+Display PostScript
+Dissociated Press
+Distributed Computing Environment
+Distributed Data Interface
+Distributed Eiffel
+Distributed Processes
+Distributed Smalltalk
+Distribution
+DoD
+DoD-1
+DoD-STD-2167A
+DoD-STD-2168
+Doc
+Document
+Document Image Processing
+Document Style Semantics and
+Document Type Definition
+Domain Name Server
+Domain Name System
+Don't do that, then!
+Donald Knuth
+Down List
+Dragon Book
+Drawing eXchange Format
+Duff's
+Durra
+Dvorak
+Dylan
+Dylperl
+Dynamic Data Exchange
+Dynamic Host Configuration Protocol
+Dynamically Linked Library
+E-Forth
+EAG
+EAPROM
+EARN
+EASE II
+EASIAC
+EAST
+EASY FOX
+EBASIC
+EBCDIC
+EBNF
+EC++
+ECAP II
+ECFA
+ECHT
+ECIP2
+ECIS
+ECL
+ECLIPSE
+ECMA
+ECOOP
+ECP
+ECRC
+ECRC-Prolog
+ECSL
+ECSP
+ECSS II
+ECSSL
+EDA
+EDI
+EDIF
+EDIF200
+EDL
+EDMS
+EDS+
+EDU
+EEMA
+EEPROM
+EER
+EFF
+EFL
+EGP
+EHTS
+EIA
+EISA
+EL1
+ELF
+ELI
+ELISP
+ELIZA effect
+ELLA
+ELLIS
+ELMAGUIDE
+ELMAMETA
+ELP
+ELSIE
+EM-1
+EMA
+EMD Enterprises, Inc.
+EMDIR
+EML
+EMM
+EMM386
+EMS
+EMX
+ENIAC
+ENQ
+EOF
+EOL
+EOU
+EOUG
+EPCS
+EPILOG
+EPL
+EPROS
+EPS
+EPSILON
+EPSIMONE
+EQLOG
+EQLog
+ER
+ERA
+ERC
+ERCIM
+ERD
+EREW PRAM
+ERFPI
+ERGO-Shell
+ES-1
+ESA
+ESCAPE
+ESDI
+ESF
+ESI
+ESL
+ESLPDPRO
+ESML
+ESP
+ESPOL
+ET
+ET++
+ETC
+ETHER
+ETM
+ETSI
+EULER
+EUUG
+EUnet
+EWOS
+EXAPT
+EXCH
+EXE
+EXEC
+EXEC2
+EXODUS
+EXOS
+EXTRA
+EXUG
+EZ
+Eagle
+Early PL/I
+Ease
+Easter
+Easter egg
+Ebone
+Echidna
+Eckert-Mauchly Computer Corporation
+Econet
+EdML
+Eden
+Edinburgh Prolog
+Edinburgh SML
+Edison
+Eh
+Eiffel
+Eiffel 3
+Eiffel source
+El Camino Bignum
+Elan
+Electronic Data Interchange
+Electronic Frontier Foundation
+Eli Compiler Construction System
+Elk
+Ellemtel
+Ellie
+Emacs
+Emacs Lisp
+Emerald
+Emitter Coupled Logic
+Encapsulated PostScript
+End Of Line
+Engineering
+Engineering Environment
+Engineering and Planning Group
+English
+Ente
+Entity-Relationship
+Entity-Relationship diagram
+Environment
+EqL
+Eqn
+Equel
+Equivalence class
+Equivalence relation
+Eric Conspiracy
+Eris
+Erlang
+Esprit
+EstPC
+Estelle
+Esterel
+EtherGate
+EtherTalk
+Ethernet
+Ethernet address
+Ethernet meltdown
+EuLisp
+Euclid
+Eudora
+Euphoria
+Eureka
+Eureka step
+Eurisko
+Euro-ISDN
+EuroNet
+Eurocard
+EuropaNET
+European Telecommunications Standards Institute
+Eva
+Evaluation strategy
+Exabyte
+Examiner
+Excelan
+Excelerator
+Expanded Memory
+Expanded Memory Specification
+Experimental Physics
+Experimental Programming Language
+Expert Systems Ltd.
+Experts Group
+Express
+Extended
+Extended ALGOL
+Extended Architecture
+Extended C++
+Extended Industry-Standard
+Extended ML
+Extended Pascal
+Extended Tiny
+Extensible database
+Exterior Gateway
+Extracting Archive
+F+L
+F-Logic
+F-code
+F68K
+FAC
+FACT
+FAD
+FAIR
+FALSE
+FAP
+FAQ
+FAQ list
+FAQL
+FARNET
+FASBOL
+FASE
+FAST
+FATMEN
+FC
+FCP
+FDDI
+FDMA
+FDT
+FEA
+FEL
+FFP
+FFT
+FGHC
+FGL
+FGL+LV
+FGRAAL
+FIDIL
+FIDO
+FIFO
+FIMS
+FIPS
+FISH queue
+FITNR
+FITS
+FIX
+FIXME
+FL
+FLAIR
+FLAP
+FLEX
+FLIC
+FLIP
+FLIP-SPUR
+FLOP
+FLOPS
+FLOW-MATIC or FLOWMATIC
+FLPL
+FLUB
+FM
+FMPL
+FMQ
+FMV
+FN tunnelling
+FNAL
+FNC
+FOAD
+FOAF
+FOCAL
+FOCL
+FOCUS
+FOD
+FOIL
+FOLDOC
+FOOL
+FOOP
+FORC
+FORM
+FORMAC
+FORMAL
+FORMAT-FORTRAN
+FORML
+FORTH
+FORTRAN
+FORTRAN 66
+FORTRAN 77
+FORTRAN I
+FORTRAN II
+FORTRAN III
+FORTRAN IV
+FORTRAN V
+FORTRAN VI
+FORTRAN-Plus
+FORTRANSIT
+FORTRUNCIBLE
+FORWISS
+FOSIL
+FP
+FP/M
+FP2
+FPA
+FPGA
+FPU
+FQDN
+FQL
+FRANK
+FRED
+FRINGE
+FRL
+FRMT-FTRN
+FSF
+FSL
+FSM
+FSP
+FTAM
+FTP
+FTP Software, Inc.
+FTP archive
+FTP by
+FUBAR
+FUD
+FUD wars
+FUDGIT
+FUNLOG
+FUSE
+FUSION
+FWIW
+FX-87
+FX-90
+FYA
+FYI
+FYI4
+Facile
+Fairchild F8
+Fast Fourier Transform
+Fast Packet
+Fast SCSI
+Federal Information
+Federal Information Exchange
+Federal Networking Council
+Feed Control Character
+Feel
+Ferranti F100-L
+Fetch
+Fiber Distributed Data Interface
+FidoNet
+Fifth
+Fight-o-net
+File Attach
+File Composition
+File Request
+File Transfer Protocol
+Filtabyte
+Finagle's Law
+Finite State Machine
+Firmware
+Fish
+Flavors
+Fleng
+Flex 2
+Flex++
+Floating Point Unit
+Floating-Point
+Floating-Point SPECbaseratio
+Floating-Point SPECrate
+Floating-Point SPECratio
+Floating-Point Unit
+Floppy
+Flops
+Flow
+Flynn's taxonomy
+Flyspeck 3
+Fools' Lisp
+Foonly
+For Your Information
+Force
+ForceOne
+ForceTwo
+Foresight
+Form
+Formal Description
+Formalism
+Format
+Formes
+Formula ALGOL
+Forsythe
+Forth
+Fortran 90
+Fortran D
+Fortran M
+Fortran-Linda
+Fortrash
+Foundation
+Fourier transform
+Fowler-Nordheim tunneling
+Fox Software
+FoxBASE+
+FoxPRO
+Frame Relay
+FrameKit
+FrameMaker
+Framework
+Framework 4
+Franz Lisp
+Fred
+Free
+FreeHEP
+Freenet
+Fresco
+Fresh
+Friend
+Frolic
+Fuel-can
+Fugue
+Fun
+Function Graph
+FunnelWeb
+G-Code
+G2
+G3
+GA
+GADS
+GAIA
+GAMMA
+GAN
+GANDALF
+GAP
+GAPLog
+GARP
+GASP
+GAT
+GATE
+GBIP
+GC
+GCC
+GCL
+GCOS
+GCR
+GCT
+GDB
+GDBPSK
+GDMO
+GDPL
+GEA
+GEANT
+GECOM
+GECOS
+GEI
+GEN-X
+GEORGE
+GEPURS
+GEST
+GFR
+GHC
+GIF
+GIGO
+GIM-1
+GIN
+GINA
+GIP
+GIPS
+GIRL
+GKS
+GKS-3D
+GL
+GLASS
+GLB
+GLOS
+GLOW
+GLS
+GLU
+GMAP
+GMD
+GMD Toolbox for
+GNAT
+GNN
+GNU
+GNU BC
+GNU C
+GNU DC
+GNU E
+GNU Emacs
+GNU General Public License
+GNU Smalltalk
+GNU assembler
+GNU awk
+GNU mirror site
+GNU sed
+GNU superoptimiser
+GNUMACS
+GNUS
+GOL
+GOM
+GOOD
+GOSIP
+GOSMACS
+GOSPL
+GP
+GPIB
+GPL
+GPM
+GPSS
+GPV
+GPX
+GRAAL
+GRAF
+GRAIL
+GRAIN
+GRAM
+GRAPPLE
+GRAS
+GRASP/Ada
+GRASPIN
+GRG
+GRIB
+GRIND
+GRIP
+GSBL
+GSL
+GSM
+GSPL
+GT/SQL 
+GUI
+GUIDE
+GVL
+GW-Ada
+GW-BASIC
+GWHIS
+GWM
+Gabriel
+Gaelic
+Galaxy
+Galileo
+Gambit
+Gargoyle
+Garnet
+Gateway 2000
+Gedanken
+General
+General Magic
+General Public Licence
+General Public Virus
+General Purpose Graphic Language
+Genesia
+Genken
+Gentleman's Portable Coroutine System
+Gerald
+Gerald Sussman
+Get a
+Get a real computer!
+Ginger
+Glammar
+Glasgow
+Glish
+Glisp
+Global Network Navigator
+Glypnir
+Gnome Computers
+Go
+Godzillagram
+Goedel
+Gofer
+Good Thing
+Gopher
+Gopher client
+Gopher object type
+Gosperism
+Government OSI Profile
+Grapes
+Grapevine
+Graphic ALGOL
+Graphic Language
+Graphical Kernel System
+Graphical User Interface
+Graphics Interchange Format
+Graphics Language
+Gray
+Great Renaming
+Great Runes
+Great Worm
+Green
+Green Book
+Green Book CD-ROM
+Green's Theorem
+Greystone Technologies
+Group
+Group Code Recording
+Groupware
+Guarded Horn
+Guide
+Gypsy
+H.261
+HAKMEM
+HAL/S
+HALGOL
+HALMAT
+HASL
+HBOOK
+HCF
+HCI
+HCLP
+HCPRVR
+HCS
+HDF
+HDFL
+HDL
+HDLC
+HDM
+HDSL
+HDTV
+HELP
+HENSA
+HEP
+HEPDB
+HEPVM
+HEPiX
+HEPnet
+HEQS
+HERA
+HERAKLIT
+HHCP
+HHOJ
+HHOK
+HHOS
+HIBOL
+HIGZ
+HINT
+HIPPI
+HISTORIAN
+HLISP
+HLL
+HOL
+HOL-88
+HOL-90
+HOL-UNITY
+HOOD
+HOOK
+HOS-STPL
+HOTT
+HP
+HP VEE
+HP-GL
+HP-GL/2
+HP-SUX
+HP-UX
+HPCC
+HPCode-Plus
+HPF
+HPGL
+HPL
+HPLOT
+HPPI
+HPcode
+HQX
+HSL-FX
+HSV
+HTML
+HTML+
+HTTP
+HTTP/1.0
+HUGO
+Hacking X for
+Hackintosh
+Half-duplex
+Hanlon's Razor
+Hardware
+Harvest C
+Haskell
+Haskell B
+Haskell Compiler
+Haskell Curry
+Hebbian
+Helen Keller mode
+Helix
+Hermes
+Hesiod
+Hewlett Packard
+Hewlett-Packard
+HiLog
+HiPAC
+High Performance Computing and
+High Performance Fortran
+High Performance Parallel
+Hitachi 6309
+Hoare powerdomain
+Hobbit
+Honeywell-800 Business Compiler
+Hope
+Hope+
+Hope+C
+Hopfield
+Horn clause
+Hubnet
+Huffman coding
+Human Computer
+Human-Computer Interaction
+Human-Computer Interface
+Hurd
+HyTime
+Hybrid
+Hyper-C
+Hyper-Man
+Hyper-Text Transfer
+HyperBase
+HyperCard
+HyperNeWS
+HyperSPARC
+HyperTalk
+Hyperscript
+Hyperstrict
+Hypertext
+Hypertext Transfer Protocol
+Hytelnet
+I
+I didn't change anything!
+I see
+I-APL
+I-CASE
+I-D
+IAB
+IAD
+IAL
+IAM
+IANA
+IAW
+IBEX
+IBM
+IBM 2741
+IBM PC
+IBM PC AT
+IC Prolog II
+IC-Prolog
+ICAM
+ICBM
+ICE
+ICES
+ICETRAN
+ICI
+ICMP
+ICSI
+ICWS
+IDAMS
+IDE
+IDEA
+IDEAL
+IDEF
+IDL
+IDMS
+IDOL
+IDS/I
+IDSS
+IEC
+IEEE
+IEEE 1076
+IEEE 488
+IEEE 802.3
+IEEE 802.5
+IEF
+IEN
+IEPG
+IESG
+IETF
+IF1
+IF2
+IFAC
+IFDL
+IFIP
+IFP
+IFX
+IGC
+IGES
+IGL
+IGP
+IHS
+IIDMS/R
+IINREN
+IIS
+IIT
+IITF
+IITRAN
+ILIAD
+ILISP
+ILLIAC
+ILOC
+IMHO
+IMP
+IMR
+IMS
+IMS 6100
+IMSE
+INFN
+INGRES
+INRIA
+INSIGHT
+INTCODE
+INTELLECT
+INTERACTIVE
+INTERCAL
+INTERCOM
+INTERLINK
+IP
+IP Service
+IP address
+IPA
+IPC
+IPE
+IPL
+IPS
+IPSE
+IPX
+IQ
+IQL
+IR
+IRC
+IRDATA
+IRDS
+IRIS
+IRIX
+IRL
+IRQ
+IRSG
+IRTF
+IRUS
+IS
+IS-IS
+ISA
+ISAM
+ISBL
+ISDE
+ISDN
+ISE
+ISEE
+ISETL
+ISF
+ISIS
+ISL
+ISLisp
+ISO
+ISO 8807
+ISO 9000
+ISO Development
+ISO Pascal
+ISO seven layer model
+ISOC
+ISODE
+ISP
+ISPBX
+ISPL
+ISPS
+ISTAR
+ISV
+ISWIM
+IT
+ITHACA
+ITS
+ITU
+ITU-T
+IVTRAN
+IVY
+IWBNI
+IXI Limited
+IYFEG
+Ibpag2
+Iburg
+Icon
+Iconicode
+Id
+Id Nouveau
+Idenifier
+If you want X, you know where
+Ilog Solver
+Imago Europe plc
+Imago On-line
+Imminent Death Of The
+Ina Jo
+Inc.
+Incremental Prototyping Technology for Embedded Realtime Systems
+Independent Graphical User Interface
+Inexpensive Disks
+Infinite-Monkey Theorem
+Info BASIC
+Infobahn
+Informatics Corporation
+Information
+Information Algebra
+Information Builders
+Information Center
+Information Engineering Facility
+Information Management
+Information Management System
+Information Processing
+Information Services
+Information Systems Factory
+Information eXchange
+Informix
+Inglish
+InnovAda
+Innovation
+Input
+Institute for Global
+Institute of Electrical and Electronics Engineers
+Instruction Multiple Data
+Instrument Digital Interface
+Instruments
+Integer SPECbaserate
+Integer SPECbaseratio
+Integer SPECrate
+Integer SPECratio
+Integrated Drive Electronics
+Integrated Information Technology
+Integrated Services Digital
+Intel
+Intel 4004
+Intel 4040
+Intel 8008
+Intel 80186
+Intel 80188
+Intel 80386
+Intel 80386SX
+Intel 80486
+Intel 8080
+Intel 8085
+Intel 8086
+Intel 8088
+Intel Literature
+InterBase
+InterNIC
+InterViews
+Interactive Data Language
+Interactive Development Environments
+Interactive Software
+Interagency Interim National Research and Education
+Interconnect
+Interconnection
+Intercontinental Research Networks
+Interface
+Interface Definition Language
+Interface Description
+Interface Message Processor
+Interior Gateway Protocol
+Interlan
+Interleaf
+Interlisp
+Interlisp-10
+Interlisp-D
+Intermedia
+Intermedia Interchange
+Intermediate Programming Language
+Intermediate System
+Intermediate System-Intermediate System
+Intermetrics, Inc.
+Internal Translator
+International
+International Business Machines
+International Federation for Information
+International Organisation for Standardisation
+International Organization for Standardization
+International Telecommunications Union
+Internet
+Internet Adapter
+Internet Architecture Board
+Internet Assigned Numbers Authority
+Internet Control Message Protocol
+Internet Engineering Steering Group
+Internet Engineering Task Force
+Internet Experiment Note
+Internet Monthly Report
+Internet Protocol
+Internet Registry
+Internet Relay Chat
+Internet Research Steering
+Internet Research Task Force
+Internet Society
+Internet Worm
+Internet address
+Internet-Draft
+Internetwork Packet eXchange
+Internex Online
+Interpress
+Intersil
+Intersil 6100
+Intrinsics
+Intrusion Countermeasure Electronics
+Iota
+Iris
+Iron
+Ironman
+Irvine Research Unit in Software
+Isabelle
+Isabelle-92
+Isabelle-93
+Iterative deepening
+Ivan
+Ivan Sutherland
+Iverson's Language
+J. Random
+J. Random Hacker
+J3
+J73
+JACAL
+JANET
+JAZ
+JAZELLE
+JCL
+JCS-13
+JEAN
+JEDR
+JFCL
+JIPS
+JOOP
+JOSS
+JOVIAL
+JPEG
+JPL
+JPLDIS
+JRL
+JRN
+JRST
+JS
+JSA
+JTB
+JTC
+JTC1/SC24
+JTS
+JaM
+Jabber
+Jackson method
+Jade
+Janus
+Jargon file
+Jerry Sussman
+Jersey
+John McCarthy
+Joint Academic NETwork
+Joint Photographic
+Jossle
+Joyce
+Jughead
+Juno
+Jym
+K&R
+K5
+KA9Q
+KAOS
+KAP
+KBMS
+KBS
+KCL
+KEE
+KERMIT
+KFX
+KIBO
+KIPS
+KIS
+KISS
+KISS Principle
+KL-ONE
+KL0
+KL1
+KMODEL
+KMS
+KOMPILER
+KR
+KRC
+KRL
+KRS
+KRYPTON
+KSL
+KUIP
+Kaleidoscope
+Kali
+Kamin's
+Karel
+Keldysh Institute of Applied Mathematics
+Ken Thompson
+Kerberos
+Kernel Parlog
+Kevo
+KeyNote
+Kid
+Klerer-May System
+Knights of the
+Knowbot Information Service
+Knowledge Management
+Knowledge Systems Laboratory
+Knuth
+Kohonen
+Konrad Zuse
+Korn Shell
+Kyoto Common Lisp
+Kyoto Common Lisp (AKCL).
+L&O
+L0
+L2 cache
+L6
+LADY
+LAMBDA
+LAMINA
+LAMPF
+LAN
+LANCE
+LANL
+LAP
+LAP4
+LAPB
+LAPD
+LAPM
+LAPSE
+LARCH/CLU
+LAU
+LAURE
+LAVA
+LAX
+LBE
+LBL
+LCC
+LCD
+LCF
+LCL
+LCS
+LDB
+LDL
+LDL1
+LDP
+LDT
+LE/1
+LEAF
+LEAP
+LECOM
+LEDA
+LEGOL
+LEP
+LER
+LERP
+LEVEL5 OBJECT
+LG
+LGDF
+LGEN
+LGN
+LIDO
+LIFE
+LIFIA
+LIGHT
+LIM EMS
+LIMDEP
+LIMP
+LINGOL
+LINPACK
+LIPL
+LIS
+LISA
+LISP 1
+LISP 1.5
+LISP 2
+LISP A
+LISP Machine LISP
+LISP,
+LISP70
+LITHE
+LITTLE
+LLC
+LLGen
+LLM3
+LM-Prolog
+LM3
+LML
+LNF
+LO
+LOC
+LOGIN
+LOGISCOPE
+LOGLAN
+LOGLISP
+LOGO
+LOGOL
+LOL
+LOLITA
+LOM
+LOOK
+LOOKS
+LOOPN
+LOOPS
+LOP
+LOTIS
+LOTOS
+LOWL
+LPAC
+LPC
+LPG
+LPI
+LPL
+LPS
+LPT
+LRLTRAN
+LSE
+LSL
+LSML
+LSYD
+LT-2
+LTR
+LTR2
+LUCID
+LUSTRE
+LYNX
+LYRIC
+LYaPAS
+LZ compression
+LZ77 compression
+LZ78 compression
+LZW
+LaQuey
+LaTeX
+Lab for Computer Science
+LaborNet
+Laboratory
+Labview
+Lace
+Lakota
+Lambda-Calculus
+Lambda-Prolog
+LambdaProlog
+Language
+Language H
+Language-Based Editor
+Laning and Zierler
+Larch
+Larch/C++
+Lasherism
+Law of Data
+Le-Lisp
+LeFun
+Leaf Distribution Limited
+League for Programming Freedom
+Lean
+Leda
+Lempel-Ziv Welch compression
+Lempel-Ziv compression
+Leo
+Lex
+Lexical Research
+LiE
+Liana
+Library
+Life is hard
+Lila
+Lily
+Linc
+Lincoln Reckoner
+Linda
+LindaLISP
+Lingo
+Link
+Link Access Procedure on the D channel
+Link Access Protocol
+Linux
+Linux Documentation Project
+Linux Network Administrators'
+Lions Book
+Lisp
+Lisp Object-Oriented Programming System
+Lisp-Linda
+LispView
+Lispkit
+Lispkit Lisp
+Lisptalk
+Listless
+Listserv
+Liszt
+LitProg
+Little Smalltalk
+Live
+Live Free Or Die!
+Local Area Network
+LocalTalk
+Locus
+Loebner Prize
+LogC
+Logic
+Logic Replacement
+Logical Link Control
+Loglan'82
+Lolli
+Looking Glass
+Loops
+Lore
+Lotus Development Corporation
+Lotus Notes
+Lout
+Ltd.
+Lubarsky's Law of Cybernetic Entomology
+Lucid Emacs
+Lucinda
+Lucy
+Lynx
+Lynx Real-Time Systems
+LynxOS
+M Technology Association
+M-Code
+M-Prolog
+M-expression LISP
+M2toM3
+M3
+M5
+MAC
+MAC-360
+MACAnalyst
+MACDesigner
+MACE
+MACL
+MACRO
+MACSYMA
+MAD
+MADCAP
+MADTRAN
+MAGIC
+MAGNUM
+MAINSAIL
+MAL
+MALI
+MAN
+MAO
+MAP
+MAPI
+MARSYAS
+MARVIN
+MAS
+MASCOT
+MASM
+MATH-MATIC or MATHMATIC
+MATHLAB
+MATLAB
+MATRIX MATH
+MAXIMOP
+MBASIC
+MBONE
+MBS
+MC
+MC68000
+MC6809
+MCA
+MCC
+MCI
+MCL
+MCP
+MCP-1600
+MCS
+MDL
+MEGO
+MELD
+MELDC
+MENTOR
+MENYMA/S
+MERISE
+MEROON
+META
+META 5
+METAFONT
+METAL
+METEOR
+MFE
+MFLOPS
+MFTL
+MHDL
+MHS
+MHz
+MIB
+MICRO SAINT
+MIDAS
+MIDI
+MIG
+MIIS
+MIKE
+MILITRAN
+MILNET
+MIMD
+MIME
+MIMIC
+MIMOLA
+MINITAB II
+MINT
+MINUIT
+MIPS
+MIRFAC
+MIS
+MISHAP
+MIT
+MIT AI Lab
+MIT Scheme
+MITILAC
+MIX
+MIX Communications
+MIXAL
+MJS
+ML
+ML Kit
+ML Threads
+ML-2000
+ML-Linda
+ML-Twig
+ML-lex
+ML/I
+MLAB
+MLISP
+MLL
+MML
+MNP
+MOBSSL-UAF
+MODCAL
+MODEF
+MODEL
+MODEM7
+MODSIM
+MODSIM II
+MORAL
+MORTRAN
+MOS Technologies
+MOSFET
+MP-1
+MPEG
+MPEG-1
+MPG
+MPL
+MPL II
+MPPL
+MPS III
+MPSX
+MPV
+MRS
+MS-DOG
+MS-DOS
+MSDOS
+MSG.84
+MSM
+MTBF
+MTS
+MTU
+MU-Prolog
+MUCAL
+MUD
+MUMPS
+MUSH
+MUSL
+MVC
+MVS
+MX Record
+MYSTIC
+Mac
+Mac-1
+MacBinary
+MacLisp
+MacTcp
+MacX
+Macaulay
+Mach
+Machiavelli
+Machinery
+Macintosh
+Macintosh Common
+Macintosh user interface
+Macintoy
+Macintrash
+Macro SAP
+Macromedia
+Mad/1
+Madaline
+Magic Paper
+Magic Switch Story
+Magma2
+MagmaLISP
+Magritte
+Mail Exchange
+Maintenance
+Maisie
+Make
+Makedoc
+Malamud
+Management Information Base
+Manager
+Manchester
+Manchester Autocode
+Mandala
+Manufacturers Automation Protocol
+Maple
+Marginal Hacks
+Maril
+Markowitz
+Markup Language
+Marlais
+Mars
+Marseille Prolog
+Martian
+Mary
+MasPar Unity
+Massachusetts Institute of Technology
+Massey Hope
+Matchmaker
+MathWorks
+MathWorks Inc.
+Mathcad
+Mathematica
+Matrix
+Maximum Transmission Unit
+Mbogo, Dr.
+McCulloch-Pitts
+McG360
+Media Access Control
+Meet
+MegaHertz
+Mei
+Mel
+Melinda
+Mellor
+Mentat
+Mercury Autocode
+Mesa
+Met-English
+Meta-CASE tool
+Meta-Crystal
+Meta-II
+Meta-IV
+Meta-Vlisp
+MetaCard
+Metaclass
+Metadata
+Metafile
+Methods
+Metropolitan Area Network
+Mezzanine Card
+Mic-1
+Mic-2
+Micro Channel
+Micro ML
+Micro$oft
+MicroDroid
+MicroEmacs
+MicroGnuEmacs
+Microelectronics
+Micronetics Standard MUMPS
+Microsloth Windows
+Microsoft Access
+Microsoft Corporation
+Microsoft Mail Application
+Microsoft Windows
+Microsoft Word
+Microsystems
+Midas
+Midas-WWW
+Milarepa
+Mini Disc
+Mini PL/I
+Mini-ML
+Miracula
+Miranda
+Missed'em-five
+Mma
+Mock Lisp
+Mode
+Model View Controller
+Modified
+Modula
+Modula-2
+Modula-2*
+Modula-2+
+Modula-3
+Modula-3*
+Modula-3pi
+Modula-P
+Modula-Prolog
+Modula/R
+Modula2
+Modular C
+Modular Prolog
+Modular SB-Prolog
+Modulex
+Mongolian Hordes technique
+Montage
+MooZ
+Moof
+Moore bound
+Moore graph
+Moore's Law
+Mops
+Mosaic
+Moscow ML
+Motif
+Motorola 14500B
+Motorola 6800
+Motorola 68000
+Motorola 6801
+Motorola 6809
+Motorola Inc.
+Mouse
+Moving Pictures Experts Group
+Moxie
+Mozilla
+MswLogo
+Mu
+MuSimp
+MuTeX
+Muddle
+Mul-T
+Multi-Garnet
+Multi-Pascal
+Multi-User
+Multi-User Dungeon
+MultiCal System
+MultiLisp
+MultiScheme
+Multics
+Multimedia Internet Mail Extensions
+Multiple Instruction Multiple
+Multiple Instruction/Multiple Data
+Multipurpose Internet Mail Extensions
+Multiuser Dimension
+Multiuser Dungeon
+Murphy's Law
+Muse
+Music
+Musical
+My Favourite Toy Language
+N-Prolog
+N10
+NAG
+NAK
+NAPLPS
+NAPSS
+NAS
+NASTRAN
+NATURAL
+NB
+NBS
+NCD
+NCS
+NCSA
+ND
+NDIS
+NDL
+NELIAC
+NERECO
+NESL
+NETL
+NEWP
+NEXOR
+NFA
+NFQL
+NFS
+NFT
+NGL
+NHOH
+NIAL
+NIAM
+NIC
+NIC.DDN.MIL
+NICE
+NICOL I
+NIH
+NIHCL
+NII
+NIKL
+NIL
+NIS
+NISO
+NISS
+NIST
+NJCL
+NLS
+NMI
+NN
+NNTP
+NOC
+NODAL
+NOMAD
+NOMEX underwear
+NORC
+NORD PL
+NORDUnet
+NOWEB
+NP
+NP complete
+NP-complete
+NP-hard
+NPL
+NPPL
+NQS
+NREN
+NRZI
+NSA line eater
+NSE
+NSF
+NSFNET
+NSRD
+NSS
+NT
+NT1
+NTIS
+NTP
+NU-Prolog
+NUCLEOL
+NUXI problem
+NWNET
+NYAP
+NYU OMNIFAX
+Napier
+Nathan Hale
+National
+National Center for Supercomputing
+National Database Language
+National Information Initiative
+National Information Services and
+National Institute of Standards and Technology
+National Science Foundation
+National Software Reuse Directory
+National Standards Institute
+Natural English
+Nawk
+Nazionale Italiano di Unificazione
+NeWS
+NeXTSTEP
+Nebula
+Negative
+Neon
+Neptune
+Nerd pride
+Net Predicted!
+NetBEUI
+NetBIOS
+NetBOLLIX
+NetHack
+NetWare
+Netcom
+Netfind
+Netmarq Limited
+Netreck
+Netscape
+Network
+Network Computing Devices
+Network Definition
+Network Device Interface Specification
+Network File System
+Network Filing System
+Network Information Service
+Network News Transfer
+Network Operations Center
+Network Time Protocol
+Network extensible
+Neutral Interconnect
+New
+New Flavors
+New Jersey
+New York
+NewWave
+NewYacc
+NewsClip
+Newspeak
+Newsqueak
+Newton
+Newton-Raphson
+Nexpert Object
+Nightmare File System
+Ninety-Ninety Rule
+Nodal Switching System
+Nominal Semidestructor
+Non Return
+Non-Maskable Interrupt
+Nonpareil
+NorCroft
+Normal Form
+NorthWestNet
+Notation 1
+NoteCards
+Notes
+Nother
+Nova
+Novell Inc.
+Novell NetWare
+Nqthm
+Nu Thena
+NuBus
+NuThena
+Nuprl
+O'Reilly and Associates
+O'small
+O-Logic
+O2
+OATH
+OBE
+OBJ
+OBJ0
+OBJ2
+OBJ3
+OBJT
+OBSCURE
+OCAL
+OCL
+OCLC
+OCODE
+OCR
+OCS
+ODA
+ODBC
+ODC
+ODI
+ODIF
+ODMG
+ODP
+ODSA
+ODT
+OEM
+OIC
+OIL
+OLC
+OLDAS
+OLE
+OLGA
+OLTP
+OMA
+OMF
+OMG
+OMNICODE
+OMNIFAX
+OMNITAB
+OMT
+OMTool
+ONC
+OO
+OOA
+OOD
+OODB
+OODBMS
+OOF
+OOGL
+OOP
+OOPL
+OOPS
+OOPSLA
+OOSD
+OOZE
+OPS
+OPS5
+OPS83
+OPTRAN
+ORB
+OREGANO
+ORKID
+ORTHOCARTAN
+OS
+OS/2
+OS2
+OSA
+OSCAR
+OSE
+OSF
+OSI
+OSI Reference Model
+OSPF
+OSQL
+OSSL
+OTI
+OTT
+OWHY
+OWL
+Oaklisp
+Ob-
+Oberon
+Oberon-2
+Oberon-V
+Obfuscated C Contest
+ObjVProlog
+ObjVlisp
+Object
+Object Compatibility Standard
+Object Linking and Embedding
+Object Management Group
+Object Oberon
+Object Pascal
+Object Request Broker
+Object Z
+Object management system
+Object-Oriented Turing
+ObjectBroker
+ObjectCenter
+ObjectLOGO
+ObjectPAL
+Objecteering
+Objectionable-C
+Objective C
+Objective PASCAL
+Objects, and Symbolic Programming
+Objectworks
+Objlog
+Obliq
+Oblog
+Oc
+Occam's Razor
+Ode
+Old Testament
+Omega
+Omega test
+Omega-algebraic
+OnX
+Ondine
+Online Computer Library Center, Inc.
+Online Media
+Ontic
+Opal
+Open
+Open Data Base Connectivity
+Open DeathTrap
+Open Look
+Open Network Computing
+Open Prolog
+Open Shortest-Path First Interior Gateway Protocol
+Open Software
+Open Systems
+Open Systems Interconnect
+Open University
+OpenDoc
+OpenWindows
+Operations Service Element
+Optical Character
+Oracle
+Oracle Card
+Oracle Toolkit
+Oracle*CASE
+Orange Book
+Orbit
+Orca
+Orient84/K
+Original Equipment Manufacturer
+Orwell
+Ottawa
+Owl
+Ox
+Oz
+P+
+P-CAD
+P-Prolog
+P-TAC
+P-code
+P-mail
+P.O.D.
+P3L
+P4
+P6
+PACE
+PACT I
+PACTOLUS
+PAD
+PAGE
+PAISley
+PAL
+PANON
+PARADE
+PARADIGM PLUS
+PARC
+PARMACS
+PARSEC
+PARTS
+PARULEL
+PASRO
+PASSIM
+PAT
+PATCHY
+PAW
+PAW++
+PBD
+PBEM
+PBM
+PBX
+PC
+PC-Scheme
+PC-TILES
+PC-ism
+PC-ware
+PCA
+PCCTS
+PCF
+PCI
+PCL
+PCLIPS
+PCMCIA
+PCMIA
+PCN
+PCS
+PCS/Geneva
+PCTE
+PCTE+
+PD
+PDA
+PDC Prolog
+PDEL
+PDELAN
+PDF
+PDIL
+PDL
+PDL2
+PDP
+PDP-10
+PDP-11
+PDP-20
+PDP11
+PDS
+PDS/MaGen
+PDSA cycle
+PDU
+PE
+PEARL
+PECOS
+PEEL
+PEIPA
+PEM
+PENCIL
+PEPsy
+PER
+PETSCII
+PEX
+PFE
+PFL
+PGP
+PHIGS
+PHOCUS
+PI
+PIC
+PICL
+PIE
+PIGUI
+PIL
+PIL/I
+PILE
+PILOT
+PINBOL
+PIP
+PIPEX Ltd.
+PIRL
+PIT
+PKWare,
+PL-11
+PL-6
+PL.8
+PL/1
+PL/C
+PL/I
+PL/I SUBSET
+PL/I Subset G
+PL/I-FORMAC
+PL/M
+PL/P
+PL/PROPHET
+PL/S
+PL/Seq
+PL1
+PL360
+PL516
+PLACE
+PLAGO
+PLAIN
+PLAN
+PLANIT
+PLANNER
+PLANS
+PLASMA
+PLAY
+PLITS
+PLL
+PLUM
+PLUS
+PLUSS
+PLisp
+PM
+PMC
+PML
+PNU-Prolog
+POC
+POCAL
+POE
+POFAC
+POGO
+POLYGOTH
+POM
+POOL-I
+POOL-T
+POOL2
+POP++
+POP-1
+POP-10
+POP-2
+POP-9X
+POP3
+POPART
+POPCORN
+POPJ
+POPLER
+POPLOG
+POPLOG ML
+PORTAL
+POSE
+POSIX
+POSTGRES
+POSTQUEL
+POSYBL
+POTS
+POWER
+PPL
+PPLambda
+PPM
+PPN
+PPP
+PQS
+PRA
+PRAM
+PREP
+PRESTO
+PRI
+PRINT
+PRINT I
+PRISM
+PRL
+PROC
+PROCOL
+PROFILE
+PROGENY
+PROGRES
+PROJECT
+PROMAL
+PROOF/L
+PROSE
+PROSPER
+PROTEUS
+PROTON
+PS
+PS 440
+PS-ALGOL
+PS/2
+PSA
+PSD
+PSI
+PSL
+PSL/PSA
+PSML
+PSN
+PSTN
+PTI
+PTT
+PUB
+PUFFT
+PVM
+PV~WAVE
+PackIt
+Packet
+Packet Assembler/Disassembler
+Packet InterNet Groper
+Paddle
+Page Description Language
+PaiLisp
+Pam
+Pandora
+Pansophic
+Pantone
+Paper
+ParAlfl
+ParMod
+ParaSoft Corp
+Paradigms
+Paradise
+Paragon
+Paralation
+Paralation C
+Paralation LISP
+Parallaxis
+Parallel C
+Parallel FORTH
+Parallel Pascal
+Parallel SML
+Parasol
+Pari
+Paris
+Park-Miller
+Parkinson's
+Parlance
+Parlog
+Parlog++
+Parsley
+Pascal
+Pascal P4
+Pascal Plus
+Pascal+CSP
+Pascal-
+Pascal-80
+Pascal-F
+Pascal-FC
+Pascal-Linda
+Pascal-P
+Pascal-S
+Pascal-SC
+Pascal-m
+Pascal/L
+Pascal/R
+Pasqual
+Path Pascal
+Peace
+PeaceNet
+Peano arithmetic
+Pebble
+Pebbleman
+Pentium
+Pepper
+Peripheral Component
+Perl
+Perl5
+Personal Computer
+Personal Digital Assistant
+Petri net
+Pfortran
+Phase Encoded
+Phonetic Alphabet
+Phong shading
+PicTeX
+Pick BASIC
+Pictorial Janus
+Picture Quality Scale
+Pilot European Image Processing Archive
+Pine
+Pink-Shirt Book
+Pla
+Plain Old Telephone System
+Plan 9
+Plan9
+Planet
+Plankalk
+Plankalk
+Planner-73
+Platform
+Platon
+Playground
+Pleuk
+Plexus
+Plural EuLisp
+Point-to-Point Protocol
+Polka
+Poly
+Poly/ML
+Ponder
+Pop-11
+PopTalk
+Poplar
+Port Language
+Portable
+Portable Common
+Portable Common Tool Environment
+Portable Forth Environment
+Portable Scheme Debugger
+Portable Scheme Interpreter
+Post Office Protocol
+Post, Telephone and Telegraph
+Postscript
+Power PC
+PowerBuilder
+PowerFuL
+PowerOpen
+PowerOpen Environment
+PowerPC
+PowerPC 601
+PowerPC Reference Platform
+PreCCX
+Presentation Manager
+Pretty Good Privacy
+Primenet Inc.
+Princeton University
+Privacy Enhanced Mail
+ProDoc
+ProSet
+ProTalk
+Probe
+Processes
+Processing
+Processing Standard
+Processor
+Program Composition Notation
+Program Design Language
+Program Interface
+Programmer
+Programmer's Cheer
+Programmer's Switch
+Programmers Hierarchical Interactive Graphics
+Programming
+Programming Language
+Prograph
+Projects Agency
+Prolog
+Prolog++
+Prolog-2
+Prolog-D-Linda
+Prolog-II
+Prolog-III
+Prolog-Linda
+Prolog/Mali
+Promiscuous mode
+Pronet
+Proposal Writing
+Prospero
+Protocol
+Protosynthex
+Prototyper
+PseudoScheme
+Pseudocode
+Pthreads
+Ptolemy
+Public Switched Telephone
+Purdue
+Purdue University
+Pure Lisp
+PureLink
+Purify
+Purple Book
+Purpose Language
+Pursuit
+Push
+Python
+Q'NIAL
+QA
+QA4
+QAM
+QBE
+QIC
+QL
+QLISP
+QLOG
+QNX
+QPE
+QT-OBJECTS
+QUEASY
+QUEL
+QUICK
+QUIKSCRIPT
+QUIKTRAN
+QUIN
+QWERTY
+QX
+Qlambda
+Qu-Prolog
+Quadralay
+Quake
+Quantify
+Queen's University
+Quest
+QuickDraw
+Quicksilver
+Quicksort
+Quicktime
+Quintec-Objects
+Quintus Prolog
+Quty
+R2RS
+R3.99RS
+R3RS
+R4RS
+R:BASE
+RAD
+RAID
+RAIL
+RAISE
+RAL
+RAM
+RAMIS II
+RAPT
+RARE
+RARP
+RASP
+RATEL
+RATFIV
+RATFOR
+RAWOOP-SNAP
+RBASIC
+RBCSP
+RBOC
+RCA 1802
+RCA 1805
+RCC
+RCL
+RCS
+RDBA
+RDBMS
+RDL
+RDS
+RE
+README file
+REC
+RECOL
+REDCODE
+REDUCE
+REF-ARF
+REFAL
+REFINE
+REG-SYMBOLIC
+REGTRAL
+REL
+RELATIVE
+RELCODE
+REPL
+RETI
+REXX
+REXXWARE
+RFC
+RFC 1014
+RFC 1058
+RFC 1081
+RFC 1094
+RFC 1112
+RFC 1119
+RFC 1156
+RFC 1157
+RFC 1171
+RFC 1208
+RFC 1213
+RFC 1267
+RFC 1268
+RFC 1388
+RFC 1432
+RFC 1521
+RFC 1630
+RFC 792
+RFC 822
+RFC 959
+RFE
+RFT
+RGB
+RIGAL
+RIP
+RIPE
+RIPEM
+RISC
+RISC Machines Ltd.
+RISC OS
+RJ11
+RL
+RLF
+RLL
+RLaB
+RM-ODP
+RMAG
+RMS
+RNF
+ROADS
+ROBEX
+ROME
+ROSE
+ROTFL
+RPC
+RPG
+RPI
+RPL
+RPL-1
+RPT
+RRS
+RS 232
+RS-232
+RS/6000
+RS232
+RS6000
+RSA
+RSA Data Security, Inc.
+RSI
+RSL
+RSN
+RT-CDL
+RTBM
+RTC++
+RTEE
+RTF
+RTFAQ
+RTFB
+RTFM
+RTFS
+RTI
+RTL
+RTL/1
+RTL/2
+RTM
+RTSA
+RTT
+RUFL
+RUNCIBLE
+RUSH
+RUTH
+Raddle
+RapidCAD
+Rapidwrite
+RatC
+Ratatosk
+Rdb
+Read the Fucking Manual
+Real
+Real Programmer
+Real Soon Now
+Real World
+Real-Time
+Real-Time Mentat
+Real-Time Pascal
+Receiver/Transmitter
+Rechenplanfertigung
+Recherche Europeenne
+Recital
+Recognition
+Record
+Record Management
+Red
+Red Book
+RedNet Ltd.
+RediLisp
+Reduced Instruction Set
+Redundant Arrays of
+RefLisp
+Refined C
+Refined Fortran
+Reflexive
+Reflexive domain
+Reflexive transitive closure
+Regina
+Register Transfer Language
+Relational DBMS
+Remote
+Remote Database Access
+Remote Procedure Call
+RenderMan Shading Language
+Replay
+Repository
+Request For Comments
+Request For Technology
+Required-COBOL
+Research Projects Agency Network
+Research Systems, Inc.
+Research and Education Network
+Reseaux Associes pour la
+Reseaux IP Europeennes
+Resource Citation
+Response Team
+Retrieve
+Reverse Address Resolution
+Revised
+Revised ALGOL 60
+Rich Text Format
+Richard Stallman
+Rigel
+Right Thing
+Ring Associated Language
+Risc PC
+Robert T. Morris
+Rockwell Protocol Interface
+Root Normal Form
+Roskind grammars
+Rossette
+Routing Information
+Royal Veterinary and Agricultural University
+Ruby
+Russel's paradox
+Russell
+Rx
+S-ALGOL
+S-K reduction machine
+S-Lang
+S/N ratio
+S/SL
+S3
+SA
+SAA
+SAC
+SAC-1
+SAC2
+SAD SAM
+SADT
+SAFARI
+SAGE
+SAIL
+SAINT
+SAL
+SALEM
+SALT
+SAM76
+SAME
+SAMeDL
+SAP
+SAPI
+SAS
+SASD
+SASE
+SASL
+SASL+LV
+SASL-YACC
+SAVE
+SB-Prolog
+SBM
+SC/MP
+SCALLOP
+SCAN
+SCC
+SCCS
+SCEPTRE
+SCI
+SCL
+SCO
+SCOOP
+SCOOPS
+SCOPE
+SCPI
+SCRAP
+SCRIPT
+SCROLL
+SCSI
+SCSI-2
+SCSI2
+SD
+SDE
+SDF
+SDH
+SDL
+SDL 92
+SDLC
+SDM
+SDMS
+SDS
+SE
+SE-ODP
+SEA
+SEAL
+SECD
+SED
+SEE
+SEESAW
+SEI
+SEL
+SEM
+SENDIT
+SEP
+SEPIA
+SERC
+SES/workbench
+SET
+SETL
+SETL/E
+SETL2
+SETS
+SEUS
+SEX
+SEXI
+SFBI
+SFD-ALGOL
+SFL
+SFLV
+SGI
+SGML
+SHACO
+SHADOW
+SHEEP
+SHELL
+SHIFT
+SHUG
+SIA
+SICL
+SICS
+SICStus
+SIFT
+SIG
+SIGLA
+SIGMA
+SIGNAL
+SIGhyper
+SIL
+SIMAN
+SIMD
+SIML/I
+SIMM
+SIMPAC
+SIMPAS
+SIMPL
+SIMPL-T
+SIMPL/I
+SIMPLE
+SIMSCRIPT
+SIMSCRIPT I.5
+SIMSCRIPT II.5
+SIMULA
+SIMULA 67
+SIMULA I
+SINA
+SIPB
+SIPLAN
+SIR
+SIRDS
+SIRTS
+SISAL
+SITBOL
+SKOL
+SKsh
+SL5
+SLAM
+SLANG
+SLD
+SLIM
+SLIP
+SLIPS
+SLLIC
+SMALGOL
+SMALL
+SMART
+SMCC
+SMDS
+SMG
+SMI
+SMIL
+SML
+SML#
+SML/NJ
+SMM
+SMNP
+SMOP
+SMP
+SMTP
+SMoLCS
+SNA
+SNAFU principle
+SNAP
+SNMP
+SNOBOL
+SNOBOL2
+SNOBOL3
+SNOBOL4
+SNOOPS
+SO
+SO 2
+SOAP
+SOAR
+SOCRATIC
+SODA
+SODAS
+SOHIO
+SOL
+SOLO
+SOM
+SONET
+SORCERER
+SOS
+SP
+SP/k
+SPACEWAR
+SPADE
+SPAR
+SPARC
+SPARC International, Inc.
+SPARCStation
+SPARCstation 10
+SPARCstation 20
+SPARK
+SPARKS
+SPC
+SPDL
+SPEC
+SPEC CFP92
+SPEC CINT92
+SPEC rate
+SPECIAL
+SPECOL
+SPECbase_fp92
+SPECbase_int92
+SPECbaserate
+SPECfp92
+SPECint92
+SPECmark
+SPECmark89
+SPECrate
+SPECrate_base_fp92
+SPECrate_fp92
+SPECrate_int92
+SPEED
+SPEEDEX
+SPG
+SPIT
+SPITBOL
+SPL
+SPL/I
+SPLINTER
+SPLX
+SPLash!
+SPM
+SPRING
+SPRINT
+SPS
+SPSS
+SPUR
+SPX
+SQL
+SQL Module Language
+SQL/DS
+SQL2
+SR
+SRAM
+SRC
+SRDL
+SRI
+SRL
+SRP
+SSA
+SSADM
+SSII
+SSL
+STAB
+STAB-11
+STAC
+STAGE2
+STAR 0
+STB
+STD
+STD 1
+STD 15
+STD 2
+STDWIN
+STENSOR
+STEP
+STIL
+STING
+STOIC
+STONE
+STP4
+STREAM
+STRESS
+STROBES
+STRUDL
+STSC
+STUDENT
+STk
+SUGAR
+SUIF
+SUMMER
+SUMMER SESSION
+SUPER
+SUPERMAC
+SURGE
+SVGA
+SVID
+SWI-Prolog
+SYDEL
+SYGMA
+SYMBAL
+SYMBOLANG
+SYMBOLIC ASSEMBLY
+SYMPL
+SYN
+SYSLISP
+Saber-C
+Saber-C++
+Sales
+Sandman
+Santa Cruz Operation
+Sather
+Sather-K
+Saturday-night special
+Scalable
+Scalable Processor ARChitecture
+Scheduling API
+Scheduling Application Programming Interface
+Schematik
+Scheme
+Scheme Object System
+Scheme Repository
+Scheme->C
+Scheme-Linda
+Scheme-to-C
+Scheme84
+Scheme88
+Schlaer-Mellor
+Schoonschip
+Science Foundation Network
+Science and Engineering Research Council
+Scode
+Scorpion
+Scott domain
+Scott-closed
+Scratchpad
+Scratchpad II
+Screamer
+Screen
+Screenwrite
+Scribe
+ScumOS
+Seagate
+Sed
+Selector
+Self
+Self-Extensible Language
+Self-containing Prolog
+Seneca
+Seque
+Sequel
+Sequent
+Sequential Parlog Machine
+Serial Interface
+Serial Line IP
+Serial Line Internet Protocol
+Serial Storage Architecture
+Servers
+Service
+Services
+Set Priority Level
+Setext
+ShapeTools
+Shape_VC
+Share and enjoy!
+Sharp APL
+Shell
+Shell Script
+Short Code or SHORTCODE
+Show-And-Tell
+Shub-Internet
+Shugart Associates
+Sig
+Silage
+Silence Software
+Silicon Graphics, Inc.
+Silver Book
+Similix
+Simone
+Simple Mail Transfer
+Simple Network Management Protocol
+Simulating Digital
+Simultaneous Engineering Environment
+Simware,
+Sinclair
+Single
+Single Image Random Dot
+Single In-line Memory Module
+Single Instruction/Multiple Data
+Siprol
+Siri
+Skel-ML
+Sketchpad
+Skill
+Skim
+SkipJack
+SlipKnot
+Sloop
+Small
+Small-C
+SmallVDM
+SmallWorld
+Smalltalk
+Smalltalk-80
+Smalltalk/V
+Sniff
+SoHo
+Social Responsibility
+SoftBench
+SoftModem
+Softlab
+Software
+Software AG
+Software BackPlane
+Software Engineering
+Software Foundation
+Software bus
+Software through Pictures
+Software, Inc.
+Solaris
+Solution Based Modelling
+Solve
+Speakeasy
+Spec
+Special Interest Group
+Specification Language
+Spectrum
+Speedcoding
+Speedcoding 3
+Sperry Univac
+Spice Lisp
+Spiderweb
+Spill
+Split-C
+Spool
+Spreadsheet
+Sprintnet
+Sprite
+Square
+Squeak
+Squiggol
+StP
+Stack Environment Control Dump machine
+Standard Commands for Programmable Instruments
+Standard Generalised
+Standard Generalized Markup Language
+Standard Lisp
+Standard ML
+Standard ML of New
+Stanford University
+Staple
+StarBurst
+StarLISP
+StarMOD
+Starset
+Steelman
+Stephen Jobs
+Stepstone Corp
+Stereogram
+Steve Jobs
+Steve Wozniak
+Sticks&Stones
+Stone Age
+Stoneman
+Strand
+Strand88
+Stratus
+Strawman
+Structure of Management Information
+Structured Query
+Structures Language
+Student PL/I
+Stupids
+Sturgeon's Law
+Style
+Subset-Equational Language
+SuccessoR
+Sue
+Sun
+SunOS
+SunView
+Super Pascal
+Super VGA
+Super Video Graphics Adaptor
+SuperJanet
+SuperTalk
+Sure
+Suzie COBOL
+SweetLambda
+Switch Node
+Switched Multimegabit Data Service
+Sybase
+Sylvan
+SymbMath
+Symbol
+Symbolic Mathematical
+Symmetric LISP
+Synchronous Data Link Control
+Synchronous Optical NETwork
+Syntax-Case
+Syntax/Semantic Language
+Synthesizer Specification Language
+SysVile
+System
+System F
+System Management Mode
+System V
+System/360
+Systems
+Systems Administrators Guild
+Systems Agency
+Systems Network
+T Lisp
+T-1
+T-3
+T-gen
+T. Kohonen
+T1
+T3
+TA
+TABLET
+TABLOG
+TABSOL
+TAC
+TACL
+TACPOL
+TAL
+TALE
+TALL
+TANSTAAFL
+TAO
+TARTAN
+TASM
+TASS
+TAWK
+TBIL
+TBK
+TC/IX
+TCB
+TCL
+TCM
+TCOL
+TCOL.Ada
+TCP
+TCP-IP
+TCP/IP
+TCPIP
+TDF
+TDFL
+TDMA
+TDR
+TECO
+TEI
+TELCOMP
+TELEPAC
+TELNET
+TELOS
+TELSIM
+TEMPLOG
+TEMPO
+TERM
+TERMAC
+TET
+TFDL
+TFTP
+TGS-II
+THEO
+TIA
+TIFF
+TILE Forth
+TINT
+TIP
+TIPL
+TK!Solver
+TL/I
+TL0
+TL1
+TLA
+TLAs
+TLB
+TM
+TMDL
+TMG
+TMRC
+TMRCie
+TMS 9900
+TNX
+TNXE6
+TOK
+TOP
+TOPS-10
+TOPS-20
+TPL
+TPS
+TPU
+TRAC
+TRANDIR
+TRANQUIL
+TRANS
+TRANS-USE
+TRANSCODE
+TRANSIT
+TREET
+TREETRAN
+TRIGMAN
+TRO
+TROLL
+TRS
+TRS-80
+TRUSIX
+TS
+TSAP
+TSEE
+TSL-1
+TSO
+TSP
+TSR
+TTFN
+TTL
+TTYL
+TUPLE
+TUTOR
+TWAIN
+TWENEX
+TWIG
+TX-0
+TXL
+TYMCOM-X
+TYMNET
+TYPOL
+Tagged Image File
+Taligent
+Tandem Computers
+Tandy
+Taxis
+Tbl
+Tcl-DP
+Tcode
+Tcsim
+TeX
+TeX-78
+TeX-82
+Teamwork
+TechRef
+Technical/Office Protocol
+Technique
+Technology
+TelEnet
+TeleUSE
+Telerat
+Telon
+Tempura
+Ten15
+Terminal
+Terminal Access Controller
+Terminate and Stay Resident
+Termination
+Terse
+Testament
+Texas
+Texinfo
+That's not a bug, that's a feature!
+The
+The Force
+The World Of Cryton
+The story of Mel, a
+Theorem
+Theseus
+ThingLab
+Think C
+Thinking Machines Corporation
+This
+This can't happen
+Thomas
+TickIT
+Tickle
+Time Domain Reflectometer
+Time Sharing Option
+Time to
+Tinman
+Tiny
+Tiny Clos
+Tk
+Tom Knight
+Toolbuilder
+Tools Integration Standard
+Toronto Euclid
+Tower Technology
+Toy/Ada
+TrafoLa
+Trafola-H
+Transistor-Transistor Logic
+Translation System
+Translator
+Transmission Control Protocol
+Trash-80
+Trellis
+Trellis Code Modulation
+Trilogy
+Troff
+Trojan horse
+True BASIC
+Trumpet
+Tsim
+Tui
+Tuki
+Tuple Space Smalltalk
+Turbo C
+Turbo Pascal
+Turbo Prolog
+Turing
+Turing Plus
+Turing machine
+Turing tar-pit
+Turing test
+Turingol
+Twentel
+TypedProlog
+U-Code
+U-NET Limited
+U.S. Robotics, Inc.
+UAN
+UART
+UAW
+UBASIC
+UBD
+UCB
+UCSD
+UDP
+UFO
+UGLIAC
+UHELP
+UI
+UIL
+UIMS
+UIMX
+UIS
+UKUUG
+ULCC
+ULP
+UMB Scheme
+UMTS
+UN*X
+UNCOL
+UNI
+UNIFORM
+UNIQUE
+UNISAP
+UNITY
+UPMAIL Tricia Prolog
+URC
+URI
+URL
+URN
+URouLette
+USAModSim
+USE
+USENIX
+USG Unix
+USL
+USR
+USSA
+UTC
+UTOPIST
+UTP
+UTRC
+UTSL
+UUCPNET
+UUPC
+Ulm's Modula-2 System
+Ultrix
+Unicode
+Uniform
+Uniform Resource Locator
+Uniform Resource Name
+Uniform Resource Number
+Unipalm Group plc
+Unipress
+Unisys
+United Technologies Research
+Univac
+Universal Asynchronous
+Universal Resource
+Universal Resource Locator
+Universal Time Coordinated
+University
+University of California at Berkeley
+University of East London
+University of London Computing Centre
+University of Tasmania
+Unix
+Unix International
+Unix brain damage
+Unix conspiracy
+Unix weenie
+Unix-to-Unix copy
+UnixWare
+Unixism
+Uranus
+Usenet
+User Datagram Protocol
+V.21
+V.22
+V.22bis
+V.23
+V.24
+V.25
+V.32
+V.32bis
+V.32ter
+V.34
+V.42
+V.42bis
+V.FAST
+V.FC
+VAL
+VAR
+VAX
+VAX DOCUMENT
+VAX/VMS
+VAXectomy
+VAXen
+VAXset
+VAXstation
+VCODE
+VCPI
+VDL
+VDM
+VDM++
+VDM-SL
+VECTRAN
+VEE
+VEL
+VESA
+VESA Local Bus (VL, VLB).
+VGA
+VGQF
+VHDL
+VHE
+VHLL
+VIF
+VITAL
+VIVID
+VLB
+VLIW
+VLM
+VLSI
+VM
+VM/CMS
+VME
+VMEbus
+VML
+VMS
+VPL
+VR
+VRAM
+VRTX
+VSCM
+VSF
+VSP
+VSX
+VT100
+VTS
+VUE
+VUIT
+VULCAN
+Valid
+Validation
+Value added
+Value added retailer
+Vector C
+Venus flytrap
+Verdi
+Verilog
+Verilog SA
+Veronica
+Version 7
+Very Long Instruction Word
+Video Electronics Standards Association
+Video Graphics Adaptor
+Video on Demand
+Vienna
+Vienna Definition Method
+Vienna Fortran
+Views
+Viola
+Viron
+Virtual Control Program Interface
+Virtual Home Environment
+Visual BASIC
+Visual C++
+Vlisp
+VoD
+Von Neumann ordinal
+Vulcan nerve pinch
+VxWorks
+W3
+W3 Consortium
+WA-12
+WABI
+WAFL
+WAIS
+WAITS
+WAM
+WAN
+WATBOL
+WATFIV
+WATFOR
+WAVE
+WCL
+WD
+WDASM
+WE
+WEB
+WFL
+WG
+WHNF
+WIBNI
+WIMP
+WIMP environment
+WOMBAT
+WOOL
+WPL+
+WPOP
+WRITEACOURSE
+WRT
+WSFN
+WSL
+WTF
+WTH
+WWW
+WWWW
+WYSIAYG
+WYSIWYG
+Wafe
+Wang Laboratories
+Warm
+Warp
+Wasserman
+Waterfall
+Weak Head Normal Form
+Web
+Weeble
+Weenix
+Westmount
+What's a spline?
+Whetstone
+White
+White Book
+White book CD-ROM
+Wide Area Information
+Wide Area Network
+Wide SCSI
+Wild_LIFE
+William Joy
+Window System
+Windows
+Windows 4GL
+Windows 95
+Windows NT
+Windows sockets
+Windoze
+Winsock
+Wisp
+WizDOM
+Wizard Book
+Woodenman
+Word
+Word Perfect
+WordPerfect
+Workbench
+World Wide
+World Wide Web Worm
+World-Wide Web
+World-Wide Web Worm
+Wrong Thing
+X
+X client
+X protocol
+X server
+X terminal
+X windows
+X-1
+X-Windows
+X-designer
+X-terminal
+X.25
+X.400
+X.500
+X.desktop
+X/Open
+X/open Portability Guide
+X11R4
+X11R5
+X25
+X3J16
+X400
+X500
+XA
+XC
+XDL
+XDR
+XENIX
+XEROX Corporation
+XEROX Network Services
+XEROX PARC
+XIE
+XMODEM
+XMODEM-1K
+XMS
+XNF
+XNS
+XOFF
+XON
+XPC
+XPG
+XPG3
+XPL
+XPOP
+XRN
+XRemote
+XSB
+XSI
+XScheme
+XTI
+XTRAN
+XUI
+XVT
+XView
+XWIP
+XXX
+Xaw
+Xbase
+Xcoral
+Xfun
+Xi
+Xlib
+Xopen
+XperCASE
+Xt
+Xterminal
+Xv++
+Xwindows
+Y
+YA-
+YABA
+YAFIYGI
+YAPS
+YASOS
+YAUN
+YLISP
+YMMV
+YMODEM
+YMODEM-G
+YP
+YSM
+Yaa
+Yale Haskell
+Yay
+Yellow
+Yellow Book
+Yellow Book (Jargon)
+Yellow Book CD-ROM
+Yellow Pages
+Yerk
+Yet Another
+You are not expected
+You know you've been hacking too long when...
+Your mileage may vary
+Yow!
+Yu-Shiang Whole
+Z++
+Z-80
+Z80
+ZAP
+ZAPP
+ZEBRA
+ZENO
+ZERO
+ZEST
+ZF expression
+ZIF
+ZIL
+ZMODEM
+ZOG
+ZOLA Technologies
+ZOPL
+ZUG
+ZUSE
+ZX-80
+ZX-81
+ZX81
+Zed
+Zen
+Zero Insertion Force
+Zeta Lisp
+ZetaLisp
+Zeus
+Zilog
+Zilog Z-280
+Zilog Z-8
+Zilog Z-80
+Zilog Z-8000
+Zipcode
+Zoo
+Zork
+Zuse
+ZyXEL
+\begin
+\big
+\sqcap
+\sqcup
+\sqsubseteq
+\subseteq
+\uparrow
+a1
+a56
+aXe
+aard
+abbrev
+abduction
+abstract
+abstract class
+abstract data type
+abstract syntax
+abstract syntax tree
+abstraction
+accelerator
+accept()
+access
+accumulator
+acoustic coupler
+activation record
+active DBMS
+active object
+actor
+acyclic graph
+ad-hoc polymorphism
+ad-hockery
+adaptive
+adaptive learning
+adaptive routing
+additive
+address
+address mask
+address resolution
+admin
+administration
+administrator
+advance
+aeroplane rule
+aflex
+agent
+algebra
+algebraic
+algebraic data type
+algorithm
+alias
+aliasing bug
+all-elbows
+alpha conversion
+alpha particle
+alpha/beta pruning
+alt
+alt bit
+altmode
+amp off
+amper
+an EPROM
+analog
+analogue
+analysis
+anchor
+and Computer Technology Corporation
+and drop
+and loaded
+and loathing
+angle bracket
+angry fruit
+animation
+annealing
+annotate
+annotation
+annoybot
+anonymous FTP
+answering
+antichain
+antisymmetric
+anytime algorithm
+apE
+app
+application
+application layer
+application program
+applicative
+applicative language
+arbitrary precision calculator
+archie
+archive site
+arena
+arg
+armor-plated
+around
+array
+artificial
+artificial intelligence
+as31
+asbestos
+asbestos longjohns
+ash
+asked question
+aspect ratio
+assembler
+assembly
+assembly language
+assigned numbers
+assignment
+associative array
+associative cache
+asymmetrical modulation
+asynchronous
+asynchronous logic
+atomic
+attoparsec
+audio
+authentication
+authoring
+autobogotiphobia
+automagically
+automation
+autoprojector
+autostereogram
+avatar
+awk
+axiomatic semantics
+ayacc
+b4
+babbling error
+back door
+back link
+back-propagation
+backbone
+backbone cabal
+backgammon
+background
+backoff
+backpropagation
+backtracking
+backup
+backward analysis
+backward chaining
+backward combatability
+bag of pages
+bag on the side
+balanced tree
+bamf
+banana
+banana label
+bandwidth
+bang
+bang on
+bang path
+banner
+bar
+bar code
+barcode
+bare metal
+barf
+barfmail
+barfulation
+barfulous
+barney
+baroque
+base
+baseband
+baseline
+bash
+batch
+bathtub curve
+baud
+baud barf
+baud rate
+bawk
+baz
+bboard
+beach
+beam
+beam search
+beanie key
+beep
+beige toaster
+bells and whistles
+bells,
+benchmark
+berklix
+best first search
+beta
+beta conversion
+beta reduction
+beta test
+bible
+biff
+big endian
+big iron
+big-endian
+bignum
+bigot
+bijection
+binary
+binary coded decimal
+binary exponential backoff
+binary large
+binary tree
+binding-time analysis
+bipartite graph
+bit
+bit bang
+bit bashing
+bit bucket
+bit decay
+bit diddling
+bit rot
+bit twiddling
+bit-paired keyboard
+bitblt
+bite
+bitmap
+bitmap display
+bitty box
+bixie
+black
+black art
+black magic
+blargh
+blast
+blat
+bletcherous
+blinkenlights
+blit
+blitter
+blivet
+block
+block transfer computations
+blow
+blow away
+blow out
+blow past
+blow up
+blue goo
+blue wire
+blurgle
+bmp
+boa
+board
+boat
+bogo-sort
+bogodynamics
+bogometer
+bogon
+bogon flux
+bogosity
+bogotify
+bogue out
+bogus
+boink
+bomb
+bondage-and-discipline language
+bonk/oif
+book titles
+bookmark
+boot
+bottom
+bottom feeder
+bottom-unique
+bottom-up implementation
+bounce
+bounce message
+bound
+bound variable
+bounded
+boundedly
+bournebasic
+boustrophedonic
+box
+boxed comments
+boxen
+boxology
+bracket abstraction
+brain
+brain dump
+brain-damaged
+brain-dead
+braino
+branch delay slot
+branch exchange
+branch to Fishkill
+bread crumbs
+breadth first search
+break
+break-even point
+breath-of-life packet
+breedle
+bridge
+bring X to its knees
+brittle
+broadband
+broadcast
+broadcast storm
+brochureware
+broken
+broken arrow
+broket
+brouter
+browser
+brute force
+brute force and ignorance
+btree
+bubble sort
+bucky bits
+buffer
+buffer overflow
+buffered write-through
+bug
+bug-compatible
+bug-for-bug compatible
+buglix
+built-in
+bulletproof
+bum
+bump
+burble
+buried
+burn-in period
+burst page
+busy-wait
+buzz
+bwBASIC
+by hand
+byacc
+byte
+bytesexual
+bzzzt, wrong
+c2man
+c386
+c68
+cable
+cache
+cache block
+cache conflict
+cache hit
+cache line
+cache miss
+calculator
+calculus
+call-by-name
+call-by-need
+call-by-reference
+call-by-value
+call-by-value-result
+call/cc
+callback
+can
+can't happen
+candygrammar
+canonical
+canonical name
+card
+card walloper
+careware
+cargo cult
+cascade
+case and paste
+case based reasoning
+cashe
+cast
+casters-up mode
+casting the runes
+cat
+catatonic
+category
+cathode ray tube
+cb
+cbw
+cd tilde
+cdr
+central processing unit
+cextract
+cforth
+cfortran.h
+cgram
+chad
+chad box
+chain
+change management
+channel
+channel op
+chanop
+chaos
+char
+charityware
+chase
+check
+checkdigit
+checker
+checksum
+chemist
+chicken head
+chiclet keyboard
+child version
+chine nual
+choice
+choke
+chomp
+chrome
+chug
+ciphertext
+circuit switched
+circuit switching
+circuit-switched
+class
+class library
+clean
+client
+client server
+client-server
+client-server model
+client/server
+clobber
+clock
+clock rate
+clock speed
+clone
+clone-and-hack coding
+closed set
+closed term
+closure
+closure conversion
+clover key
+clu2c
+clustergeeking
+coalesced
+code
+code grinder
+code management
+code police
+codes
+codewalker
+codomain
+coefficient of X
+coercion
+cokebottle
+cold boot
+collection
+collision
+color
+colour
+combination
+combinator
+combinatory
+comm mode
+command key
+comment out
+comments
+compact
+compactness preserving
+compiler
+compiler jock
+complement
+complete
+complete graph
+complete lattice
+complete partial
+complexity
+composition
+comprehension
+compress
+compressed video
+compression
+computability theory
+computational complexity
+computational learning
+computer
+computer confetti
+computer ethics
+computer geek
+computer law
+computer nerd
+computer vision
+computron
+con
+conceptualisation
+conceptualization
+concrete syntax
+concurrency
+condela
+condition
+condition out
+condom
+configuration
+configuration management
+congestion
+connect()
+connected
+connected component
+connection-oriented
+connectionless protocol
+connective
+connector conspiracy
+cons
+conservative evaluation
+considered harmful
+consistently complete
+console
+console jockey
+constant applicative form
+constant folding
+constant mapping
+constraint
+constraint functional programming
+constraint satisfaction
+constructed type
+constructor
+container class
+content-free
+contention slot
+context
+context-free
+continental drift
+continuation
+continuation passing style
+continuous function
+contraction
+control tty
+control-C
+control-O
+control-Q
+control-S
+control-transfer
+converse
+conversion to iteration
+convert.f90
+cooC
+cookbook
+cooked mode
+cookie
+cookie bear
+cookie file
+cookie jar
+cookie monster
+cooperative multitasking
+copious free time
+copper
+coprocessor
+copy protection
+copybroke
+copying garbage
+copyleft
+copyright
+copywronged
+core
+core cancer
+core dump
+core leak
+corge
+cork award
+cosmic rays
+cough and die
+cowboy
+cpp
+cppp
+cproto
+crack root
+cracker
+cracking
+crank
+crash
+crash and burn
+crawling horror
+crayola
+crayola books
+crayon
+creationism
+creep
+creeping elegance
+creeping featurism
+creeping featuritis
+crippleware
+crisp
+critical
+critical mass
+crock
+cron
+cross software
+cross-assembler
+cross-compiler
+cross-post
+crudware
+cruft
+cruft together
+cruftsmanship
+crufty
+crumb
+crunch
+cruncha
+cruncha cruncha
+cryppie
+crypt
+cryptanalysis
+cryptography
+cryptology
+csh
+cu
+cube
+cubing
+curried function
+currying
+curseperl
+curses
+cursor
+cuspy
+cut a
+cxref
+cybercrud
+cybernetics
+cyberpunk
+cyberspace
+cycle
+cycle crunch
+cycle drought
+cycle of reincarnation
+cycle server
+cyclic redundancy check
+d-Prolog
+dBASE
+dBASE III
+dBFAST
+dBXL
+daemon
+dance
+dancing
+dangling pointer
+dark-side hacker
+data
+data abstraction
+data base
+data dictionary
+data driven
+data flow
+data flow analysis
+data frame
+data link layer
+database
+database machine
+database management system
+database query language
+database server
+dataflow
+datagram
+datalink layer
+day
+day mode
+dd
+de facto standard
+de-rezz
+dead
+dead code
+deadlock
+deadly embrace
+deamon
+death code
+dec
+decay
+decidability
+decision problem
+deckle
+declarative language
+decryption
+deductive tableau
+deep
+deep hack mode
+deep space
+default route
+defenestration
+deferral
+definite clause
+definite sentence
+definition
+definition language
+deforestation
+degree
+degrees of freedom
+dehose
+delay instruction
+delay slot
+delayed
+delint
+delta
+delta conversion
+delta reduction
+demented
+demigod
+demo
+demo mode
+demo version
+demon
+denotational
+depeditate
+dependability
+dependable software
+deprecated
+depth first search
+dereference
+descent function
+design
+design recovery
+desk check
+desktop
+desktop publishing
+destructor
+deterministic
+development
+device
+device driver
+devo
+dialup
+diameter
+dickless
+dictionary flame
+diddle
+die
+die horribly
+diff
+digest
+digit
+dike
+ding
+dink
+dinosaur
+dinosaur pen
+dinosaurs mating
+dipped in X
+direct mapped cache
+directed
+directed graph
+directed set
+dirtball
+dirty power
+disclaimer
+discount
+discriminated union
+disease
+disjoint
+disk farm
+diskette
+display
+display hack
+distributed database
+distributed system
+distributed systems
+distribution
+distributive lattice
+disusered
+dithering
+diverge
+djgpp
+dmake
+doc
+doco
+document
+documentation
+dodgy
+dogcow
+dogpile
+dogwash
+domain
+domain address
+domain theory
+domainist
+dongle
+dongle-disk
+donuts
+doorstop
+dot
+dot address
+dot file
+double DECkers
+double bucky
+doubled sig
+down
+download
+downloading
+downward closed
+dpSather
+dpi
+draco
+drag
+drag-and-drop
+drag-n-drop
+dragon
+drain
+dread high-bit
+driver
+droid
+drool-proof paper
+drop
+drop on the floor
+drop-ins
+drop-outs
+droppings
+drugged
+drum
+drunk mouse syndrome
+dsp56165-gcc
+dsp56k-gcc
+dual ported
+dual-attached
+dual-homed
+dual-ported
+dumb terminal
+dumbed down
+dump
+dumpster diving
+dup
+dup loop
+duplex
+dusty deck
+dweeb
+dynamic
+dynamic binding
+dynamic random access memory
+dynamic scoping
+dynner
+e-mail
+e-mail address
+eXodus
+eXternal Data Representation
+eager evaluation
+earthquake
+eat flaming death
+eater
+echo
+echo cancellation
+edutainment
+egging
+egrep
+eight-bit clean
+eighty-column mind
+el(alpha)
+elder days
+electronic mail
+elegant
+elephant
+elephantine
+elevator controller
+elvish
+email
+embedded system
+embedding
+emoticon
+empire
+emulation
+encapsulation
+encoding
+encryption
+engine
+enhancement
+enterprise
+enumeration
+environment
+epoch
+epsilon
+epsilon squared
+equational logic
+equivalence
+equivalence relation
+era
+error
+error 33
+es
+esim
+eta abstraction
+eta conversion
+eta expansion
+eta reduction
+ethics
+evaluation
+evaluator
+event
+event-driven
+evil
+evil and rude
+exa-
+exabyte
+examining the entrails
+exception
+exception handler
+excl
+exec
+executive
+exercise, left as an
+existential
+expanded memory
+expect
+expert system
+explicit parallelism
+extended memory
+extensional
+extensional equality
+extensionality
+external memory
+eyeball search
+ezd
+f2c
+face time
+factor
+fall back
+fall forward
+fall over
+fall through
+fandango on core
+faradise
+farkled
+farming
+fart
+fas
+fascist
+fat electrons
+fd leak
+fdlibm
+fear
+feature
+feature creature
+feature key
+feature shock
+featurectomy
+features
+feed-forward
+feep
+feeper
+feeping creature
+feeping creaturism
+fence
+fencepost error
+fepped out
+ffccc
+fiber optics
+fibre optics
+field circus
+field servoid
+field-programmable gate array
+fifth
+file
+file matching
+file server
+file signature
+filk
+fill-out form
+film at 11
+films
+filter
+filter promotion
+finger
+finger-pointing syndrome
+finite
+finite differencing
+finn
+firebottle
+firefighting
+firehose
+firewall
+firewall code
+firewall machine
+fireworks mode
+firmy
+first generation language
+first in first out
+first order logic
+fish
+fix
+fixed
+fixed point combinator
+fixpoint
+flag
+flaky
+flamage
+flame
+flame bait
+flame on
+flame war
+flamer
+flap
+flarp
+flash memory
+flat
+flat-ASCII
+flat-file
+flatline
+flatten
+flavor
+flavorful
+flippy
+floating point
+floating-point
+floating-point accelerator
+flood
+floppy disk
+flowchart
+flower key
+flush
+fly page
+flytrap
+fnord
+fold case
+followup
+fontology
+foo
+foobar
+foogol
+fool
+fool file
+footprint
+for free
+for the rest of us
+for values of
+fora
+foreground
+fork bomb
+forked
+formal methods
+forms
+formula
+fortune cookie
+forum
+forward
+forward chaining
+forward delta
+forward engineering
+fossil
+foundation
+four-colour glossies
+fourth generation language
+fpc
+fprintf
+fractal
+fractal dimension
+fragile
+fragment
+fragmentation
+frame
+frame pointer
+framing specification
+fred
+frednet
+free
+free software
+free variable
+freerexx
+freeware
+freeze
+frequently
+fried
+frink
+friode
+fritterware
+frob
+frobnicate
+frobnitz
+frogging
+front end
+front-end processor
+frotz
+frotzed
+frowney
+fry
+fsplit
+fuck me harder
+fudge
+full laziness
+full motion video
+full-custom
+full-duplex
+full-motion video
+fully
+fully lazy lambda lifting
+fully qualified domain
+fum
+function
+function application
+functional
+functional language
+functional unit
+functor
+funky
+funny money
+furrfu
+fusion
+fuzzball
+fuzzy
+fuzzy computing
+fuzzy logic
+gabriel
+gag
+games
+gamut
+gang bang
+garbage collect
+garbage collection
+garply
+gas
+gaseous
+gated
+gateway
+gawk
+gedanken
+geef
+geek out
+gen
+gender
+genealogy
+geneology
+general unifier
+generate
+generation
+generation language
+generic markup
+generic type variable
+genericity
+genetic algorithm
+gensym
+german
+ghostscript
+ghostview
+gig
+giga-
+gigabyte
+gilley
+gillion
+glark
+glass
+glass tty
+glassfet
+glibc
+glitch
+glob
+glork
+glue
+glyph
+gnarly
+go
+go root
+go-faster stripes
+gobble
+golden
+golf-ball printer
+gonk
+gonkulator
+gorets
+gorilla arm
+gorp
+gotcha
+graduate student
+grammar
+grammar analysis
+grammar development system
+grammatical
+graph
+graph coloring
+graph colouring
+graph reduction
+graph rewriting system
+graphics accelerator
+grault
+gray code
+gray goo
+greatest lower
+green
+green bytes
+green card
+green lightning
+grep
+grilf
+grind
+grind crank
+gripenet
+gritch
+groff
+grok
+gronk
+gronked
+group
+grovel
+grunge
+guard
+gubbish
+guiltware
+gun
+gunch
+gunzip
+gurfle
+guru
+guru meditation
+gweep
+gzip
+ha ha only serious
+hack
+hack attack
+hack mode
+hack on
+hack together
+hack up
+hack value
+hacked
+hacked off
+hacker
+hacker ethic
+hacker humour
+hacking run
+hackish
+hackishness
+hackitude
+hair
+hairy
+hakspek
+halting problem
+hammer
+hamster
+hand cruft
+hand-hacking
+hand-roll
+handle
+handshaking
+handwave
+hang
+happily
+haque
+hard
+hard disk
+hard drive
+hard-coded
+hard-wired
+hardcoded
+hardwarily
+hardwired
+has the X nature
+hash bucket
+hash collision
+hash function
+hash table
+hashing
+hat
+hc
+head normal form
+head normalisation theorem
+head-strict
+header
+heads down
+heartbeat
+heatseeker
+heavy metal
+heavy wizardry
+heavyweight
+heisenbug
+hello, sailor!
+hello, world
+heterogeneous
+heuristic
+hex
+hexadecimal
+hexit
+hidden flag
+hierarchical routing
+hierarchy
+high bit
+high level language
+high moby
+high-level language
+higher-order function
+higher-order macro
+hill climbing
+hing
+hirsute
+history
+hit rate
+hobbit
+hog
+hole
+holy wars
+home box
+home machine
+home page
+homepage
+homomorphism
+hook
+hop
+hopping
+horizontal application
+horizontal loop combination
+horizontal microcode
+hose
+hosed
+host
+host number
+hostname
+hot
+hotlink
+house wizard
+hp2ps
+httpd
+hub
+huff
+humma
+humour
+hung
+hungry
+hungus
+hypercube
+hyperlink
+hypermedia
+hyperspace
+hypertext
+hysterical reasons
+i-node
+i486
+i487
+i860
+ice-cube
+id Software
+ideal
+idempotent
+ifdef out
+ill-behaved
+image
+image formats
+image processing
+imaging
+imc
+immediate version
+imperative language
+implicit parallelism
+inc
+incantation
+include
+include war
+inclusive
+incremental backup
+incremental constraint solver
+indent style
+index
+indirect address
+indirect addressing
+inductive inference
+inductive relation
+inetd
+infant mortality
+inference
+inference engine
+inference rule
+infimum
+infinite
+infinite loop
+infinity
+information superhighway
+infrastructure
+inheritance
+initgame
+injection
+inline
+inode
+insanely great
+instance variable
+instantiate
+instantiation
+instruction scheduling
+instruction set architecture
+integrated circuit
+intensional
+interactive
+interesting
+interlace
+interleaving
+internet
+internet address
+internet number
+internetworking
+interoperability
+interoperable database
+interpretation
+interpreter
+interpreters
+interrupt
+interrupt handler
+interrupt list
+interrupt priority level
+interrupt request
+inverse
+iron
+iron box
+ironmonger
+irrefutable
+isindex=
+isochronous
+isolated
+iteration
+ivs
+jaccl
+jack in
+jaggies
+jam
+jc
+jiffy
+job security
+jock
+joe
+join
+jolix
+jove
+jpg
+juggling eggs
+jukebox
+jump
+jump trace buffer
+jupiter
+kahuna
+kamikaze packet
+kangaroo code
+ken
+kernal
+kernel
+key cryptography
+keypal
+keyword
+kgbvax
+kiboze
+kick
+kill file
+killer
+killer micro
+killer poke
+kilo-
+kilobyte
+kiosk
+kit
+klone
+kludge
+kluge
+kluge around
+knowledge
+knowledge level
+knowledge representation
+knowledge-based system
+kremvax
+ksh
+kyrka
+lace card
+lalr.ss
+lambda
+lambda expression
+lambda lifting
+lambda-calculus
+language
+language lawyer
+languages of
+laptop
+larval stage
+lase
+laser
+last call optimisation
+latency
+lattice
+laundromat
+layer
+laziness
+lazy evaluation
+lazy list
+lazy sml2c
+lcc
+leaf
+leak
+leaky heap
+leapfrog attack
+leased line
+least fixed point
+least upper bound
+legacy
+legal
+legalese
+lenient
+let the smoke out
+letterbomb
+lexer
+lexical analyser
+lexical scope
+lexiphage
+libg++
+life
+life!
+life-cycle
+lifecycle
+lifted domain
+light pipe
+lightweight
+like kicking dead whales down the
+like nailing jelly to a tree
+like this
+line
+line 666
+line noise
+line probing
+line starve
+linear argument
+linear function
+linear logic
+linear type
+link
+link farm
+link-dead
+lint
+lion food
+list
+literate programming
+literature
+lithium lick
+little-endian
+live data
+livelock
+liveware
+lobotomy
+local bus
+locality
+locals
+locked
+locked up
+logic
+logic bomb
+logic emulator
+logic programming
+logical
+logical relation
+look and feel
+loop combination
+loop fusion
+loop through
+loose bytes
+lord high fixer
+lose
+loser
+losing
+loss
+lossage
+lost in the noise
+lost in the underflow
+lots of MIPS but no I/O
+low-bandwidth
+lower set
+lpr
+lub
+lump uncurrying
+lunatic fringe
+lurker
+luser
+lzexe
+m2
+m4
+macdink
+machinable
+machine
+machine code
+machine learning
+machoflops
+macro
+macro-
+macrology
+macrotape
+maggotbox
+magic
+magic cookie
+magic number
+magic smoke
+mail
+mail bridge
+mail exploder
+mail gateway
+mail path
+mailbomb
+mailbox
+mailing list
+main loop
+mainframe
+maintenance
+makefile
+malloc
+management
+manager
+mandelbug
+manged
+mangle
+mangler
+mango
+manularity
+map
+marbles
+marginal
+mark-sweep garbage collection
+marketroid
+markup
+marshalling
+massage
+math-out
+mawk
+maximal free expression
+maximum Maytag mode
+mcvax
+mcvert
+me
+meatware
+meeces
+meg
+mega-
+megabyte
+megaflop
+megapenny
+meltdown
+member function
+membership function
+meme
+meme plague
+memetics
+memo function
+memoisation
+memoization
+memory
+memory farts
+memory leak
+memory smash
+mender
+menu
+menu bar
+menuitis
+mess-dos
+message
+message passing
+message switching
+meta
+meta bit
+metalanguage
+metaprogram
+metasyntactic variable
+method
+methodology
+metric
+mickey
+micro
+micro-
+microLenat
+microPLANNER
+microReid
+microcentury
+microcode
+microcomputer
+microfloppies
+microfortnight
+microkernel
+microprocessor
+microprogramming
+microtape
+mid-level
+middle-endian
+middleware
+milliLampson
+mimencode
+minicomputer
+minifloppies
+minimax
+mining
+minus infinity
+mirror
+mirrors
+misbug
+misfeature
+missile address
+miswart
+moby
+mockingbird
+mod
+mode
+mode bit
+modeling
+modem
+moderator
+modulo
+molly-guard
+monad
+monadic
+monitor
+monkey up
+monkey, scratch
+monochrome
+monoid
+monotonic
+monty
+moose call
+moria
+morphing
+most
+mother board
+motherboard
+mouse
+mouse ahead
+mouse around
+mouse belt
+mouse elbow
+mouse program
+mouso
+movies
+msgGUI
+mtc
+muFP
+muddie
+mudhead
+multi-media
+multi-processing
+multi-tasking
+multiC
+multicast addressing
+multicast backbone
+multician
+multihomed host
+multilayer perceptron
+multimedia
+multiple inheritance
+multiplexer
+multiplexing
+multiplexor
+multiprocessing
+multiprocessor
+multitasking
+multithreaded
+mumblage
+mumble
+munch
+munching
+munching squares
+munchkin
+mundane
+mung
+munge
+museum
+mutter
+nML
+nadger
+nagware
+nailed to the wall
+nailing jelly
+naive
+naive user
+name
+name capture
+name extension
+name resolution
+namespace
+nano
+nano-
+nanoacre
+nanobot
+nanocomputer
+nanofortnight
+nanosecond
+nanotechnology
+narrowing
+nasal demons
+nastygram
+national characters
+natural deduction
+natural language
+natural language processing
+natural number
+nature
+navigating
+neat hack
+neats vs.
+neep-neep
+negation by failure
+neophilia
+net.-
+net.god
+net.personality
+net.police
+netCDF
+netaddress
+netburp
+netdead
+netiquette
+netlag
+netload
+netnews
+netrock
+netsplit
+netter
+network
+network address
+network layer
+network management
+network meltdown
+network number
+network, the
+neural network
+neural networks
+neuron
+newbie
+newgroup wars
+newline
+news
+news reader
+newsfroup
+newsgroup
+nibble
+nick
+nickle
+night mode
+no X here.
+no-op
+no-write allocation
+noddy
+node
+non-optimal solution
+non-volatile memory
+nondeterminism
+nondeterministic
+nondeterministic Turing machine
+nonlinear
+nontrivial
+normal form
+normal order
+not ready for
+notation
+notwork
+nroff
+nslookup
+nu-calculus
+nude
+nuke
+null modem
+number
+number-crunching
+numbers
+nybble
+nyetwork
+obi-wan error
+object
+object orientation
+object oriented
+object oriented programming
+object-orientation
+object-oriented
+object-oriented analysis
+object-oriented database
+object-oriented design
+object-oriented language
+object-oriented programming
+observational
+occam
+occam 2
+occlude
+octal forty
+octave
+octet
+of AI Programming
+of no account
+off into never-never land
+off the trolley
+off-by-one error
+off-side rule
+offline
+ogg
+old fart
+one-banana problem
+one-line fix
+one-liner wars
+ones complement
+onto
+ontology
+ooblick
+op
+op-code
+open
+open switch
+operating system
+operational semantics
+optical
+optical diff
+optical fiber
+optical fibre
+optimisation
+optimising compiler
+optimism
+optimization
+order reduction
+order-embedding
+ordered set
+ordering
+oriented
+orphan
+orphaned
+orthogonal
+orthogonal instruction set
+out-of-band
+overflow bit
+overflow pdl
+overloading
+overrun
+overrun screw
+p2c
+pC++
+pH
+pSather
+packet
+packet driver
+packet switching
+packet-switched
+padded cell
+page in
+page out
+pages
+pain in
+paper-net
+paraML
+parallel computer
+parallel computing
+parallel processing
+parallel processor
+parallel reduction
+parallelism
+param
+parametric polymorphism
+parent message
+parity errors
+parm
+parser
+parser generator
+parsing
+partial
+partial evaluation
+partial function
+partial ordering
+partially
+partition
+pasos2
+password
+pastie
+patch
+patch space
+path
+pathological
+pattern matching
+payware
+pcx
+pdksh
+peek
+peer
+peer to peer
+peer-to-peer
+pencil and paper
+peon
+perceptron
+perf
+perfect programmer syndrome
+perl profiler
+perl-byacc
+perplexity
+persistence
+person
+pessimal
+pessimising compiler
+peta-
+petabyte
+petdingo
+phage
+phase
+phase of the moon
+phase-wrapping
+philosophy
+photonics
+phreaking
+physical addressing
+physical layer
+pico-
+pidgen+
+pig, run like a
+piggybacking
+pilot
+ping
+ping-pong
+pipeline
+pipeline break
+pipeline stall
+pipelined
+pipelining
+pirate
+pistol
+pixel
+pixmap
+pizza box
+pklite
+pkunzip
+pkzip
+plaid screen
+plain-ASCII
+plan file
+plants
+platform
+platinum-iridium
+play by electronic mail
+playpen
+playte
+pling
+plingnet
+plokta
+plonk
+plugh
+plumbing
+pm2
+pnambic
+pod
+point
+point of presence
+point-and-drool interface
+pointed domain
+pointers
+poke
+poll
+polling
+polygon
+polymorphic
+polymorphic lambda-calculus
+polymorphism
+polynomial
+polynomial-time
+pop
+porno
+pornography
+port
+portability
+porting
+poset
+post
+post office problem
+post-order
+postcardware
+posted write-through
+posting
+postmaster
+pound on
+power
+power hit
+powerdomain
+powerset
+pragma
+pre-cc
+pre-order
+pre-order traversal
+precedence
+predicate calculus
+predomain
+preemptive multitasking
+prefix
+prepend
+preprocessor
+presentation layer
+prestidigitization
+pretty pictures
+prettyprint
+pretzel key
+prime time
+principal type
+printer
+printf
+printing discussion
+priority interrupt
+priority queue
+privacy
+private
+problem
+procedural language
+process scheduling
+product
+production
+professional programming
+profile
+proglet
+program
+programming
+programming fluid
+project assurance
+project management
+project planning
+projection
+proof
+propeller head
+propeller key
+propositional calculus
+proprietary
+protocol
+protocol converter
+protocol stack
+prototyping
+provably difficult
+provably unsolvable
+provocative
+prowler
+proxy ARP
+pseudo
+pseudo-tty
+pseudoprime
+pseudosuit
+psychedelicware
+psyton
+ptc
+pubic directory
+public
+public domain
+public domain software
+public key encryption
+public licence
+puff
+punched card
+punt
+puppy
+pure functional
+pure lambda-calculus
+purely
+purple wire
+push
+pusher
+qdjanus
+quad
+quadruple bucky
+quantifier
+quantum
+quarter
+ques
+quick-and-dirty
+quine
+quintillion
+quote chapter and verse
+quotient
+quux
+qux
+rabbit job
+race
+radiosity
+rain
+rainbow series
+random
+random access memory
+random numbers
+random-access memory
+randomness
+range
+rare mode
+raster blaster
+raster burn
+rastergram
+rat belt
+ratio
+rational
+rave
+rave on!
+raw mode
+ray tracing
+ray-tracing
+raytracing
+rc
+rc file
+rcp
+rdb
+re-engineering
+re-entrant
+read-only user
+real
+real estate
+real hack
+real operating system
+real time
+real user
+real-time
+reality check
+realtime
+reaper
+reassembly
+recipe
+rectangle slinger
+recursion
+recursive
+recursive acronym
+recursive type
+red wire
+redex
+redocumentation
+reduction
+reduction strategy
+reengineering
+reentrant
+reference counting
+referential transparency
+refresh rate
+refutable
+regex
+regexp
+regional network
+register
+register allocation
+register assignment
+register set
+register spilling
+regular expression
+regular graph
+reincarnation, cycle of
+reinvent the wheel
+relation
+relational
+relational database management system
+relational language
+released version
+reliability
+reliable communication
+religion of CHI
+religious issues
+remote login
+rendering
+rendezvous
+repeater
+replacement
+replication
+replicator
+reply
+requirements
+reseller
+resolution
+restriction
+restructuring
+retcon
+retrocomputing
+return from the dead
+reusability
+reuse
+reverse engineering
+rib site
+rice box
+rich object
+right) logical
+rl
+rlogin
+roach
+robot
+robust
+rococo
+roff
+rogue
+room-temperature IQ
+root
+root mode
+rot13
+rotary debugger
+rotational latency
+round tape
+round-trip time
+route
+routed
+router
+routing
+routing domain
+rsh
+rstat
+rude
+run time
+run-length encoding
+run-time
+runes
+runic
+runtime
+ruptime
+rusty iron
+rusty memory
+rwho
+sacred
+safe
+safety
+safety-critical system
+saga
+sagan
+salad
+salescritter
+salt
+salt mines
+salt substrate
+sam
+same-day service
+samizdat
+samurai
+sandbender
+sandbox
+sanity
+satisfiability problem
+say
+scag
+scanner
+scanno
+scheduler
+scheduling
+schematic capture
+schematic type variable
+schroedinbug
+science-fiction fandom
+scm
+scope
+scram switch
+scratch
+scratch monkey
+scream and die
+screaming tty
+screw
+screwage
+scribble
+scrog
+scrool
+scrozzle
+scruffies
+scuzzy
+search problem
+search-and-destroy mode
+second generation
+second-system effect
+secondary cache
+secondary damage
+section
+sector
+sector interleave
+sector map
+sector mapping
+security through obscurity
+segfault
+seggie
+segment
+segmentation fault
+segv
+self-reference
+selvage
+semantic gap
+semantics
+semaphore
+semi
+sendmail
+senior bit
+sentence
+sequential
+serial line
+serial port
+server
+session layer
+set
+set abstraction
+set associative cache
+seven layer model
+sex changer
+sgmls
+sh
+shallow binding
+shambolic
+shar
+shar file
+sharchive
+shared
+shareware
+shelf
+shelfware
+shell
+shell out
+shift left (or
+shim
+shitogram
+short card
+shotgun debugging
+shovelware
+showstopper
+shriek
+side-effect
+sidecar
+sig
+sig block
+sig quote
+sig virus
+signal-to-noise ratio
+signature
+silicon
+silly walk
+silo
+simplex
+simulated annealing
+simulation
+since time T equals minus infinity
+sine wave
+single assignment
+single inheritance
+single-attached
+siod
+site
+sitename
+skolemisation
+skrog
+skulker
+slack
+slap on the side
+slash
+slave tty
+sleep
+slib
+slice
+slim
+slog
+slop
+slopsucker
+slurp
+smart
+smart card
+smart terminal
+smash case
+smash sum
+smash the stack
+smiley
+sml2c
+smoke
+smoke and
+smoke test
+smoking clover
+smurf
+snacc
+snail mail
+snail-mail
+snarf
+snarf & barf
+snarf down
+snark
+sneakernet
+sniff
+snivitz
+social engineering
+social science number
+socket
+soft boot
+softcopy
+software
+software bloat
+software engineering
+software laser
+software law
+software patent
+software piracy
+software pirate
+software rot
+softwarily
+softy
+some random X
+sorcerer's apprentice
+sound
+soundex
+source code
+source of all good bits
+source route
+source routing
+space
+space leak
+space-cadet keyboard
+spaghetti code
+spaghetti inheritance
+spam
+spanning tree algorithm
+sparse
+special-case
+specialisation
+specific markup
+speculative evaluation
+speech
+speech recognition
+speedometer
+spell
+spelling flame
+spiffy
+spike
+spin
+splash screen
+splat
+spod
+spoiler
+sponge
+spoo
+spoof
+spoofing
+spooge
+spool
+spot
+square tape
+ssh
+stack
+stack frame
+stack puke
+stale pointer bug
+standard
+standard semantics
+standards
+state diagram
+state transition diagram
+stateless
+static RAM
+static random access memory
+static scope
+steam-powered
+stereogram
+sticky analysis
+stiffy
+stochastic
+stomp on
+stone knives and bearskins
+stoppage
+store
+stream
+stream-oriented
+strength reduction
+strict
+strided
+string reduction
+stroke
+strongly
+struct
+structural recusion
+structured
+structured design
+structured language
+strudel
+stub network
+stubroutine
+studly
+studlycaps
+stunning
+stupid-sort
+subband
+sublanguage
+subnet
+subnet address
+subnet mask
+subset
+subtype
+subtyping
+sucking mud
+sufficiently small
+sugar
+suit
+suitably small
+sum
+sun lounge
+sun-stools
+sunspots
+super
+super source quench
+superclass
+supercombinators
+supercompilation
+supercomputer
+superhighway
+superpipelined
+superprogrammer
+superscalar
+superuser
+support
+supremum
+surfing
+surjection
+suspension
+swab
+swap
+swapped in
+swapped out
+swizzle
+symbolic inference
+symmetric
+symmetric key cryptography
+sync
+synchronous key
+syndrome
+syntactic
+syntactic salt
+syntax
+syntax directed translation
+synthesis
+sys-frog
+sysadmin
+sysape
+sysop
+sysprog
+system
+system mangler
+systems jock
+systolic array
+tail recursion
+tail recursion modulo cons
+tail-strict
+talk
+talk mode
+talker system
+tall card
+tanked
+tape
+tar and feather
+targa
+task scheduling
+taste
+tayste
+tcl-debug
+tclx
+tcsh
+tee
+telecommuting
+teledildonics
+template code
+temporal logic
+ten-finger interface
+tense
+tenured
+tera-
+terabyte
+teraflop club
+term rewriting system
+terminak
+terminal adapter
+terminal brain death
+terminal emulator
+terminal illness
+terminal junkie
+terminal server
+termination analysis
+terminator
+terpri
+test
+test coverage
+testing
+text
+tgz
+thanks in
+the X that can be Y is not the
+the hood
+the net
+theology
+theory
+thinko
+third generation language
+this dictionary
+thrash
+thrashing
+thread
+threaded
+threaded code
+threading
+three-finger salute
+three-letter acronym
+thud
+thumb
+thunk
+tick
+tick-list
+tickle a bug
+tiger team
+time
+time T
+time bomb
+time division
+time sink
+time, for sure!
+time-sharing
+times-or-divided-by
+timesharing
+tinman+
+tip of the
+tired iron
+tits on a keyboard
+tn3270
+to Zero Inverted
+to a first approximation
+to a zeroth approximation
+to find it.
+to understand this
+toast
+toaster
+toeprint
+toggle
+token
+token ring
+token-ring
+too
+tool
+toolsmith
+topic drift
+topic group
+topic thread
+topology
+total function
+total ordering
+toto
+tourist
+tourist information
+touristic
+toy
+toy language
+toy problem
+toy program
+tptc
+traceroute
+trampoline
+transaction
+transceiver
+transfer
+transformation
+transistor
+transit network
+transitive
+transitive closure
+transport layer
+transputer
+trap
+trap door
+trap-door function
+trash
+travelling salesman problem
+traversal
+trawl
+treasure
+tree
+tree-killer
+treeware
+triple DES
+trit
+troff
+troglodyte
+troll
+tron
+true X
+true-hacker
+tty
+tube
+tube time
+tunafish
+tune
+tunnelling
+tuple
+tupling
+turbo nerd
+turist
+tweak
+tweeter
+twiddle
+twilight
+twink
+twirling baton
+twisted pair
+two-to-the-N
+twonkie
+twos complement
+type
+type assignment
+type inference
+type scheme
+uC++
+uML
+ubiquitous computing
+uemacs
+unary
+uncurrying
+undefined external reference
+under
+undocumented feature
+unfold
+unfold/fold
+unicos
+unification
+unifier
+uninteresting
+union
+universal algebra
+universal quantifier
+unproto
+unshar
+unswizzle
+unwind the stack
+unwind-protect
+up
+upload
+upper bound
+ups
+upthread
+upward
+urban legend
+urchin
+usa.net
+user
+user interface
+user-friendly
+user-obsequious
+usim
+usr
+utility-coder
+uucp
+uudecode
+uuencode
+vadding
+valency
+vanilla
+vannevar
+vaporware
+vaxherd
+vaxism
+vaxocentrism
+vdiff
+vector graphics
+veeblefester
+ventilator card
+verbage
+verbiage
+verification
+version
+vertical application
+vertical loop combination
+vertical microcode
+vgrep
+vi
+video compression
+video random access memory
+videotex
+virgin
+virtual
+virtual PoP
+virtual cache
+virtual circuit
+virtual point of presence
+virtual reality
+virtual shredder
+virus
+visionary
+visual programming
+visual programming language
+visualisation
+visualization
+viz
+voice recognition
+voice-net
+voodoo
+voxel
+vulture capitalist
+wabbit
+wacco
+waldo
+walk
+walk off the end of
+walking drives
+wall
+wall follower
+wall time
+wallpaper
+wango
+wank
+wannabee
+warez
+warlording
+warm boot
+wart
+washing machine
+water MIPS
+wave a dead chicken
+wavelet
+weasel
+web2c
+webhead
+wedged
+wedgie
+wedgitude
+weeds
+weenie
+well-behaved
+well-connected
+wetware
+whack
+whacker
+whales
+whalesong
+wheel
+wheel bit
+wheel wars
+whistles, and gongs
+white trash
+whois
+widget
+wiggles
+winchester
+window manager
+window shopping
+window system
+windowing system
+winged
+winkey
+wired
+wirehead
+wirewater
+wish list
+within delta of
+within epsilon of
+wizard
+wizard mode
+wizardly
+womb
+wombat.doc.ic.ac.uk
+woofer
+word
+workaround
+workflow
+working as designed
+workstation
+workstation Oberon System
+worm
+wormhole
+wormhole routing
+wound around the axle
+wrap
+write buffer
+write-back
+write-only code
+write-only language
+write-only memory
+write-through
+write-thru
+wugga wugga
+wumpus
+x-scm
+xbeeb
+xbm
+xdbx
+xlisp
+xmosaic
+xnf2ver
+xor
+xref
+xxgdb
+xyzzy
+yacc
+yellow wire
+yoyo mode
+zap
+zero
+zero assignment
+zero-content
+zeroth
+zigamorph
+zip
+zipperhead
+zombie
+zone
+zorch
+zorkmid
+zsh
+{log}
