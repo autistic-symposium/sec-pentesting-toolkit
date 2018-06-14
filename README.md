@@ -2,7 +2,7 @@
 
 A big bag of Fun. Educational purposes.
 
-![](https://ibb.co/dirtjd)
+[url=https://ibb.co/dirtjd][img]https://preview.ibb.co/eO9PqJ/DJI_0062.jpg[/img][/url]
 
 
 ##
