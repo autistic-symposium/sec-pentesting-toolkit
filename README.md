@@ -2,10 +2,10 @@
 
 A big bag of Fun. Educational purposes.
 
-[url=https://ibb.co/dirtjd][img]https://preview.ibb.co/eO9PqJ/DJI_0062.jpg[/img][/url]
+![](DJI_0062.jpg)
 
 
-##
+## Resource Links
 
 ### * [CTFs and WARGAMES](https://github.com/bt3gl/My-Gray-Hacker-Resources/tree/master/CTFs_and_WarGames)
 ### * [CRYPTOGRAPHY](https://github.com/bt3gl/My-Gray-Hacker-Resources/tree/master/Cryptography)
