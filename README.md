@@ -1,11 +1,11 @@
-# Gray Hacker Resources
+# 💥Gray Hacker Resources 💥
 
 A big bag of Fun. Educational purposes.
 
 ![](DJI_0062.jpg)
 
 
-## Resource Links
+## ⚡️ Resource Links
 
 ### * [CTFs and WARGAMES](https://github.com/bt3gl/My-Gray-Hacker-Resources/tree/master/CTFs_and_WarGames)
 ### * [CRYPTOGRAPHY](https://github.com/bt3gl/My-Gray-Hacker-Resources/tree/master/Cryptography)
@@ -25,7 +25,7 @@ A big bag of Fun. Educational purposes.
 
 ----
 
-### Post-Exploitation
+### ⚡️ Post-Exploitation
 
 * [Metasploit Post Exploitation Command List](https://docs.google.com/document/d/1ZrDJMQkrp_YbU_9Ni9wMNF2m3nIPEA_kekqqqA2Ywto/edit)
 
@@ -39,7 +39,7 @@ A big bag of Fun. Educational purposes.
 
 ----
 
-### Useful Command Line
+### ⚡️ Useful Command Line
 
 #### Searching
 
@@ -90,7 +90,7 @@ telnet localhost 3000
 
 ----
 
-## References:
+## ⚡️ References:
 
 ### Books I Recommend
 
@@ -127,7 +127,7 @@ telnet localhost 3000
 
 ----
 
-### License
+## ⚡️License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
 
