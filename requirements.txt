@@ -23,7 +23,7 @@ pytest==2.6.0
 python-libtorrent==0.16.11
 requests==2.3.0
 rsa==3.1.4
-scapy==2.2.0
+scapy== 2.4.0
 scikit-learn==0.14.1
 scipy==0.12.1
 tornado==2.2.1
