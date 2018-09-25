@@ -109,7 +109,7 @@ telnet localhost 3000
 - [Gray Hat Python](http://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921)
 - [Black Hat Python](http://www.nostarch.com/blackhatpython)
 - [Violent Python](http://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579)
-- [Shellcoders Handbook](www.amazon.com/The-Shellcoders-Handbook-Discovering-Exploiting/dp/047008023X)
+- [Shellcoders Handbook](http://www.amazon.com/The-Shellcoders-Handbook-Discovering-Exploiting/dp/047008023X)
 - [Practice Malware Analysis](https://www.nostarch.com/malware)
 
 #### Fun
