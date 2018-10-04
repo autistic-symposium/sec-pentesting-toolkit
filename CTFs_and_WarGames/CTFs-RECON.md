@@ -27,8 +27,8 @@ Google anything using keywords such as ```filetype:cgi inurl:cgi-bin```
 ### Advanced Recon
 
 - [redbot.org](https://redbot.org/)
-
-
+- [shodan.io](https://www.shodan.io/)
+- [censys.io](https://censys.io/)
 -----------------
 [FireBug]: http://getfirebug.com/
 [Burp Suite]: http://portswigger.net/burp/
@@ -40,4 +40,5 @@ Google anything using keywords such as ```filetype:cgi inurl:cgi-bin```
 [subbrute.py]: https://github.com/SparkleHearts/subbrute
 [pnginfo]: http://www.stillhq.com/pngtools/
 [namechk]: http://namechk.com
+[md5 decryption]: https://www.md5online.org/
 
