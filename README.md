@@ -1,4 +1,4 @@
-# 👾Gray Hacker Resources 👾
+# 👾 Gray Hacker Resources 👾
 
 A big bag of Fun. Educational purposes.
 
