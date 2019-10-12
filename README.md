@@ -1,11 +1,9 @@
-# 👾 Gray Hacker Resources 👾
+# Gray Hacker Resources 
 
-A big bag of Fun. Educational purposes.
-
-![](DJI_0062.jpg)
+For fun or profit.
 
 
-## ⚡️ Resource Links
+## Resource Links
 
 ### * [CTFs and WARGAMES](https://github.com/bt3gl/My-Gray-Hacker-Resources/tree/master/CTFs_and_WarGames)
 ### * [CRYPTOGRAPHY](https://github.com/bt3gl/My-Gray-Hacker-Resources/tree/master/Cryptography)
@@ -25,7 +23,7 @@ A big bag of Fun. Educational purposes.
 
 ----
 
-### ⚡️ Post-Exploitation
+### Post-Exploitation
 
 * [Metasploit Post Exploitation Command List](https://docs.google.com/document/d/1ZrDJMQkrp_YbU_9Ni9wMNF2m3nIPEA_kekqqqA2Ywto/edit)
 
@@ -39,7 +37,7 @@ A big bag of Fun. Educational purposes.
 
 ----
 
-### ⚡️ Useful Command Line
+### Useful CLI
 
 #### Searching
 
@@ -90,7 +88,20 @@ telnet localhost 3000
 
 ----
 
-## ⚡️ References:
+## References:
+
+
+#### Security analyzers and scanners for CI/CD pipelines
+
+* Static code security analyzers: [SonarQube](https://www.sonarqube.org/) (Javascript scanner), [NodeJsScan](https://github.com/ajinabraham/NodeJsScan).
+* Package dependency security analyzers: [Snyk](https://snyk.io/)
+* Docker image security analyzers: [Hadolint](https://github.com/hadolint/hadolint), [Clair](https://github.com/coreos/clair), [Anchore](https://anchore.com/)
+* AWS IAM permission analyzers: [IAM access advisor APIs](https://aws.amazon.com/blogs/security/automate-analyzing-permissions-using-iam-access-advisor/), [PMapper](https://github.com/nccgroup/PMapper).
+* AWS S3 permission analyzers: [s3audit](https://github.com/scalefactory/s3audit).
+* Docker runtime anomaly detection: [Falco](https://hub.docker.com/r/sysdig/falco).
+* Kubernetes policy security analyzers: [RBAC](https://searchsecurity.techtarget.com/definition/role-based-access-control-RBAC). 
+* Policy auditing tools: [Rakkess](https://github.com/corneliusweig/rakkess).
+
 
 ### Books I Recommend
 
@@ -112,6 +123,13 @@ telnet localhost 3000
 - [Shellcoders Handbook](http://www.amazon.com/The-Shellcoders-Handbook-Discovering-Exploiting/dp/047008023X)
 - [Practice Malware Analysis](https://www.nostarch.com/malware)
 
+
+
+#### Articles:
+* [Continuous security](https://www.infoq.com/news/2019/08/continuous-security/).
+* [How to not get hacked](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/).
+
+
 #### Fun
 
 - [Spam Nation](http://www.amazon.com/Spam-Nation-Organized-Cybercrime-Epidemic/dp/1492603236/ref=tmm_pap_swatch_0?_encoding=UTF8&sr=&qid=)
@@ -126,30 +144,8 @@ telnet localhost 3000
 
 
 
-----
-
-## Donate
-
-Hi! I work on this project in my spare time, in addition to my primary job. I hope you enjoy using Gray Hacker Resources. If you do, please, [become my patron 🤝](https://www.patreon.com/bt3gl).
-
-|                                                                    Patreon                                                                     |                                                            Bitcoin                                                             |                                                            Ethereum                                                            |
-| :--------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|                                                         [Become a patron](https://www.patreon.com/bt3gl)                                                        |                                              `1FrPrQb6ACTkbSBAz9PduJWrDFfq41Ggb4`                                              |                                          `0x6aF39C917359897ae6969Ad682C14110afe1a0a1`                                          |
-| <a href="https://www.patreon.com/denysdovhan"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="150px"></a> | <img src="https://user-images.githubusercontent.com/3459374/33760933-1c9b81b4-dc10-11e7-8e4b-22d81f98c138.png" width="100px"/> | <img src="https://user-images.githubusercontent.com/3459374/33760932-1c7b3fb2-dc10-11e7-9774-411264d533da.png" width="100px"/> |
-
-This is your way make a clear statement: **My work is valued.**
-
-I would appreciate your support! _Thank you!_
-
-
-------
-
 ## License
 
 
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
-
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
-
 When making a reference to my work, please use my [website](http://bt3gl.github.io/index.html).
