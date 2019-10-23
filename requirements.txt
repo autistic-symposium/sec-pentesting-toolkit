@@ -16,7 +16,7 @@ ntplib==0.3.1
 numpy==1.8.2
 paramiko==2.0.9
 py==1.4.22
-pyOpenSSL==0.13.1
+pyOpenSSL==17.5.0
 pycrypto==2.6.1
 pycurl==7.19.3
 pytest==2.6.0
