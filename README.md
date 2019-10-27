@@ -3,7 +3,7 @@
 For fun or profit.
 
 
-## Resource Links
+## Resource in this Repository
 
 * [CTFs and WARGAMES](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/CTFs_and_WarGames)
 * [CRYPTOGRAPHY](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Cryptography)
@@ -20,20 +20,16 @@ For fun or profit.
 * [PEN TESTING](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Pen_Testing)
 * [MOBILE](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Mobile)
 * [BOTNETS](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Botnets)
-* [DDOS](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/ddos)
+* [DDOS](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Ddos)
 
 ----
 
 ### Post-Exploitation
 
 * [Metasploit Post Exploitation Command List](https://docs.google.com/document/d/1ZrDJMQkrp_YbU_9Ni9wMNF2m3nIPEA_kekqqqA2Ywto/edit)
-
 * [Obscure Systems (AIX, Embeded, etc) Post-Exploit Command List](https://docs.google.com/document/d/1CIs6O1kMR-bXAT80U6Jficsqm0yR5dKUfUQgwiIKzgc/edit).
-
 * [OSX Post-Exploitation](https://docs.google.com/document/d/10AUm_zUdAQGgoHNo_eS0SO1K-24VVYnulUD2x3rJD3k/edit?hl=en_US).
-
 * [Windows Post-Exploitation Command List](https://docs.google.com/document/d/1U10isynOpQtrIK6ChuReu-K1WHTJm4fgG3joiuz43rw/edit?hl=en_US).
-
 * [Linux/Unix/BSD Post-Exploitation Command List](https://docs.google.com/document/d/1ObQB6hmVvRPCgPTRZM5NMH034VDM-1N-EWPRz2770K4/edit?hl=en_US).
 
 ----
@@ -104,7 +100,7 @@ telnet localhost 3000
 * Policy auditing tools: [Rakkess](https://github.com/corneliusweig/rakkess).
 
 
-### Books I Recommend
+### Books
 
 #### Technical
 - [Bulletproof SSL and TLS](http://www.amazon.com/gp/product/1907117040?psc=1&redirect=true&ref_=oh_aui_detailpage_o06_s00)
@@ -143,10 +139,3 @@ telnet localhost 3000
 - [How to be a InfoSec Geek](http://www.primalsecurity.net/how-to-be-an-infosec-geek/)
 - [My Blog](http://bt3gl.github.io/index.html)
 
-
-
-## License
-
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
-When making a reference to my work, please use my [website](http://bt3gl.github.io/index.html).
