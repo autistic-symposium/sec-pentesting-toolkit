@@ -6,7 +6,6 @@ Usage of all tools on this site for attacking targets without prior mutual conse
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-## Sessions
 
 * [CTFs and WARGAMES](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/CTFs_and_WarGames)
 * [CRYPTOGRAPHY](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Cryptography)
