@@ -1,6 +1,3 @@
-CTFs & Wargames Archives
-========================
-
 # CTFs
 
 ## 2014
