@@ -1,4 +1,4 @@
-# OTHER HACKINGS
+# Other Hackings
 
 ## Facebook Hacking
 
