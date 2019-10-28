@@ -1,4 +1,5 @@
 from PIL import Image
+
 img = Image.open('steg100.png')
 
 strbit1 = ''
