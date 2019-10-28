@@ -1,6 +1,5 @@
-# Network and 802.11
+# Network and 802.11 Hacking
 
-My resources in networking and wireless hacking.
 
 ## Packages:
 
