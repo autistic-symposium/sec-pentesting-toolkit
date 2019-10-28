@@ -1,9 +1,6 @@
 # Cryptography
 
-
-### Some Tips:
-
-- Often data is just encoded in base64 or hex. Other times it's just compressed (gzip):
+Often data is just encoded in base64 or hex. Other times it's just compressed (gzip):
     - Text 32 characters long --> md5 hash.
     - 40 characters long --> SHA1 hash.
     - equal signs spread --> base64 encoded string.
@@ -11,7 +8,6 @@
     - hints about keys and signing --> likely RSA.
 
 
----
 
 ## MD5
 
