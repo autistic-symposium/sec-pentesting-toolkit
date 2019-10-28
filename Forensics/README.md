@@ -1,5 +1,6 @@
 # Forensics
 
+
 ## Disk Forensics
 
 ### Basic useful CLI tools:
@@ -91,7 +92,7 @@ $ BOOT_IMAGE=/vmlinuz-3.5.0-23-generic
 * I highly recommend their training.
 
 
----------------
+
 ## Scripts
 
 #### PDFs
@@ -101,7 +102,7 @@ Tools to test a PDF file:
 - pdf-parser
 
 
------------
+
 ## References
 
 * [File system analysis](http://wiki.sleuthkit.org/index.php?title=FS_Analysis)
