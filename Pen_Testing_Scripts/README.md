@@ -12,7 +12,6 @@
     - free: LLVM Clang Static Analyzer, FindBugs (Java), RATS
 
 
-----
 
 ## Threat Modeling (Design Review)
 
