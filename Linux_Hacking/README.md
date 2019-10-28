@@ -1,5 +1,6 @@
 # Linux Hacking
 
+
 ## Privilege Escalation
 
 * [Unix Privilege Escalation Exploits by years](https://github.com/Kabot/Unix-Privilege-Escalation-Exploits-Pack).
@@ -1269,6 +1270,8 @@ $ convert -delay 20 -loop 0 *.jpg myimage.gif
 
 
 * Type ```!!``` to run the last command in the history, ```!-2``` for the command before that, and so on.
+
+
 
 
 
