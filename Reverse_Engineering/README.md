@@ -1,5 +1,7 @@
 # Reverse Engineering
 
+
+
 * Objective: turn a x86 binary executable back into C source code.
 * Understand how the compiler turns C into assembly code.
 * Low-level OS structures and executable file format.
@@ -329,6 +331,6 @@ xxd -r hello.dump > hello
 
 ----
 
-# Relevant Talks
+# Talks
 
-* [Patrick Wardle: Writing OS X Malware](https://vimeo.com/129435995)
+* [Patrick Wardle: Writing OS X Malware](https://vimeo.com/129435995).
