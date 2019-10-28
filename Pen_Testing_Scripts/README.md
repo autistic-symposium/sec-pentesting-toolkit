@@ -1,8 +1,9 @@
-# Pen-Testing
+# Pen-Testing Scripts
+
 
 ## Auditing Code
 
-* Initial value assigments (failure to asign initial values can lead to vulnerabilities).
+* Initial value assignments (failure to assign initial values can lead to vulnerabilities).
 
 * Memory corruption (see Memory_Exploits folder).
 
@@ -51,5 +52,3 @@
 * Both source and binary access
 * Checked build: an binary with no source code but with debugging information.
 * Source black box: black box and fuzz testing (example: web applications). Example: auditing a web server with entry point at TCP port 80, you use a HTTP protocol fuzzer.
-
-----
