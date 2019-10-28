@@ -1,6 +1,5 @@
 # Web Security
 
-## Folders:
 
 ### urllib2
 
