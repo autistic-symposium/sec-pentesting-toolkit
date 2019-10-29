@@ -39,7 +39,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 - [How to not get hacked](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/).
 
 
-#### Post-Exploitation
+### Post-Exploitation
 
 * [Metasploit Post Exploitation Command List](https://docs.google.com/document/d/1ZrDJMQkrp_YbU_9Ni9wMNF2m3nIPEA_kekqqqA2Ywto/edit).
 * [Obscure Systems (AIX, Embeded, etc) Post-Exploit Command List](https://docs.google.com/document/d/1CIs6O1kMR-bXAT80U6Jficsqm0yR5dKUfUQgwiIKzgc/edit).
