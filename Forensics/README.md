@@ -89,7 +89,6 @@ $ BOOT_IMAGE=/vmlinuz-3.5.0-23-generic
 
 * [Lots of material on Volatility and Memory Forensics here](volatility.md)
 * [On OSX Memory Forensics](osx_memory_forensics.md)
-* I highly recommend their training.
 
 
 
