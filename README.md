@@ -7,24 +7,20 @@ Usage of all tools on this site for attacking targets without prior mutual conse
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 
-* [CTFs and WARGAMES](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/CTFs_and_WarGames)
-* [CRYPTOGRAPHY](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Cryptography)
-* [FORENSICS](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Forensics)
-* [LINUX HACKING](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Linux_Hacking)
-* [MEMORY EXPLOITS](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Memory_Exploits)
-* [VULNERABILITIES AND EXPLOITS](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Vulnerabilities_and_Exploits)
-* [NETWORK and 802.11](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Network_and_802.11)
-* [REVERSE ENGINEERING](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Reverse_Engineering)
-* [RUBBER DUCK](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Rubber_Duck)
-* [STEGANOGRAPHY](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Steganography)
-* [WEB EXPLOITS](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Web_Security)
-* [OTHER HACKINGS](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Other_Hackings)
-* [PEN TESTING](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Pen_Testing)
-* [MOBILE](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Mobile)
-* [BOTNETS](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Botnets)
-* [DDOS](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Ddos)
 
-
+* [Cloud and K8s Hacking](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Cloud_security)
+* [Cryptography](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Cryptography)
+* [CTFs and Wargames](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/CTFs_and_WarGames)
+* [Forensics](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Forensics)
+* [Linux Hacking](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Linux_Hacking)
+* [Mobile Hacking](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Mobile)
+* [Network and 802.11](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Network_and_802.11)
+* [Other Hackings](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Other_Hackings)
+* [Pentesting Scripts](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Pen_Testing)
+* [Reverse Engineering](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Reverse_Engineering)
+* [Steganography](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Steganography)
+* [Vulnerabilities and Exploits](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Vulnerabilities_and_Exploits)
+* [Web Hacking](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Web_Security)
 
 
 ## Articles
@@ -47,18 +43,6 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 * [Windows Post-Exploitation Command List](https://docs.google.com/document/d/1U10isynOpQtrIK6ChuReu-K1WHTJm4fgG3joiuz43rw/edit?hl=en_US).
 * [Linux/Unix/BSD Post-Exploitation Command List](https://docs.google.com/document/d/1ObQB6hmVvRPCgPTRZM5NMH034VDM-1N-EWPRz2770K4/edit?hl=en_US).
 
-
-### CI/CD pipelines
-
-* Static code security analyzers: [SonarQube](https://www.sonarqube.org/) (Javascript scanner), [NodeJsScan](https://github.com/ajinabraham/NodeJsScan).
-* Package dependency security analyzers: [Snyk](https://snyk.io/).
-* Docker image security analyzers: [Hadolint](https://github.com/hadolint/hadolint), [Clair](https://github.com/coreos/clair), [Anchore](https://anchore.com/).
-* AWS IAM permission analyzers: [IAM access advisor APIs](https://aws.amazon.com/blogs/security/automate-analyzing-permissions-using-iam-access-advisor/).
-* [PMapper](https://github.com/nccgroup/PMapper).
-* AWS S3 permission analyzers: [s3audit](https://github.com/scalefactory/s3audit).
-* Docker runtime anomaly detection: [Falco](https://hub.docker.com/r/sysdig/falco).
-* Kubernetes policy security analyzers: [RBAC](https://searchsecurity.techtarget.com/definition/role-based-access-control-RBAC). 
-* Policy auditing tools: [Rakkess](https://github.com/corneliusweig/rakkess).
 
 
 ### Books

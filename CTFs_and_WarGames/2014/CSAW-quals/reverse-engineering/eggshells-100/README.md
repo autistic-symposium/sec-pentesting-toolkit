@@ -126,9 +126,7 @@ while True:
 # flag{trust_is_risky}
 ```
 
-Yaaay! The flag is **trust_is_risky**! Easy!
-
-**Hack all the things!**
+ The flag is **trust_is_risky**! Easy!
 
 
 [uncompyle2]: https://github.com/gstarnberger/uncompyle

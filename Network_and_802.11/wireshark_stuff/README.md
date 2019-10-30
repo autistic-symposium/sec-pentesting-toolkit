@@ -1,4 +1,4 @@
-# [Wireshark Guide (by bt3)](http://bt3gl.github.io/wiresharking-for-fun-or-profit.html)
+# Wireshark Guide
 
 
 [Wireshark](https://www.wireshark.org/) is an open source **network packet analyzer** that allows live  traffic analysis, with support to several  protocols.

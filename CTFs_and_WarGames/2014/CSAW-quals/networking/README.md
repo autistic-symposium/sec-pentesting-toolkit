@@ -1,7 +1,6 @@
-#Networking-100: Big Data
+# Networking-100: Big Data
 
 
-This is the only networking problem, and it is only 100 points, so it turned out to be very easy.
 
 The problem starts with the following text:
 

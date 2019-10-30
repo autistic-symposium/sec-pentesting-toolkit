@@ -1,15 +1,5 @@
-Title: On Paillier, Binary Search, and the ASIS CTF 2014
-Date: 2014-10-13 3:30
-Category: Cryptography
-Tags: CTF, Paillier, Python, Binary_Search, Oracle, Decimal
+# On Paillier, Binary Search, and the ASIS CTF 2014
 
-
-![](http://i.imgur.com/7LMyBGx.png)
-
-The [ASIS CTF] was last weekend. Although I ended up not playing all I wanted, I did spend some time working on a crypto challenge that was worth a lot of points in the game. The challenge was about a system I never heard about before, the [Paillier cryptosystem].
-
-
-____
 
 ## The Cryptosystem
 
@@ -392,11 +382,6 @@ ASIS_85c9febd4c15950ab1f19a6bd7a94f87
 
 ```
 
-Cool, right?
-
-If you think so, all scripts I mentioned are [here].
-
-Hack all the things!
 
 
 ----
