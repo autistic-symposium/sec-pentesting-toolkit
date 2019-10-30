@@ -1,4 +1,4 @@
-# The Ultimate Linux Guide for Hackers ;)
+# The Ultimate Linux Guide for Hackers 
 
 
 
