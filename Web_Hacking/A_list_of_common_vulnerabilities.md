@@ -1,8 +1,6 @@
-# A List of Common Web Vulnerabilities
+# Common Web Vulnerabilities
 
 Although nomenclatures don't help much when you are facing a security problem, I am keeping this list for a systematic organization. It has regularly been updated.
-
-In addition to this list, you can check some specific web exploration older posts: [Exploiting the web in 20 lessons](http://bt3gl.github.io/exploiting-the-web-in-20-lessons-natas.html) and [D-Camp CTF 2014](http://bt3gl.github.io/exploring-d-ctf-quals-2014s-exploits.html).
 
 
 
