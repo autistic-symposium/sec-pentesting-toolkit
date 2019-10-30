@@ -1,6 +1,3 @@
-# Other Hacks
-
-
 ## Facebook Hacking
 
 - Bday thanks
