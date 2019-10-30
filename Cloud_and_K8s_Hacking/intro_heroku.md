@@ -1,10 +1,10 @@
 # Deploying a Flask App at Heroku
 
 
-I was playing with Flask, and I wrote my own [Anti-Social Network](https://anti-social.herokuapp.com/). 
-
 Heroku platform is very flexible, and it supports several programming languages. To
 deploy an application to Heroku, use Git to push the application to Heroku’s server.
+
+This document shows how to deploy [Anti-Social Network](https://anti-social.herokuapp.com/). 
 
 # Running in a Production Server
 
@@ -197,7 +197,3 @@ $ heroku restart
 
 That's it! The app should be running at ```< app-name >.herokuapp.com```.
 
-
-
----
-Enjoy! This article was originally posted [here](https://coderwall.com/p/pstm1w/deploying-a-flask-app-at-heroku), and it has over 43k views!
