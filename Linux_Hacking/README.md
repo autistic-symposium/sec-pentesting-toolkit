@@ -1,6 +1,6 @@
-# The Ultimate Linux Guide for Hackers 
+# Bt3gl's ol'n'good Ultimate Linux Guide for Hackers 
 
-
+I wrote this in 2013, but hey Linux is still Linux <3.
 
 
 ## The Linux Filesystem
