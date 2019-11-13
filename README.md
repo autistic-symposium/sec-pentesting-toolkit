@@ -1,11 +1,7 @@
 # Pentesting Resources 
 
-Hi. 
 
-My name is **M. von Steinkirch**, and this is **my personal resources** from when **I used to play CTF professionally** (2014-2015). 
-
-I haven't updated this repository that much since then, but it can still be a good source for CTF, pentesting, and wargames.
-
+Hello. My name is **M. von Steinkirch**, and this is **my personal resources** from when **I used to play CTF professionally** (2014-2015). I haven't updated this repository that much since then, but it can still be a good source in the field.
 ----
 
 ## Disclaimer:
