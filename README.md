@@ -1,12 +1,21 @@
 # Pentesting Resources 
 
+Hi. My name is M. von Steinkirch and this is my personal resources from when I used to play CTF profisionally (2014-2015).
+I haven't update this repository that much since then, but it can still be a good source for CTF, pentesting, and wargames.
+
+----
+
+## Disclaimer:
+
 **All information and software available on this site are for educational purposes only. Use these at your own discretion, the site owners cannot be held responsible for any damages caused. The views expressed on this site are our own and do not necessarily reflect those of our employers.**
 
 **Usage of all tools on this site for attacking targets without prior mutual consent is illegal. It is the end user’s responsibility to obey all applicable local, state and federal laws. We assume no liability and are not responsible for any misuse or damage caused by this site.**
 
 **This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).**
 
+-------
 
+## Contend:
 
 * [Cloud and K8s Hacking](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Cloud_security)
 * [Cryptography](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Cryptography)
@@ -23,7 +32,9 @@
 * [Web Hacking](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Web_Security)
 
 
-## Articles
+------
+
+## Useful References
 
 
 ### General Hacking
