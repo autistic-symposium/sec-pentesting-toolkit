@@ -2,6 +2,7 @@
 
 
 Hello. My name is **M. von Steinkirch**, and this is **my personal resources** from when **I used to play CTF professionally** (2014-2015). I haven't updated this repository that much since then, but it can still be a good source in the field.
+
 ----
 
 ## Disclaimer:
@@ -14,7 +15,7 @@ Hello. My name is **M. von Steinkirch**, and this is **my personal resources** f
 
 -------
 
-## Contend:
+## Sub-directories:
 
 * [Cloud and K8s Hacking](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Cloud_security)
 * [Cryptography](https://github.com/bt3gl/Gray_Hacking_Toolkit/tree/master/Cryptography)
