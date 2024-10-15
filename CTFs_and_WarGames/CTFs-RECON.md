@@ -1,8 +1,6 @@
 # Recon
 
 
-
-
 ### Searching the Internets
 
 The recon problems usually give you someone/something's name and a task or a hint to find some specific information about it. So the first thing is of course google it.
@@ -29,6 +27,7 @@ Google anything using keywords such as ```filetype:cgi inurl:cgi-bin```
 - [redbot.org](https://redbot.org/)
 - [shodan.io](https://www.shodan.io/)
 - [censys.io](https://censys.io/)
+
 -----------------
 [FireBug]: http://getfirebug.com/
 [Burp Suite]: http://portswigger.net/burp/
