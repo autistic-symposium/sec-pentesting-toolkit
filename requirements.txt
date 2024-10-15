@@ -26,5 +26,5 @@ rsa==3.1.4
 scapy== 2.4.0
 scikit-learn==0.14.1
 scipy==0.12.1
-tornado==2.2.1
+tornado==6.4.1
 uncompyle2==1.1
