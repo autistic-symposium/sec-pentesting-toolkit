@@ -1,6 +1,7 @@
 # Steganography
 
 
+
 ## Images
 
 - Adding two images
@@ -65,8 +66,6 @@ ____
 - pngcheck
 - StegFS
 - Steghide
-
-
 
 
 
